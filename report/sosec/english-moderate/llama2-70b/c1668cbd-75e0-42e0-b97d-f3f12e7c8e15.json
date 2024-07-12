@@ -1,0 +1,772 @@
+[
+    {
+        "category": "agreement1",
+        "number": "0",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "1",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "2",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "3",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "4",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "5",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "6",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "7",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "8",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "9",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "10",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "11",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "12",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "13",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "14",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "15",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "16",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "17",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "18",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "19",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "20",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "21",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement1",
+        "number": "22",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "0",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "1",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "2",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "3",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "4",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "5",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "6",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "7",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "8",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "9",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "10",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "11",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "concern",
+        "number": "12",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "0",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "1",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "2",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "0",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "3",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "4",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "5",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "6",
+        "model": "llama2:70b-chat-q6_K",
+        "response": null,
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "7",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "8",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "9",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "10",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "11",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "12",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "13",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "14",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "15",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "16",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "17",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "18",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "19",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "20",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "21",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "22",
+        "model": "llama2:70b-chat-q6_K",
+        "response": null,
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "23",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "24",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "25",
+        "model": "llama2:70b-chat-q6_K",
+        "response": null,
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "26",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "27",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "28",
+        "model": "llama2:70b-chat-q6_K",
+        "response": null,
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "29",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "30",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "31",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "32",
+        "model": "llama2:70b-chat-q6_K",
+        "response": null,
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "33",
+        "model": "llama2:70b-chat-q6_K",
+        "response": null,
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "34",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "6",
+        "persona": "moderate"
+    },
+    {
+        "category": "agreement2",
+        "number": "35",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "3",
+        "persona": "moderate"
+    },
+    {
+        "category": "estimation1",
+        "number": "0",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "estimation1",
+        "number": "1",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "estimation2",
+        "number": "0",
+        "model": "llama2:70b-chat-q6_K",
+        "response": null,
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution1",
+        "number": "0",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "5",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution1",
+        "number": "1",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution1",
+        "number": "2",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution1",
+        "number": "3",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "6",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution1",
+        "number": "4",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "0",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution1",
+        "number": "5",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "0",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution1",
+        "number": "6",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "5",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution2",
+        "number": "0",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "8",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution2",
+        "number": "1",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "6",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution2",
+        "number": "2",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "5",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution2",
+        "number": "3",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution2",
+        "number": "4",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "5",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution2",
+        "number": "5",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "0",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution2",
+        "number": "6",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "4",
+        "persona": "moderate"
+    },
+    {
+        "category": "contribution2",
+        "number": "7",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "6",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "0",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "1",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "1",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "2",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "1",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "3",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "4",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "5",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "1",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "6",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "7",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "1",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "8",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "9",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "1",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "10",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "11",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "12",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "13",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "1",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "14",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "15",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "1",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "16",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "1",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "17",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "18",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "2",
+        "persona": "moderate"
+    },
+    {
+        "category": "trust",
+        "number": "19",
+        "model": "llama2:70b-chat-q6_K",
+        "response": "0",
+        "persona": "moderate"
+    }
+]

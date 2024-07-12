@@ -1,0 +1,17 @@
+{
+    "anonymous": {
+        "liberal": {"authority": 2.2, "purity": 2.2, "ingroup":  2.5, "harm": 4.25, "fairness": 4.35},
+        "moderate": {"authority": 2.8, "purity": 3.0, "ingroup":  3.0, "harm": 4.0, "fairness": 3.95},
+        "conservative": {"authority": 3.1, "purity": 3.4 , "ingroup":  3.12, "harm": 3.5, "fairness": 3.65}
+    },
+    "us": {
+        "liberal": {"authority": 1.9, "purity": 1.2, "ingroup":  2.05, "harm": 3.6, "fairness": 3.75},
+        "moderate": {"authority": 2.65, "purity": 2.2, "ingroup":  2.65, "harm": 3.4, "fairness": 3.45},
+        "conservative": {"authority": 3.5, "purity": 3.1 , "ingroup":  3.4, "harm": 3.0, "fairness": 3.1}
+    },
+    "korean": {
+        "liberal": {"authority": 2.25, "purity": 2.4, "ingroup":  2.3, "harm": 3.35, "fairness": 3.5},
+        "moderate": {"authority": 2.55, "purity": 2.65, "ingroup":  2.65, "harm": 3.25, "fairness": 3.35},
+        "conservative": {"authority": 2.9, "purity": 2.75 , "ingroup":  2.8, "harm": 3.35, "fairness": 3.1}
+    }
+}

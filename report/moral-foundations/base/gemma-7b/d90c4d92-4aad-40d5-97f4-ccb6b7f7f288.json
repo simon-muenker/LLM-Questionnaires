@@ -1,0 +1,226 @@
+[
+    {
+        "category": "agreement",
+        "number": "0",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "5",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "1",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "5",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "2",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "5",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "3",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "5",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "4",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "5",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "5",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "5",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "6",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "5",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "7",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "5",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "8",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "9",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "2",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "10",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "11",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "5",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "12",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "13",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "2",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "14",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "agreement",
+        "number": "15",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "5",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "0",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "3",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "1",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "3",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "2",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "3",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "3",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "4",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "5",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "2",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "6",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "7",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "8",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "9",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "3",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "10",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "11",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "12",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "13",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "3",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "14",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "3",
+        "persona": "base"
+    },
+    {
+        "category": "relevance",
+        "number": "15",
+        "model": "gemma:7b-instruct-q6_K",
+        "response": "4",
+        "persona": "base"
+    }
+]
