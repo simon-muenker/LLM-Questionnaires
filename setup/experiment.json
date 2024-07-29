@@ -1,0 +1,50 @@
+{
+    "personas": {
+        "neutral": "You don't have an opionen towards vaccinations.",
+        "pro": "You are pro vaccines.",
+        "contra": "You are contra vaccines."
+    },
+    "questionnaire": {
+        "task": "Please read the following statement and indicate your level of agreement:",
+        "statements": {
+            "1": "Vaccines are safe and effective in preventing infectious diseases.",
+            "2": "The benefits of vaccination outweigh the potential risks.",
+            "3": "Widespread vaccination is crucial for maintaining public health.",
+            "4": "Vaccine side effects are generally mild and short-lived.",
+            "5": "I trust the scientific process behind vaccine development and approval."
+        },
+        "scale": {
+            "Strongly Disagree": 1,
+            "Disagree": 2,
+            "Neither Agree nor Disagree": 3,
+            "Agree": 4,
+            "Strongly Agree": 5
+        }
+    },
+    "statements": {
+        "pro": [
+            "Just got my flu shot! Protecting myself and others #VaccinesWork",
+            "Vaccines have eradicated smallpox and nearly eliminated polio. Science for the win!",
+            "As a nurse, I see the difference vaccines make every day. Please vaccinate your kids.",
+            "Herd immunity protects those who can't get vaccinated. Do your part!",
+            "Thankful for vaccines that keep my family healthy #VaccinateForLife",
+            "The science is clear: vaccines are safe and effective. Trust the experts.",
+            "Got my COVID booster today. Quick, easy, and helps keep our community safe.",
+            "Remember when measles was making a comeback? Yeah, let's not do that again. #Vaccinate",
+            "Vaccines have saved millions of lives worldwide. Fact.",
+            "As a cancer survivor, I rely on others being vaccinated. Thank you to everyone who does!"
+        ],
+        "contra": [
+            "My body, my choice. No forced vaccinations! #MedicalFreedom",
+            "Why are vaccine manufacturers immune from liability? Something to think about...",
+            "Natural immunity > artificial immunity. Boost your immune system naturally!",
+            "Too many vaccines too soon. Spread out the schedule! #DelayedVaxSchedule",
+            "Big Pharma profits from pushing more and more vaccines. Follow the money.",
+            "Vaccine injuries are real and underreported. Do your research.",
+            "What happened to \"My body, my choice\"? Vaccine mandates are tyranny.",
+            "I'm not anti-vax, I'm pro-safe-vax. We need more studies on long-term effects.",
+            "Why do we need so many boosters if vaccines work? Just asking questions.",
+            "Unvaxxed and healthy! Trust your immune system, not Big Pharma."
+        ]
+    }
+}
