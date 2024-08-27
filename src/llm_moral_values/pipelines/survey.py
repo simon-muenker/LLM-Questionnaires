@@ -37,7 +37,7 @@ class ConductSurvey(pydantic.BaseModel):
                     [
                         item
                         for item in tqdm.tqdm(
-                            self.answer_questionnaire(
+                            ConductSurvey.answer_questionnaire(
                                 model, self.questionnaire, persona
                             ),
                             total=len(self.questionnaire),
@@ -53,6 +53,7 @@ class ConductSurvey(pydantic.BaseModel):
                     f"Generated {self.iterations} surveys for configuration: {model_id}:{persona.id}"
                 )
 
+    @staticmethod
     def answer_questionnaire(
         model: str,
         questionnaire: Questionnaire,
