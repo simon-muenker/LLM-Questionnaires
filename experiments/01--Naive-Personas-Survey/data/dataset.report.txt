@@ -1,0 +1,258 @@
+-----------------gemma:7b-----------------
+answers w/o variance: 5/32
+mean variance: 0.385
+answers with variance:
+segment    id  model     dimension
+agreement  1   gemma:7b  harm         2.094874
+           9   gemma:7b  ingroup      1.420075
+           8   gemma:7b  fairness     1.138668
+           2   gemma:7b  fairness     0.875352
+           3   gemma:7b  ingroup      0.872136
+           4   gemma:7b  authority    0.763191
+relevance  6   gemma:7b  catch        0.759547
+agreement  16  gemma:7b  purity       0.683819
+           11  gemma:7b  purity       0.582010
+           15  gemma:7b  authority    0.525402
+           13  gemma:7b  fairness     0.288945
+relevance  7   gemma:7b  harm         0.250489
+           9   gemma:7b  ingroup      0.249755
+           8   gemma:7b  fairness     0.236232
+           3   gemma:7b  ingroup      0.223092
+           16  gemma:7b  purity       0.222290
+           5   gemma:7b  purity       0.216875
+           11  gemma:7b  purity       0.205470
+           12  gemma:7b  harm         0.192951
+agreement  5   gemma:7b  purity       0.175251
+relevance  4   gemma:7b  authority    0.132543
+           15  gemma:7b  authority    0.107249
+agreement  14  gemma:7b  ingroup      0.047739
+relevance  13  gemma:7b  fairness     0.031635
+           14  gemma:7b  ingroup      0.011172
+           2   gemma:7b  fairness     0.010752
+           10  gemma:7b  authority    0.005348
+Name: response, dtype: float64
+
+
+----------------llama2:70b----------------
+answers w/o variance: 0/32
+mean variance: 0.721
+answers with variance:
+segment    id  model       dimension
+agreement  15  llama2:70b  authority    2.253166
+           13  llama2:70b  fairness     1.949136
+           16  llama2:70b  purity       1.876250
+relevance  16  llama2:70b  purity       1.873001
+agreement  5   llama2:70b  purity       1.647613
+           11  llama2:70b  purity       1.587312
+relevance  11  llama2:70b  purity       1.360388
+agreement  12  llama2:70b  harm         1.242221
+           4   llama2:70b  authority    1.034271
+           14  llama2:70b  ingroup      0.939343
+relevance  5   llama2:70b  purity       0.710573
+           9   llama2:70b  ingroup      0.578794
+agreement  9   llama2:70b  ingroup      0.574951
+relevance  14  llama2:70b  ingroup      0.530198
+           12  llama2:70b  harm         0.421349
+           15  llama2:70b  authority    0.395529
+           4   llama2:70b  authority    0.394221
+           10  llama2:70b  authority    0.387035
+           1   llama2:70b  harm         0.366428
+agreement  3   llama2:70b  ingroup      0.353920
+           8   llama2:70b  fairness     0.351251
+relevance  8   llama2:70b  fairness     0.341383
+           3   llama2:70b  ingroup      0.288699
+agreement  6   llama2:70b  catch        0.247906
+           10  llama2:70b  authority    0.220420
+relevance  13  llama2:70b  fairness     0.219380
+           7   llama2:70b  harm         0.214913
+           2   llama2:70b  fairness     0.193899
+           6   llama2:70b  catch        0.158568
+agreement  7   llama2:70b  harm         0.131212
+           1   llama2:70b  harm         0.125603
+           2   llama2:70b  fairness     0.113091
+Name: response, dtype: float64
+
+
+----------------llama3:70b----------------
+answers w/o variance: 3/32
+mean variance: 1.261
+answers with variance:
+segment    id  model       dimension
+relevance  16  llama3:70b  purity       4.665302
+agreement  11  llama3:70b  purity       3.964196
+           10  llama3:70b  authority    2.992563
+relevance  5   llama3:70b  purity       2.660804
+agreement  15  llama3:70b  authority    2.056055
+relevance  10  llama3:70b  authority    1.937186
+agreement  13  llama3:70b  fairness     1.867236
+relevance  11  llama3:70b  purity       1.843116
+           4   llama3:70b  authority    1.678392
+agreement  3   llama3:70b  ingroup      1.649849
+           14  llama3:70b  ingroup      1.567437
+           4   llama3:70b  authority    1.471131
+relevance  3   llama3:70b  ingroup      1.469749
+agreement  9   llama3:70b  ingroup      1.454774
+relevance  8   llama3:70b  fairness     1.432940
+agreement  16  llama3:70b  purity       1.307513
+           5   llama3:70b  purity       1.273141
+relevance  14  llama3:70b  ingroup      1.065327
+agreement  1   llama3:70b  harm         0.751734
+           12  llama3:70b  harm         0.692563
+relevance  1   llama3:70b  harm         0.681307
+           9   llama3:70b  ingroup      0.613844
+           2   llama3:70b  fairness     0.581884
+           15  llama3:70b  authority    0.289221
+           7   llama3:70b  harm         0.135075
+           12  llama3:70b  harm         0.128141
+agreement  2   llama3:70b  fairness     0.065427
+relevance  13  llama3:70b  fairness     0.033945
+           6   llama3:70b  catch        0.024497
+Name: response, dtype: float64
+
+
+----------------mistral:7b----------------
+answers w/o variance: 2/32
+mean variance: 1.043
+answers with variance:
+segment    id  model       dimension
+relevance  16  mistral:7b  purity       3.474874
+agreement  15  mistral:7b  authority    3.302492
+           11  mistral:7b  purity       2.680203
+           13  mistral:7b  fairness     2.535779
+           16  mistral:7b  purity       2.339779
+           3   mistral:7b  ingroup      2.241866
+           8   mistral:7b  fairness     1.731166
+relevance  8   mistral:7b  fairness     1.592610
+agreement  1   mistral:7b  harm         1.203618
+           10  mistral:7b  authority    1.193603
+relevance  4   mistral:7b  authority    1.127647
+           5   mistral:7b  purity       1.060149
+           13  mistral:7b  fairness     1.025101
+agreement  5   mistral:7b  purity       0.952947
+relevance  14  mistral:7b  ingroup      0.915639
+           15  mistral:7b  authority    0.905628
+           9   mistral:7b  ingroup      0.856996
+           3   mistral:7b  ingroup      0.585113
+agreement  12  mistral:7b  harm         0.551124
+relevance  10  mistral:7b  authority    0.538095
+agreement  14  mistral:7b  ingroup      0.524397
+           9   mistral:7b  ingroup      0.510151
+relevance  11  mistral:7b  purity       0.324020
+           12  mistral:7b  harm         0.252236
+           2   mistral:7b  fairness     0.232311
+           1   mistral:7b  harm         0.227915
+           6   mistral:7b  catch        0.190930
+           7   mistral:7b  harm         0.139028
+agreement  4   mistral:7b  authority    0.108827
+           2   mistral:7b  fairness     0.039799
+Name: response, dtype: float64
+
+
+--------------mixtral:8x22b---------------
+answers w/o variance: 2/32
+mean variance: 0.786
+answers with variance:
+segment    id  model          dimension
+agreement  15  mixtral:8x22b  authority    2.827915
+           13  mixtral:8x22b  fairness     2.826910
+           12  mixtral:8x22b  harm         2.401382
+           10  mixtral:8x22b  authority    1.893844
+           11  mixtral:8x22b  purity       1.790854
+           16  mixtral:8x22b  purity       1.759774
+relevance  16  mixtral:8x22b  purity       1.557789
+agreement  5   mixtral:8x22b  purity       1.306533
+           14  mixtral:8x22b  ingroup      1.291558
+relevance  14  mixtral:8x22b  ingroup      1.113065
+           4   mixtral:8x22b  authority    0.900905
+           10  mixtral:8x22b  authority    0.818492
+           3   mixtral:8x22b  ingroup      0.699397
+agreement  3   mixtral:8x22b  ingroup      0.561784
+           8   mixtral:8x22b  fairness     0.487538
+           1   mixtral:8x22b  harm         0.455930
+relevance  11  mixtral:8x22b  purity       0.436156
+agreement  9   mixtral:8x22b  ingroup      0.336055
+relevance  5   mixtral:8x22b  purity       0.328618
+           7   mixtral:8x22b  harm         0.251256
+agreement  4   mixtral:8x22b  authority    0.224899
+relevance  12  mixtral:8x22b  harm         0.190930
+           15  mixtral:8x22b  authority    0.154673
+           8   mixtral:8x22b  fairness     0.131633
+           13  mixtral:8x22b  fairness     0.131633
+agreement  2   mixtral:8x22b  fairness     0.121005
+relevance  2   mixtral:8x22b  fairness     0.078166
+           6   mixtral:8x22b  catch        0.029246
+           9   mixtral:8x22b  ingroup      0.019698
+           1   mixtral:8x22b  harm         0.014849
+Name: response, dtype: float64
+
+
+---------------mixtral:8x7b---------------
+answers w/o variance: 7/32
+mean variance: 0.505
+answers with variance:
+segment    id  model         dimension
+relevance  16  mixtral:8x7b  purity       2.598985
+agreement  11  mixtral:8x7b  purity       1.760550
+relevance  5   mixtral:8x7b  purity       1.748518
+agreement  12  mixtral:8x7b  harm         1.684088
+           16  mixtral:8x7b  purity       0.860075
+relevance  7   mixtral:8x7b  harm         0.753769
+           1   mixtral:8x7b  harm         0.707312
+           4   mixtral:8x7b  authority    0.688417
+           10  mixtral:8x7b  authority    0.531055
+agreement  10  mixtral:8x7b  authority    0.502513
+           14  mixtral:8x7b  ingroup      0.502513
+relevance  3   mixtral:8x7b  ingroup      0.482010
+agreement  5   mixtral:8x7b  purity       0.405628
+           4   mixtral:8x7b  authority    0.401880
+           1   mixtral:8x7b  harm         0.363593
+           15  mixtral:8x7b  authority    0.339673
+relevance  15  mixtral:8x7b  authority    0.329548
+agreement  13  mixtral:8x7b  fairness     0.228327
+relevance  2   mixtral:8x7b  fairness     0.213040
+agreement  8   mixtral:8x7b  fairness     0.205128
+           3   mixtral:8x7b  ingroup      0.189714
+relevance  9   mixtral:8x7b  ingroup      0.188442
+agreement  9   mixtral:8x7b  ingroup      0.188442
+relevance  11  mixtral:8x7b  purity       0.185905
+           8   mixtral:8x7b  fairness     0.113668
+Name: response, dtype: float64
+
+
+-----------------qwen:72b-----------------
+answers w/o variance: 3/32
+mean variance: 1.000
+answers with variance:
+segment    id  model     dimension
+relevance  16  qwen:72b  purity       4.650754
+           5   qwen:72b  purity       3.859698
+agreement  11  qwen:72b  purity       2.469519
+           10  qwen:72b  authority    2.359296
+relevance  10  qwen:72b  authority    1.975653
+agreement  15  qwen:72b  authority    1.893367
+           9   qwen:72b  ingroup      1.762789
+           3   qwen:72b  ingroup      1.562482
+           5   qwen:72b  purity       1.263291
+           4   qwen:72b  authority    1.235553
+           8   qwen:72b  fairness     1.156884
+           16  qwen:72b  purity       1.057688
+relevance  1   qwen:72b  harm         0.789548
+agreement  12  qwen:72b  harm         0.776509
+           14  qwen:72b  ingroup      0.739252
+           13  qwen:72b  fairness     0.736502
+relevance  9   qwen:72b  ingroup      0.602789
+           3   qwen:72b  ingroup      0.546332
+           11  qwen:72b  purity       0.543819
+           4   qwen:72b  authority    0.397085
+           8   qwen:72b  fairness     0.370533
+           15  qwen:72b  authority    0.356181
+           14  qwen:72b  ingroup      0.251156
+           12  qwen:72b  harm         0.248216
+           2   qwen:72b  fairness     0.177453
+agreement  1   qwen:72b  harm         0.106131
+relevance  6   qwen:72b  catch        0.061080
+           13  qwen:72b  fairness     0.057222
+           7   qwen:72b  harm         0.005000
+Name: response, dtype: float64
+
+
