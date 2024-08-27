@@ -65,7 +65,7 @@ class ConductSurvey(pydantic.BaseModel):
                     inference.schemas.Chat(
                         messages=[
                             inference.schemas.Message(
-                                role="system", content=persona.content
+                                role="system", content=str(persona.content)
                             ),
                             inference.schemas.Message(
                                 role="user",
