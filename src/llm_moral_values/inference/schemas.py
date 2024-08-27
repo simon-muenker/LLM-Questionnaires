@@ -17,6 +17,10 @@ type Models = typing.Literal[
     # "mistral-large:123b-instruct-2407-q6_K",
     "mixtral:8x7b-instruct-v0.1-q6_K",
     "mixtral:8x22b-instruct-v0.1-q6_K",
+    # alibaba
+    "qwen2:72b-instruct-q6_K",
+    # mircosoft
+    "phi3:14b-medium-128k-instruct-q6_K"
 ]
 
 
