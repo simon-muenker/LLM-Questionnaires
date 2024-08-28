@@ -42,14 +42,10 @@ class Survey(pydantic.BaseModel):
     def write_report(self, export_file: str) -> None:
         with open(export_file, "w") as f:
             for model, group in (
-                self.data.groupby(self.index, observed=True)["response"]
-                .var()
-                .groupby("model", observed=False)
+                self.data.groupby(self.index, observed=True)["response"].var().groupby("model", observed=False)
             ):
                 f.write(f"{model:-^42}\n")
-                f.write(
-                    f"answers w/o variance: {len(group[group == 0.0])}/{len(group)}\n"
-                )
+                f.write(f"answers w/o variance: {len(group[group == 0.0])}/{len(group)}\n")
                 f.write(f"mean variance: {group.mean():2.3f}\n")
                 f.write("answers with variance:\n")
                 f.write(f"{group[group != 0.0].sort_values(ascending=False)}\n")
@@ -77,11 +73,7 @@ class Survey(pydantic.BaseModel):
         grid = sns.FacetGrid(
             (
                 self.data[self.data["dimension"] != "catch"]
-                .pipe(
-                    lambda _df: _df.assign(
-                        dimension=_df["dimension"].cat.remove_unused_categories()
-                    )
-                )
+                .pipe(lambda _df: _df.assign(dimension=_df["dimension"].cat.remove_unused_categories()))
                 .reset_index()
             ),
             col="model",

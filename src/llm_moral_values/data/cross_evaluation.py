@@ -14,17 +14,13 @@ class CrossEvaluation(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(arbitrary_types_allowed=True)
 
     @classmethod
-    def from_survey(
-        cls: "CrossEvaluation", dataset: Survey, questionnaire_survey
-    ) -> pd.DataFrame:
+    def from_survey(cls: "CrossEvaluation", dataset: Survey, questionnaire_survey) -> pd.DataFrame:
         human_cross_evaluation: typing.List[typing.Dict] = []
 
         for group_label, group in questionnaire_survey.groups.items():
             for human_label, human in group.items():
                 for model_label, model in (
-                    dataset.aggregate_by_group(["model", "persona", "dimension"])
-                    .T.loc[("mean",)]
-                    .iterrows()
+                    dataset.aggregate_by_group(["model", "persona", "dimension"]).T.loc[("mean",)].iterrows()
                 ):
                     row = pd.Series(
                         {
@@ -39,12 +35,9 @@ class CrossEvaluation(pydantic.BaseModel):
                     model = model[model.index != "catch"]
 
                     if None not in model.to_dict().values():
-                        row["value"] = sum(
-                            [
-                                abs(value - model.to_dict()[keys])
-                                for keys, value in human.items()
-                            ]
-                        ) / len(model)
+                        row["value"] = sum([abs(value - model.to_dict()[keys]) for keys, value in human.items()]) / len(
+                            model
+                        )
 
                     human_cross_evaluation.append(row)
 
@@ -57,9 +50,7 @@ class CrossEvaluation(pydantic.BaseModel):
                     values="value",
                 )
                 .sort_index()
-                .reindex(
-                    ["base", "liberal", "moderate", "conservative"], axis=0, level=1
-                )
+                .reindex(["base", "liberal", "moderate", "conservative"], axis=0, level=1)
             )
         )
 
@@ -71,9 +62,7 @@ class CrossEvaluation(pydantic.BaseModel):
 
         sns.heatmap(self.data, annot=True, fmt=".3f", cmap="crest")
 
-        ax.hlines(
-            range(0, len(self.data), 4), *ax.get_xlim(), linewidth=3.0, color="white"
-        )
+        ax.hlines(range(0, len(self.data), 4), *ax.get_xlim(), linewidth=3.0, color="white")
         ax.vlines(
             range(0, len(self.data.columns), 3),
             *ax.get_ylim(),
@@ -99,10 +88,7 @@ class CrossEvaluation(pydantic.BaseModel):
         secy = ax.secondary_yaxis(location="left")
         secy.set_yticks(
             range(2, 49, 4),
-            labels=[
-                f"{label}{" " * 24}"
-                for label in set(list(self.data.index.get_level_values(0)))
-            ],
+            labels=[f"{label}{" " * 24}" for label in set(list(self.data.index.get_level_values(0)))],
         )
         secy.tick_params(axis="y", color="white", labelsize="large")
 

@@ -12,7 +12,7 @@ import pydantic
 
 from llm_moral_values import inference
 from llm_moral_values import data
-from llm_moral_values.questionnaire import Questionnaire
+from llm_moral_values.questionnaire import Questionnaire, schemas
 from llm_moral_values.persona import Persona
 
 
@@ -34,25 +34,9 @@ class ConductSurvey(pydantic.BaseModel):
             prod_path.mkdir(parents=True, exist_ok=True)
 
             while len(glob.glob(f"{prod_path}/*.json")) < self.iterations:
-                json.dump(
-                    [
-                        item
-                        for item in tqdm.tqdm(
-                            ConductSurvey.answer_questionnaire(
-                                model, self.questionnaire, persona
-                            ),
-                            total=len(self.questionnaire),
-                            desc=f"{(model_id, persona.id)}",
-                        )
-                    ],
-                    open(prod_path / f"{uuid.uuid4()}.json", "w", encoding="utf8"),
-                    indent=4,
-                    ensure_ascii=False,
-                )
+                self.process_answers(model, persona, model_id, prod_path)
             else:
-                logging.info(
-                    f"Generated {self.iterations} surveys for configuration: {model_id}:{persona.id}"
-                )
+                logging.info(f"Generated {self.iterations} surveys for configuration: {model_id}:{persona.id}")
 
         logging.info("> Collate Data")
         survey: data.Survey = data.Survey.from_samples(f"{self.export_path}/**/*.json")
@@ -67,6 +51,21 @@ class ConductSurvey(pydantic.BaseModel):
         )
         cross_evaluation.data.to_parquet(f"{self.export_path}/cross_evaluation.parquet")
 
+    def process_answers(self, model: str, model_id: str, persona: Persona, export_path: pathlib.Path):
+        json.dump(
+            [
+                item
+                for item in tqdm.tqdm(
+                    ConductSurvey.answer_questionnaire(model, self.questionnaire, persona),
+                    total=len(self.questionnaire),
+                    desc=f"{(model_id, persona.id)}",
+                )
+            ],
+            open(export_path / f"{uuid.uuid4()}.json", "w", encoding="utf8"),
+            indent=4,
+            ensure_ascii=False,
+        )
+
     @staticmethod
     def answer_questionnaire(
         model: str,
@@ -76,22 +75,10 @@ class ConductSurvey(pydantic.BaseModel):
         for segment in questionnaire.segments:
             for question in segment.questions:
                 response: inference.schemas.Chat = inference.Pipeline(model=model)(
-                    inference.schemas.Chat(
-                        messages=[
-                            inference.schemas.Message(
-                                role="system", content=str(persona.content)
-                            ),
-                            inference.schemas.Message(
-                                role="user",
-                                content=f"{segment.task}\n\nSentence: {question.content}",
-                            ),
-                        ]
-                    )
+                    ConductSurvey.prepare_chat(persona, segment, question)
                 )
 
-                extracted_response: typing.Match | None = re.search(
-                    r"(\d)", response[-1].content
-                )
+                extracted_response: typing.Match | None = re.search(r"(\d)", response[-1].content)
 
                 yield {
                     "segment": segment.label,
@@ -99,7 +86,14 @@ class ConductSurvey(pydantic.BaseModel):
                     "dimension": question.dimension,
                     "model": model,
                     "persona": persona.id,
-                    "response": extracted_response.group(1)
-                    if extracted_response
-                    else None,
+                    "response": extracted_response.group(1) if extracted_response else None,
                 }
+
+    @staticmethod
+    def prepare_chat(persona: Persona, segment: schemas.Segment, question: schemas.Question):
+        return inference.schemas.Chat(
+            messages=[
+                inference.schemas.Message(role="system", content=str(persona.content)),
+                inference.schemas.Message(role="user", content=f"{segment.task}\n\nSentence: {question.content}"),
+            ]
+        )

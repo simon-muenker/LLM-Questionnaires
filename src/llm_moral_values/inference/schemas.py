@@ -49,9 +49,7 @@ class Chat(pydantic.BaseModel):
 
     @pydantic.field_validator("messages")
     @classmethod
-    def check_messages_base_integrity(
-        cls, messages: typing.List[Message]
-    ) -> typing.List[Message]:
+    def check_messages_base_integrity(cls, messages: typing.List[Message]) -> typing.List[Message]:
         if len(messages) < 2:
             raise ValueError("The chat must contain at least two messages.")
 

@@ -17,8 +17,7 @@ class Questionnaire(pydantic.BaseModel):
     @property
     def segments(self) -> typing.List[schemas.Segment]:
         return [
-            schemas.Segment.model_validate(segment)
-            for segment in json.load(open(self.path / self.questionnaire_file))
+            schemas.Segment.model_validate(segment) for segment in json.load(open(self.path / self.questionnaire_file))
         ]
 
     @pydantic.computed_field  # type: ignore[misc]
@@ -30,9 +29,7 @@ class Questionnaire(pydantic.BaseModel):
         ]
 
     def get_question(self, segment: str, id: int) -> schemas.Question:
-        return next(
-            filter(lambda seg: seg.label == segment, self.segments)
-        ).get_question(id)
+        return next(filter(lambda seg: seg.label == segment, self.segments)).get_question(id)
 
     def get_survey(self, label: str) -> schemas.Survey:
         return next(filter(lambda survey: survey.label == label, self.surveys))
