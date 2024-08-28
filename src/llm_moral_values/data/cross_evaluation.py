@@ -58,11 +58,14 @@ class CrossEvaluation(pydantic.BaseModel):
         self,
         export_path: str,
     ):
-        fig, ax = plt.subplots(figsize=(10, 15))
+        fig, ax = plt.subplots(figsize=(10, int(len(self.data) * .325)))
 
         sns.heatmap(self.data, annot=True, fmt=".3f", cmap="crest")
 
-        ax.hlines(range(0, len(self.data), 4), *ax.get_xlim(), linewidth=3.0, color="white")
+        level_0_values: typing.List[str] = list(self.data.index.get_level_values(0))
+        level_1_values: typing.List[str] = list(self.data.index.get_level_values(1))
+
+        ax.hlines(range(0, len(self.data), len(set(level_1_values))), *ax.get_xlim(), linewidth=3.0, color="white")
         ax.vlines(
             range(0, len(self.data.columns), 3),
             *ax.get_ylim(),
@@ -83,12 +86,12 @@ class CrossEvaluation(pydantic.BaseModel):
         ax.set_xticklabels(["liberal", "moderate", "conservative"] * 3)
         ax.tick_params(axis="x", labelrotation=45)
 
-        ax.set_yticklabels(list(self.data.index.get_level_values(1)))
+        ax.set_yticklabels(level_1_values)
 
         secy = ax.secondary_yaxis(location="left")
         secy.set_yticks(
-            range(2, 49, 4),
-            labels=[f"{label}{" " * 24}" for label in set(list(self.data.index.get_level_values(0)))],
+            range(2, len(self.data) + 1, len(set(level_1_values))),
+            labels=[f"{label}{" " * 24}" for label in set(level_0_values)],
         )
         secy.tick_params(axis="y", color="white", labelsize="large")
 

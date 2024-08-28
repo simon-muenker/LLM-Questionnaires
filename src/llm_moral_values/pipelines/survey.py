@@ -10,55 +10,56 @@ import logging
 import tqdm
 import pydantic
 
+from llm_moral_values import schemas
 from llm_moral_values import inference
 from llm_moral_values import data
-from llm_moral_values.questionnaire import Questionnaire, schemas
-from llm_moral_values.persona import Persona
+from llm_moral_values import questionnaire
 
 
 class ConductSurvey(pydantic.BaseModel):
     iterations: int
-    models: typing.List[str]
+    models: typing.List[schemas.Model]
 
-    questionnaire: Questionnaire
-    personas: typing.List[Persona]
+    survey: questionnaire.Survey
+    personas: typing.List[schemas.Persona]
 
     export_path: pathlib.Path
 
     def __call__(self):
         logging.info("> Conducting Survey")
         for model, persona in list(itertools.product(self.models, self.personas)):
-            model_id: str = model.split("-")[0].replace(":", "-")
-
-            prod_path: pathlib.Path = self.export_path / persona.id / model_id
-            prod_path.mkdir(parents=True, exist_ok=True)
-
-            while len(glob.glob(f"{prod_path}/*.json")) < self.iterations:
-                self.process_answers(model, persona, model_id, prod_path)
-            else:
-                logging.info(f"Generated {self.iterations} surveys for configuration: {model_id}:{persona.id}")
+            self.process_configuration(model, persona)
 
         logging.info("> Collate Data")
-        survey: data.Survey = data.Survey.from_samples(f"{self.export_path}/**/*.json")
-        survey.data.to_parquet(f"{self.export_path}/survey.parquet")
+        data_survey: data.Survey = data.Survey.from_samples(f"{self.export_path}/**/*.json")
+        data_survey.data.to_parquet(f"{self.export_path}/survey.parquet")
 
         logging.info("> Write Data Report")
-        survey.write_report(f"{self.export_path}/survey.report.txt")
+        data_survey.write_report(f"{self.export_path}/survey.report.txt")
 
         logging.info("> Generate Cross Evaluation")
-        cross_evaluation: data.CrossEvaluation = data.CrossEvaluation.from_survey(
-            survey, self.questionnaire.get_survey("graham_et_al")
+        data_cross_evaluation: data.CrossEvaluation = data.CrossEvaluation.from_survey(
+            data_survey, self.survey.get_collection("graham_et_al")
         )
-        cross_evaluation.data.to_parquet(f"{self.export_path}/cross_evaluation.parquet")
+        data_cross_evaluation.data.to_parquet(f"{self.export_path}/cross_evaluation.parquet")
 
-    def process_answers(self, model: str, model_id: str, persona: Persona, export_path: pathlib.Path):
+    def process_configuration(self, model: schemas.Model, persona: schemas.Persona) -> None:
+        iteration_path: pathlib.Path = self.export_path / persona.id / model.name
+        iteration_path.mkdir(parents=True, exist_ok=True)
+
+        while len(glob.glob(f"{iteration_path}/*.json")) < self.iterations:
+            self.process_answers(model, persona, iteration_path)
+        else:
+            logging.info(f"Generated {self.iterations} surveys for configuration: {model.name}:{persona.id}")
+
+    def process_answers(self, model: schemas.Model, persona: schemas.Persona, export_path: pathlib.Path) -> None:
         json.dump(
             [
                 item
                 for item in tqdm.tqdm(
-                    ConductSurvey.answer_questionnaire(model, self.questionnaire, persona),
-                    total=len(self.questionnaire),
-                    desc=f"{(model_id, persona.id)}",
+                    ConductSurvey.answer_survey(self.survey, model, persona),
+                    total=len(self.survey),
+                    desc=f"{(model.name, persona.id)}",
                 )
             ],
             open(export_path / f"{uuid.uuid4()}.json", "w", encoding="utf8"),
@@ -67,33 +68,39 @@ class ConductSurvey(pydantic.BaseModel):
         )
 
     @staticmethod
-    def answer_questionnaire(
-        model: str,
-        questionnaire: Questionnaire,
-        persona: Persona,
+    def answer_survey(
+        survey: questionnaire.Survey,
+        model: schemas.Model,
+        persona: schemas.Persona,
     ) -> typing.Iterator[typing.Dict]:
-        for segment in questionnaire.segments:
+        for segment in survey.segments:
             for question in segment.questions:
-                response: inference.schemas.Chat = inference.Pipeline(model=model)(
+                response: inference.schemas.Chat = inference.Pipeline(model=model.id)(
                     ConductSurvey.prepare_chat(persona, segment, question)
                 )
-
-                extracted_response: typing.Match | None = re.search(r"(\d)", response[-1].content)
 
                 yield {
                     "segment": segment.label,
                     "id": question.id,
                     "dimension": question.dimension,
-                    "model": model,
+                    "model": model.id,
                     "persona": persona.id,
-                    "response": extracted_response.group(1) if extracted_response else None,
+                    "response": ConductSurvey.extract_numeric_answer(response),
                 }
 
     @staticmethod
-    def prepare_chat(persona: Persona, segment: schemas.Segment, question: schemas.Question):
+    def prepare_chat(
+        persona: schemas.Persona, segment: questionnaire.schemas.Segment, question: questionnaire.schemas.Question
+    ) -> inference.schemas.Chat:
         return inference.schemas.Chat(
             messages=[
                 inference.schemas.Message(role="system", content=str(persona.content)),
                 inference.schemas.Message(role="user", content=f"{segment.task}\n\nSentence: {question.content}"),
             ]
         )
+
+    @staticmethod
+    def extract_numeric_answer(response: inference.schemas.Chat) -> int | None:
+        extracted_response: typing.Match | None = re.search(r"(\d)", response[-1].content)
+
+        return extracted_response.group(1) if extracted_response else None

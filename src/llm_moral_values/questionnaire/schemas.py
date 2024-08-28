@@ -22,6 +22,6 @@ class Segment(pydantic.BaseModel):
         return len(self.questions)
 
 
-class Survey(pydantic.BaseModel):
+class Collection(pydantic.BaseModel):
     label: str
     groups: typing.Dict[str, typing.Dict[str, typing.Dict[str, float]]]

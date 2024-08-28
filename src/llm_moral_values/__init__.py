@@ -1,7 +1,8 @@
 from llm_moral_values import inference
+from llm_moral_values import questionnaire
 from llm_moral_values import data
 from llm_moral_values import pipelines
-from llm_moral_values.questionnaire import Questionnaire
-from llm_moral_values.persona import Persona
+from llm_moral_values import schemas
 
-__all__ = ["inference", "pipelines", "data", "Questionnaire", "Persona"]
+
+__all__ = ["inference", "questionnaire", "data", "pipelines", "schemas"]
