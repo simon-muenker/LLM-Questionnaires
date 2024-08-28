@@ -47,8 +47,8 @@ class Survey(pydantic.BaseModel):
                 f.write(f"{model:-^42}\n")
                 f.write(f"answers w/o variance: {len(group[group == 0.0])}/{len(group)}\n")
                 f.write(f"mean variance: {group.mean():2.3f}\n")
-                f.write("answers with variance:\n")
-                f.write(f"{group[group != 0.0].sort_values(ascending=False)}\n")
+                f.write("answers with variance (10 decile):\n")
+                f.write(f"{group[group > group.quantile(.9)].droplevel(2).sort_values(ascending=False).to_string()}\n")
                 f.write("\n\n")
 
     def aggregate_by_group(
