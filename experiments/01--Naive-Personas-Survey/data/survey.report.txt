@@ -1,0 +1,322 @@
+----------------gemma2:27b----------------
+answers w/o variance: 87/128
+mean variance: 0.047
+answers with variance:
+segment    id  model       persona     
+relevance  8   gemma2:27b  base            0.254694
+                           moderate        0.248571
+agreement  8   gemma2:27b  base            0.248571
+           11  gemma2:27b  moderate        0.244898
+relevance  7   gemma2:27b  liberal         0.244898
+           1   gemma2:27b  base            0.235102
+agreement  14  gemma2:27b  liberal         0.228980
+           12  gemma2:27b  liberal         0.228980
+relevance  11  gemma2:27b  liberal         0.222041
+           12  gemma2:27b  moderate        0.222041
+           14  gemma2:27b  base            0.222041
+agreement  15  gemma2:27b  base            0.214286
+relevance  16  gemma2:27b  base            0.214286
+           8   gemma2:27b  conservative    0.214286
+           4   gemma2:27b  liberal         0.196327
+           15  gemma2:27b  moderate        0.186122
+           11  gemma2:27b  moderate        0.186122
+           12  gemma2:27b  conservative    0.175102
+           15  gemma2:27b  liberal         0.175102
+           9   gemma2:27b  liberal         0.163265
+agreement  14  gemma2:27b  base            0.150612
+           12  gemma2:27b  base            0.150612
+           15  gemma2:27b  conservative    0.150612
+relevance  3   gemma2:27b  base            0.137143
+           2   gemma2:27b  liberal         0.122857
+           5   gemma2:27b  liberal         0.122857
+agreement  16  gemma2:27b  base            0.107755
+relevance  10  gemma2:27b  liberal         0.091837
+agreement  1   gemma2:27b  base            0.091837
+relevance  11  gemma2:27b  conservative    0.075102
+agreement  3   gemma2:27b  base            0.075102
+           13  gemma2:27b  conservative    0.075102
+relevance  12  gemma2:27b  base            0.057551
+agreement  3   gemma2:27b  moderate        0.057551
+           4   gemma2:27b  conservative    0.057551
+           5   gemma2:27b  conservative    0.039184
+relevance  11  gemma2:27b  base            0.039184
+agreement  11  gemma2:27b  liberal         0.039184
+relevance  16  gemma2:27b  conservative    0.039184
+           13  gemma2:27b  base            0.039184
+agreement  3   gemma2:27b  liberal         0.020000
+Name: response, dtype: float64
+
+
+-----------------gemma:7b-----------------
+answers w/o variance: 58/128
+mean variance: 0.081
+answers with variance:
+segment    id  model     persona     
+agreement  2   gemma:7b  conservative    1.206531
+           15  gemma:7b  base            0.637143
+           9   gemma:7b  conservative    0.485306
+           4   gemma:7b  conservative    0.351429
+                         liberal         0.344490
+                                           ...   
+relevance  5   gemma:7b  base            0.020000
+agreement  13  gemma:7b  moderate        0.020000
+relevance  10  gemma:7b  conservative    0.020000
+           13  gemma:7b  base            0.020000
+           9   gemma:7b  base            0.020000
+Name: response, Length: 70, dtype: float64
+
+
+----------------llama2:70b----------------
+answers w/o variance: 24/128
+mean variance: 0.423
+answers with variance:
+segment    id  model       persona     
+agreement  15  llama2:70b  conservative    2.281224
+           5   llama2:70b  liberal         2.214286
+           11  llama2:70b  moderate        2.000000
+                           base            1.766939
+                           conservative    1.675102
+                                             ...   
+relevance  8   llama2:70b  base            0.057551
+           2   llama2:70b  moderate        0.039184
+           13  llama2:70b  base            0.039184
+agreement  1   llama2:70b  base            0.020000
+           7   llama2:70b  liberal         0.020000
+Name: response, Length: 104, dtype: float64
+
+
+---------------llama3.1:70b---------------
+answers w/o variance: 44/128
+mean variance: 0.285
+answers with variance:
+segment    id  model         persona     
+agreement  11  llama3.1:70b  base            4.424898
+           14  llama3.1:70b  conservative    3.059592
+           10  llama3.1:70b  base            2.489796
+           5   llama3.1:70b  liberal         1.143265
+           14  llama3.1:70b  base            0.979592
+                                               ...   
+relevance  2   llama3.1:70b  liberal         0.075102
+agreement  15  llama3.1:70b  base            0.075102
+           10  llama3.1:70b  liberal         0.057551
+           5   llama3.1:70b  conservative    0.039184
+relevance  6   llama3.1:70b  base            0.020000
+Name: response, Length: 84, dtype: float64
+
+
+---------------llama3.1:8b----------------
+answers w/o variance: 20/128
+mean variance: 0.802
+answers with variance:
+segment    id  model        persona     
+agreement  15  llama3.1:8b  moderate        4.596327
+           14  llama3.1:8b  base            4.020000
+           11  llama3.1:8b  conservative    3.551429
+           14  llama3.1:8b  conservative    3.397959
+           16  llama3.1:8b  liberal         2.939184
+                                              ...   
+relevance  6   llama3.1:8b  conservative    0.091837
+agreement  15  llama3.1:8b  conservative    0.075102
+           2   llama3.1:8b  moderate        0.057551
+           1   llama3.1:8b  base            0.057551
+           13  llama3.1:8b  liberal         0.057551
+Name: response, Length: 108, dtype: float64
+
+
+----------------llama3:70b----------------
+answers w/o variance: 64/128
+mean variance: 0.141
+answers with variance:
+segment    id  model       persona 
+relevance  11  llama3:70b  moderate    1.346939
+           16  llama3:70b  moderate    1.265306
+           8   llama3:70b  moderate    1.030204
+agreement  11  llama3:70b  moderate    0.994286
+relevance  5   llama3:70b  moderate    0.867347
+                                         ...   
+agreement  16  llama3:70b  base        0.107755
+           5   llama3:70b  base        0.098367
+relevance  15  llama3:70b  liberal     0.091837
+           6   llama3:70b  moderate    0.091837
+agreement  14  llama3:70b  liberal     0.075102
+Name: response, Length: 64, dtype: float64
+
+
+----------------mistral:7b----------------
+answers w/o variance: 51/128
+mean variance: 0.404
+answers with variance:
+segment    id  model       persona     
+relevance  16  mistral:7b  conservative    5.639184
+                           base            3.388163
+agreement  8   mistral:7b  moderate        2.342512
+           3   mistral:7b  moderate        2.052525
+                           liberal         1.823996
+                                             ...   
+           10  mistral:7b  base            0.020408
+relevance  14  mistral:7b  moderate        0.020000
+           2   mistral:7b  moderate        0.020000
+agreement  4   mistral:7b  conservative    0.020000
+relevance  6   mistral:7b  conservative    0.020000
+Name: response, Length: 77, dtype: float64
+
+
+--------------mixtral:8x22b---------------
+answers w/o variance: 60/128
+mean variance: 0.147
+answers with variance:
+segment    id  model          persona     
+agreement  12  mixtral:8x22b  base            1.944490
+                              conservative    1.657551
+           13  mixtral:8x22b  moderate        1.511837
+           5   mixtral:8x22b  moderate        1.171020
+                              base            0.961633
+                                                ...   
+relevance  1   mixtral:8x22b  liberal         0.057551
+           6   mixtral:8x22b  moderate        0.039184
+           15  mixtral:8x22b  liberal         0.039184
+agreement  12  mixtral:8x22b  moderate        0.039184
+           10  mixtral:8x22b  moderate        0.020000
+Name: response, Length: 68, dtype: float64
+
+
+---------------mixtral:8x7b---------------
+answers w/o variance: 101/128
+mean variance: 0.030
+answers with variance:
+segment    id  model         persona     
+agreement  1   mixtral:8x7b  conservative    0.255102
+           11  mixtral:8x7b  conservative    0.253546
+relevance  15  mixtral:8x7b  liberal         0.253469
+           8   mixtral:8x7b  moderate        0.244898
+agreement  4   mixtral:8x7b  liberal         0.244444
+           13  mixtral:8x7b  base            0.224101
+           5   mixtral:8x7b  liberal         0.222041
+           8   mixtral:8x7b  liberal         0.205714
+           16  mixtral:8x7b  liberal         0.205714
+relevance  16  mixtral:8x7b  base            0.205714
+           2   mixtral:8x7b  conservative    0.175102
+agreement  15  mixtral:8x7b  liberal         0.150612
+           8   mixtral:8x7b  conservative    0.146860
+relevance  1   mixtral:8x7b  conservative    0.122857
+           10  mixtral:8x7b  moderate        0.122857
+           3   mixtral:8x7b  conservative    0.107755
+           8   mixtral:8x7b  conservative    0.107755
+           11  mixtral:8x7b  base            0.107755
+agreement  12  mixtral:8x7b  base            0.104533
+relevance  15  mixtral:8x7b  base            0.091837
+           11  mixtral:8x7b  liberal         0.091837
+agreement  1   mixtral:8x7b  liberal         0.080000
+relevance  5   mixtral:8x7b  liberal         0.057551
+           3   mixtral:8x7b  base            0.039184
+           4   mixtral:8x7b  base            0.020000
+           10  mixtral:8x7b  conservative    0.020000
+agreement  16  mixtral:8x7b  moderate        0.020000
+Name: response, dtype: float64
+
+
+-----------------phi3:14b-----------------
+answers w/o variance: 19/128
+mean variance: 0.547
+answers with variance:
+segment    id  model     persona     
+agreement  12  phi3:14b  moderate        5.116735
+           11  phi3:14b  conservative    3.718537
+relevance  11  phi3:14b  base            3.288163
+                         liberal         2.759592
+                         conservative    2.711837
+                                           ...   
+agreement  1   phi3:14b  base            0.057551
+           13  phi3:14b  liberal         0.039184
+           12  phi3:14b  liberal         0.020000
+           8   phi3:14b  moderate        0.020000
+           3   phi3:14b  conservative    0.020000
+Name: response, Length: 109, dtype: float64
+
+
+----------------qwen2:72b-----------------
+answers w/o variance: 69/128
+mean variance: 0.090
+answers with variance:
+segment    id  model      persona     
+agreement  5   qwen2:72b  base            1.020408
+           13  qwen2:72b  conservative    0.500000
+           11  qwen2:72b  base            0.490204
+           9   qwen2:72b  liberal         0.450612
+           3   qwen2:72b  moderate        0.371020
+relevance  5   qwen2:72b  liberal         0.326531
+           11  qwen2:72b  liberal         0.255102
+           14  qwen2:72b  liberal         0.253469
+           9   qwen2:72b  moderate        0.248571
+agreement  10  qwen2:72b  liberal         0.248571
+relevance  10  qwen2:72b  moderate        0.248571
+agreement  5   qwen2:72b  liberal         0.248571
+           15  qwen2:72b  moderate        0.246531
+           14  qwen2:72b  moderate        0.244898
+           4   qwen2:72b  liberal         0.244898
+           5   qwen2:72b  conservative    0.240408
+           3   qwen2:72b  liberal         0.240408
+           9   qwen2:72b  conservative    0.235102
+relevance  3   qwen2:72b  liberal         0.235102
+agreement  12  qwen2:72b  moderate        0.228980
+           10  qwen2:72b  conservative    0.222041
+relevance  3   qwen2:72b  base            0.214286
+           11  qwen2:72b  base            0.205714
+           10  qwen2:72b  base            0.205714
+           15  qwen2:72b  conservative    0.205714
+           2   qwen2:72b  conservative    0.205714
+agreement  1   qwen2:72b  moderate        0.205714
+           9   qwen2:72b  moderate        0.205714
+relevance  5   qwen2:72b  moderate        0.196327
+           2   qwen2:72b  moderate        0.196327
+           14  qwen2:72b  conservative    0.186122
+agreement  14  qwen2:72b  base            0.183265
+relevance  1   qwen2:72b  liberal         0.175102
+agreement  8   qwen2:72b  conservative    0.163265
+relevance  2   qwen2:72b  base            0.163265
+agreement  12  qwen2:72b  liberal         0.137143
+relevance  9   qwen2:72b  liberal         0.137143
+agreement  4   qwen2:72b  moderate        0.137143
+relevance  4   qwen2:72b  base            0.122857
+                          conservative    0.122857
+agreement  11  qwen2:72b  moderate        0.122857
+relevance  11  qwen2:72b  moderate        0.122857
+           14  qwen2:72b  base            0.107755
+           9   qwen2:72b  conservative    0.107755
+agreement  14  qwen2:72b  conservative    0.091837
+relevance  9   qwen2:72b  base            0.091837
+agreement  5   qwen2:72b  moderate        0.091837
+relevance  11  qwen2:72b  conservative    0.091837
+agreement  15  qwen2:72b  liberal         0.080000
+relevance  16  qwen2:72b  moderate        0.075102
+agreement  11  qwen2:72b  liberal         0.075102
+relevance  1   qwen2:72b  base            0.057551
+agreement  15  qwen2:72b  conservative    0.057551
+relevance  5   qwen2:72b  base            0.039184
+agreement  13  qwen2:72b  moderate        0.039184
+relevance  10  qwen2:72b  conservative    0.039184
+agreement  8   qwen2:72b  base            0.039184
+           14  qwen2:72b  liberal         0.020000
+relevance  10  qwen2:72b  liberal         0.020000
+Name: response, dtype: float64
+
+
+-----------------qwen:72b-----------------
+answers w/o variance: 43/128
+mean variance: 0.425
+answers with variance:
+segment    id  model     persona     
+relevance  16  qwen:72b  moderate        5.992245
+           5   qwen:72b  moderate        5.388163
+                         liberal         3.639184
+agreement  8   qwen:72b  moderate        3.364898
+           15  qwen:72b  moderate        2.285714
+                                           ...   
+relevance  8   qwen:72b  conservative    0.020408
+           2   qwen:72b  liberal         0.020408
+           14  qwen:72b  moderate        0.020000
+agreement  14  qwen:72b  liberal         0.020000
+relevance  7   qwen:72b  conservative    0.020000
+Name: response, Length: 85, dtype: float64
+
+
