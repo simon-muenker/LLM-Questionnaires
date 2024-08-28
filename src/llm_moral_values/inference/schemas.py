@@ -20,7 +20,7 @@ type Models = typing.Literal[
     # alibaba
     "qwen2:72b-instruct-q6_K",
     # mircosoft
-    "phi3:14b-medium-128k-instruct-q6_K"
+    "phi3:14b-medium-128k-instruct-q6_K",
 ]
 
 
