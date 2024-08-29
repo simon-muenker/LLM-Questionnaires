@@ -19,11 +19,17 @@ rich = "^13.8.0"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.6.2"
-
+mypy = "^1.11.2"
 
 [tool.ruff]
 line-length = 120
 
+[tool.ruff.lint]
+select = ["I", "N", "UP", "A", "PL"]
+
+[tool.mypy]
+files = "src/llm_moral_values"
+disable_error_code = "import-untyped"
 
 [build-system]
 requires = ["poetry-core"]

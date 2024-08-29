@@ -28,8 +28,8 @@ class Survey(pydantic.BaseModel):
             for label, groups in json.load(open(self.path / self.collections_file)).items()
         ]
 
-    def get_question(self, segment: str, id: int) -> schemas.Question:
-        return next(filter(lambda seg: seg.label == segment, self.segments)).get_question(id)
+    def get_question(self, segment: str, index: int) -> schemas.Question:
+        return next(filter(lambda seg: seg.label == segment, self.segments)).get_question(index)
 
     def get_collection(self, label: str) -> schemas.Collection:
         return next(filter(lambda collection: collection.label == label, self.collections))

@@ -45,7 +45,7 @@ class Chat(pydantic.BaseModel):
         return Chat(messages=[*self, message])
 
     def remove_message(self, index: int) -> "Chat":
-        return Chat(messages=[self[:index] + self[index + 1 :]])
+        return Chat(messages=[self[:index] + self[index + 1 :]])  # type: ignore[index]
 
     def to_json(self, path: str) -> None:
         open(path, "w").write(self.model_dump_json(indent=4))
