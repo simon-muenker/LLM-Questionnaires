@@ -44,7 +44,7 @@ class ConductSurvey(pydantic.BaseModel):
         data_cross_evaluation.data.to_parquet(f"{self.export_path}/cross_evaluation.parquet")
 
     def process_configuration(self, model: schemas.Model, persona: schemas.Persona) -> None:
-        iteration_path: pathlib.Path = self.export_path / persona.id / model.name
+        iteration_path: pathlib.Path = self.export_path / persona.id / model.dir_name
         iteration_path.mkdir(parents=True, exist_ok=True)
 
         while len(glob.glob(f"{iteration_path}/*.json")) < self.iterations:

@@ -10,7 +10,7 @@ from llm_moral_values.inference import schemas
 
 
 class Pipeline(pydantic.BaseModel):
-    model: schemas.Models = "mistral:7b-instruct-v0.3-q6_K"
+    model: schemas.Models = "llama3.1:8b-instruct-q6_K"
     endpoint: str = "https://inf.cl.uni-trier.de/chat/"
 
     def __call__(self, chat: schemas.Chat) -> str:
