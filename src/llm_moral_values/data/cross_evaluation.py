@@ -58,7 +58,7 @@ class CrossEvaluation(pydantic.BaseModel):
         self,
         export_path: str,
     ):
-        fig, ax = plt.subplots(figsize=(10, int(len(self.data) * .325)))
+        fig, ax = plt.subplots(figsize=(10, int(len(self.data) * 0.325)))
 
         sns.heatmap(self.data, annot=True, fmt=".3f", cmap="crest")
 

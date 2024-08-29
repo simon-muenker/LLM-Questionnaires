@@ -90,7 +90,7 @@ class Survey(pydantic.BaseModel):
             hue="persona",
             linestyle="none",
             hue_order=persona_order,
-            palette=sns.color_palette()[:len(persona_order)],
+            palette=sns.color_palette()[: len(persona_order)],
             dodge=(0.8 - 0.8 / len(persona_order)),
             capsize=0.1,
             markersize=1.4,
