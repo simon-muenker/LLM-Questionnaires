@@ -1,6 +1,8 @@
 import typing
+
 import pydantic
 
+MIN_CHAT_LENGTH: int = 2
 
 Roles = typing.Literal["user", "assistant", "system"]
 
@@ -51,7 +53,7 @@ class Chat(pydantic.BaseModel):
     @pydantic.field_validator("messages")
     @classmethod
     def check_messages_base_integrity(cls, messages: typing.List[Message]) -> typing.List[Message]:
-        if len(messages) < 2:
+        if len(messages) < MIN_CHAT_LENGTH:
             raise ValueError("The chat must contain at least two messages.")
 
         if messages[0].role != "system":

@@ -1,19 +1,16 @@
-import typing
-import re
-import itertools
-import pathlib
 import glob
+import itertools
 import json
-import uuid
 import logging
+import pathlib
+import re
+import typing
+import uuid
 
-import tqdm
 import pydantic
+import tqdm
 
-from llm_moral_values import schemas
-from llm_moral_values import inference
-from llm_moral_values import data
-from llm_moral_values import questionnaire
+from llm_moral_values import data, inference, questionnaire, schemas
 
 
 class ConductSurvey(pydantic.BaseModel):
@@ -49,8 +46,7 @@ class ConductSurvey(pydantic.BaseModel):
 
         while len(glob.glob(f"{iteration_path}/*.json")) < self.iterations:
             self.process_answers(model, persona, iteration_path)
-        else:
-            logging.info(f"Generated {self.iterations} surveys for configuration: {model.name}:{persona.id}")
+        logging.info(f"Generated {self.iterations} surveys for configuration: {model.name}:{persona.id}")
 
     def process_answers(self, model: schemas.Model, persona: schemas.Persona, export_path: pathlib.Path) -> None:
         json.dump(

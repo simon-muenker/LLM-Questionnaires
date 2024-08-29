@@ -1,9 +1,9 @@
 import typing
 
-import pydantic
-import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
+import pandas as pd
+import pydantic
+import seaborn as sns
 
 from llm_moral_values.data.survey import Survey
 
@@ -14,7 +14,7 @@ class CrossEvaluation(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(arbitrary_types_allowed=True)
 
     @classmethod
-    def from_survey(cls: "CrossEvaluation", dataset: Survey, questionnaire_survey) -> pd.DataFrame:
+    def from_survey(cls, dataset: Survey, questionnaire_survey) -> typing.Self:
         human_cross_evaluation: typing.List[typing.Dict] = []
 
         for group_label, group in questionnaire_survey.groups.items():
@@ -32,12 +32,12 @@ class CrossEvaluation(pydantic.BaseModel):
                         }
                     )
 
-                    model = model[model.index != "catch"]
+                    filter_model_data = model[model.index != "catch"]
 
-                    if None not in model.to_dict().values():
-                        row["value"] = sum([abs(value - model.to_dict()[keys]) for keys, value in human.items()]) / len(
-                            model
-                        )
+                    if None not in filter_model_data.to_dict().values():
+                        row["value"] = sum(
+                            [abs(value - filter_model_data.to_dict()[keys]) for keys, value in human.items()]
+                        ) / len(filter_model_data)
 
                     human_cross_evaluation.append(row)
 

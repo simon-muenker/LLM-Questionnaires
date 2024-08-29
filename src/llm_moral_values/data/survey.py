@@ -1,9 +1,9 @@
-import typing
 import glob
 import json
+import typing
 
-import pydantic
 import pandas as pd
+import pydantic
 import seaborn as sns
 
 
@@ -15,12 +15,12 @@ class Survey(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(arbitrary_types_allowed=True)
 
     @classmethod
-    def from_samples(cls: "Survey", raw_samples_pattern: str) -> pd.DataFrame:
+    def from_samples(cls, raw_samples_pattern: str) -> typing.Self:
         return cls(
             data=(
                 pd.concat(
                     [
-                        pd.json_normalize(json.load(open(file, "r")))
+                        pd.json_normalize(json.load(open(file)))
                         for file in glob.glob(raw_samples_pattern, recursive=True)
                     ]
                 )

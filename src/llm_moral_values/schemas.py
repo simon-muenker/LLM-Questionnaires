@@ -1,5 +1,5 @@
-import typing
 import pathlib
+import typing
 
 import pydantic
 
@@ -11,12 +11,12 @@ class Persona(pydantic.BaseModel):
     content: str | None = None
 
     @classmethod
-    def from_directory(cls, dir: pathlib.Path) -> typing.List["Persona"]:
-        return [cls.model_validate_json(open(path, "r").read()) for path in list(dir.iterdir())]
+    def from_directory(cls, source_path: pathlib.Path) -> typing.List["Persona"]:
+        return [cls.model_validate_json(open(path).read()) for path in list(source_path.iterdir())]
 
 
 class Model(pydantic.BaseModel):
-    id: str
+    id: Models
 
     @classmethod
     def from_inference_selection(cls) -> typing.List["Model"]:
