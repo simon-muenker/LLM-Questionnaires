@@ -1,0 +1,258 @@
+[
+    {
+        "segment": "agreement",
+        "id": 1,
+        "dimension": "harm",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 2,
+        "dimension": "fairness",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 3,
+        "dimension": "ingroup",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 4,
+        "dimension": "authority",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 5,
+        "dimension": "purity",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 6,
+        "dimension": "catch",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 7,
+        "dimension": "harm",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 8,
+        "dimension": "fairness",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 9,
+        "dimension": "ingroup",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 10,
+        "dimension": "authority",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 11,
+        "dimension": "purity",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 12,
+        "dimension": "harm",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 13,
+        "dimension": "fairness",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 14,
+        "dimension": "ingroup",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 15,
+        "dimension": "authority",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 16,
+        "dimension": "purity",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "4"
+    },
+    {
+        "segment": "relevance",
+        "id": 1,
+        "dimension": "harm",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "5"
+    },
+    {
+        "segment": "relevance",
+        "id": 2,
+        "dimension": "fairness",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "4"
+    },
+    {
+        "segment": "relevance",
+        "id": 3,
+        "dimension": "ingroup",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "2"
+    },
+    {
+        "segment": "relevance",
+        "id": 4,
+        "dimension": "authority",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "2"
+    },
+    {
+        "segment": "relevance",
+        "id": 5,
+        "dimension": "purity",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "1"
+    },
+    {
+        "segment": "relevance",
+        "id": 6,
+        "dimension": "catch",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "0"
+    },
+    {
+        "segment": "relevance",
+        "id": 7,
+        "dimension": "harm",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "4"
+    },
+    {
+        "segment": "relevance",
+        "id": 8,
+        "dimension": "fairness",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "4"
+    },
+    {
+        "segment": "relevance",
+        "id": 9,
+        "dimension": "ingroup",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "2"
+    },
+    {
+        "segment": "relevance",
+        "id": 10,
+        "dimension": "authority",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "3"
+    },
+    {
+        "segment": "relevance",
+        "id": 11,
+        "dimension": "purity",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "1"
+    },
+    {
+        "segment": "relevance",
+        "id": 12,
+        "dimension": "harm",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "4"
+    },
+    {
+        "segment": "relevance",
+        "id": 13,
+        "dimension": "fairness",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "5"
+    },
+    {
+        "segment": "relevance",
+        "id": 14,
+        "dimension": "ingroup",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "2"
+    },
+    {
+        "segment": "relevance",
+        "id": 15,
+        "dimension": "authority",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "3"
+    },
+    {
+        "segment": "relevance",
+        "id": 16,
+        "dimension": "purity",
+        "model": "phi3:14b-medium-128k-instruct-q6_K",
+        "persona": "liberal",
+        "response": "1"
+    }
+]
