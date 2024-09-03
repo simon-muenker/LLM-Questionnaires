@@ -10,7 +10,9 @@ import uuid
 import pydantic
 import tqdm
 
-from llm_moral_values import data, inference, questionnaire, schemas
+import cltrier_lib
+
+from llm_moral_values import data, questionnaire, schemas
 
 
 class ConductSurvey(pydantic.BaseModel):
@@ -71,7 +73,7 @@ class ConductSurvey(pydantic.BaseModel):
     ) -> typing.Iterator[typing.Dict]:
         for segment in survey.segments:
             for question in segment.questions:
-                response: inference.schemas.Chat = inference.Pipeline(model=model.id)(
+                response: cltrier_lib.inference.schemas.Chat = cltrier_lib.inference.Pipeline(model=model.id)(
                     ConductSurvey.prepare_chat(persona, segment, question)
                 )
 
@@ -87,16 +89,16 @@ class ConductSurvey(pydantic.BaseModel):
     @staticmethod
     def prepare_chat(
         persona: schemas.Persona, segment: questionnaire.schemas.Segment, question: questionnaire.schemas.Question
-    ) -> inference.schemas.Chat:
-        return inference.schemas.Chat(
+    ) -> cltrier_lib.inference.schemas.Chat:
+        return cltrier_lib.inference.schemas.Chat(
             messages=[
-                inference.schemas.Message(role="system", content=str(persona.content)),
-                inference.schemas.Message(role="user", content=f"{segment.task}\n\nSentence: {question.content}"),
+                cltrier_lib.inference.schemas.Message(role="system", content=str(persona.content)),
+                cltrier_lib.inference.schemas.Message(role="user", content=f"{segment.task}\n\nSentence: {question.content}"),
             ]
         )
 
     @staticmethod
-    def extract_numeric_answer(response: inference.schemas.Chat) -> int | None:
+    def extract_numeric_answer(response: cltrier_lib.inference.schemas.Chat) -> int | None:
         extracted_response: typing.Match | None = re.search(r"(\d)", response[-1].content)
 
         return extracted_response.group(1) if extracted_response else None

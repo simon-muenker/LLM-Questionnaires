@@ -3,7 +3,7 @@ import typing
 
 import pydantic
 
-from llm_moral_values.inference.schemas import Models
+import cltrier_lib
 
 
 class Persona(pydantic.BaseModel):
@@ -16,11 +16,11 @@ class Persona(pydantic.BaseModel):
 
 
 class Model(pydantic.BaseModel):
-    id: Models
+    id: cltrier_lib.inference.schemas.Models
 
     @classmethod
     def from_inference_selection(cls) -> typing.List["Model"]:
-        return [cls(id=model) for model in typing.get_args(Models)]
+        return [cls(id=model) for model in typing.get_args(cltrier_lib.inference.schemas.Models)]
 
     @pydantic.computed_field  # type: ignore[misc]
     @property
