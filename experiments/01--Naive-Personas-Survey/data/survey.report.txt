@@ -1,73 +1,61 @@
-----------------gemma2:27b----------------
-answers w/o variance: 87/128
-mean variance: 0.047
-answers with variance (10 decile):
-segment    id  persona 
-relevance  8   base        0.254694
-agreement  8   base        0.248571
-relevance  8   moderate    0.248571
-agreement  11  moderate    0.244898
-relevance  7   liberal     0.244898
-           1   base        0.235102
-agreement  14  liberal     0.228980
-           12  liberal     0.228980
-relevance  11  liberal     0.222041
-           12  moderate    0.222041
-           14  base        0.222041
-agreement  15  base        0.214286
-relevance  16  base        0.214286
-
-
------------------gemma:7b-----------------
-answers w/o variance: 58/128
-mean variance: 0.081
+---------------llama3.1:8b----------------
+answers w/o variance: 15/96
+mean variance: 0.784
 answers with variance (10 decile):
 segment    id  persona     
-agreement  2   conservative    1.206531
-           15  base            0.637143
-           9   conservative    0.485306
-           4   conservative    0.351429
-               liberal         0.344490
-           13  conservative    0.318776
-           3   liberal         0.292245
-           16  liberal         0.289388
-               conservative    0.261633
-           13  base            0.251429
-relevance  4   base            0.251429
-agreement  9   moderate        0.245306
-           11  moderate        0.245306
+agreement  15  moderate        4.596327
+           11  conservative    3.551429
+           14  conservative    3.397959
+           16  liberal         2.939184
+           10  liberal         2.873878
+           11  liberal         2.710612
+               moderate        2.034286
+           5   liberal         1.853469
+relevance  11  conservative    1.832245
+agreement  4   liberal         1.786122
 
 
 ----------------llama2:70b----------------
-answers w/o variance: 24/128
-mean variance: 0.423
+answers w/o variance: 16/96
+mean variance: 0.461
 answers with variance (10 decile):
 segment    id  persona     
 agreement  15  conservative    2.281224
            5   liberal         2.214286
            11  moderate        2.000000
-               base            1.766939
                conservative    1.675102
-           15  base            1.675102
            16  moderate        1.614694
-           5   base            1.469388
-               conservative    1.469388
+           5   conservative    1.469388
            13  moderate        1.428980
            15  moderate        1.355510
 relevance  16  conservative    1.302721
 agreement  4   liberal         1.136327
 
 
----------------llama3.1:70b---------------
-answers w/o variance: 44/128
-mean variance: 0.285
+----------------llama3:70b----------------
+answers w/o variance: 50/96
+mean variance: 0.150
 answers with variance (10 decile):
 segment    id  persona     
-agreement  11  base            4.424898
-           14  conservative    3.059592
-           10  base            2.489796
+relevance  11  moderate        1.346939
+           16  moderate        1.265306
+           8   moderate        1.030204
+agreement  11  moderate        0.994286
+relevance  5   moderate        0.867347
+           1   conservative    0.555510
+           5   liberal         0.517959
+agreement  5   moderate        0.436327
+           15  moderate        0.398367
+relevance  3   moderate        0.373878
+
+
+---------------llama3.1:70b---------------
+answers w/o variance: 34/96
+mean variance: 0.243
+answers with variance (10 decile):
+segment    id  persona     
+agreement  14  conservative    3.059592
            5   liberal         1.143265
-           14  base            0.979592
            11  moderate        0.816327
 relevance  1   conservative    0.806531
            3   liberal         0.801633
@@ -78,76 +66,31 @@ agreement  15  liberal         0.693878
            2   conservative    0.643265
 
 
----------------llama3.1:8b----------------
-answers w/o variance: 20/128
-mean variance: 0.802
-answers with variance (10 decile):
-segment    id  persona     
-agreement  15  moderate        4.596327
-           14  base            4.020000
-           11  conservative    3.551429
-           14  conservative    3.397959
-           16  liberal         2.939184
-           10  liberal         2.873878
-           11  liberal         2.710612
-           15  base            2.530612
-relevance  11  base            2.406531
-           15  base            2.205714
-agreement  11  base            2.088163
-               moderate        2.034286
-           5   liberal         1.853469
-
-
-----------------llama3:70b----------------
-answers w/o variance: 64/128
-mean variance: 0.141
-answers with variance (10 decile):
-segment    id  persona     
-relevance  11  moderate        1.346939
-           16  moderate        1.265306
-           8   moderate        1.030204
-agreement  11  moderate        0.994286
-relevance  5   moderate        0.867347
-agreement  9   base            0.664898
-relevance  1   conservative    0.555510
-           5   liberal         0.517959
-agreement  5   moderate        0.436327
-           11  base            0.400408
-           15  moderate        0.398367
-relevance  3   moderate        0.373878
-agreement  10  liberal         0.368980
-
-
 ----------------mistral:7b----------------
-answers w/o variance: 51/128
-mean variance: 0.404
+answers w/o variance: 33/96
+mean variance: 0.453
 answers with variance (10 decile):
 segment    id  persona     
 relevance  16  conservative    5.639184
-               base            3.388163
 agreement  8   moderate        2.342512
            3   moderate        2.052525
                liberal         1.823996
            1   moderate        1.773061
            16  moderate        1.718931
-           11  base            1.712585
            13  conservative    1.473061
 relevance  5   conservative    1.472789
 agreement  11  moderate        1.290780
 relevance  13  moderate        1.265714
-agreement  10  moderate        1.255462
 
 
 --------------mixtral:8x22b---------------
-answers w/o variance: 60/128
-mean variance: 0.147
+answers w/o variance: 42/96
+mean variance: 0.142
 answers with variance (10 decile):
 segment    id  persona     
-agreement  12  base            1.944490
-               conservative    1.657551
+agreement  12  conservative    1.657551
            13  moderate        1.511837
            5   moderate        1.171020
-               base            0.961633
 relevance  16  moderate        0.581224
 agreement  15  liberal         0.504490
            9   liberal         0.401633
@@ -155,12 +98,11 @@ agreement  15  liberal         0.504490
            11  conservative    0.379184
 relevance  11  conservative    0.255102
 agreement  8   conservative    0.254694
-           11  liberal         0.253469
 
 
 ---------------mixtral:8x7b---------------
-answers w/o variance: 101/128
-mean variance: 0.030
+answers w/o variance: 76/96
+mean variance: 0.032
 answers with variance (10 decile):
 segment    id  persona     
 agreement  1   conservative    0.255102
@@ -168,25 +110,21 @@ agreement  1   conservative    0.255102
 relevance  15  liberal         0.253469
            8   moderate        0.244898
 agreement  4   liberal         0.244444
-           13  base            0.224101
            5   liberal         0.222041
            8   liberal         0.205714
            16  liberal         0.205714
-relevance  16  base            0.205714
-           2   conservative    0.175102
+relevance  2   conservative    0.175102
 agreement  15  liberal         0.150612
-           8   conservative    0.146860
 
 
 -----------------phi3:14b-----------------
-answers w/o variance: 19/128
-mean variance: 0.547
+answers w/o variance: 16/96
+mean variance: 0.579
 answers with variance (10 decile):
 segment    id  persona     
 agreement  12  moderate        5.116735
            11  conservative    3.718537
-relevance  11  base            3.288163
-               liberal         2.759592
+relevance  11  liberal         2.759592
                conservative    2.711837
 agreement  14  liberal         2.531020
                conservative    2.420000
@@ -194,18 +132,65 @@ relevance  11  moderate        2.044490
 agreement  13  conservative    1.926871
            15  moderate        1.886122
            3   liberal         1.756735
-           15  liberal         1.634286
-relevance  16  liberal         1.418776
+
+
+-----------------gemma:7b-----------------
+answers w/o variance: 44/96
+mean variance: 0.084
+answers with variance (10 decile):
+segment    id  persona     
+agreement  2   conservative    1.206531
+           9   conservative    0.485306
+           4   conservative    0.351429
+               liberal         0.344490
+           13  conservative    0.318776
+           3   liberal         0.292245
+           16  liberal         0.289388
+               conservative    0.261633
+           9   moderate        0.245306
+           11  moderate        0.245306
+
+
+----------------gemma2:27b----------------
+answers w/o variance: 70/96
+mean variance: 0.040
+answers with variance (10 decile):
+segment    id  persona     
+relevance  8   moderate        0.248571
+agreement  11  moderate        0.244898
+relevance  7   liberal         0.244898
+agreement  14  liberal         0.228980
+           12  liberal         0.228980
+relevance  11  liberal         0.222041
+           12  moderate        0.222041
+           8   conservative    0.214286
+           4   liberal         0.196327
+           15  moderate        0.186122
+
+
+-----------------qwen:72b-----------------
+answers w/o variance: 26/96
+mean variance: 0.531
+answers with variance (10 decile):
+segment    id  persona 
+relevance  16  moderate    5.992245
+           5   moderate    5.388163
+               liberal     3.639184
+agreement  8   moderate    3.364898
+           15  moderate    2.285714
+           9   moderate    2.091837
+           11  moderate    2.005102
+           3   moderate    1.810811
+relevance  1   moderate    1.639184
+agreement  10  moderate    1.575918
 
 
 ----------------qwen2:72b-----------------
-answers w/o variance: 69/128
+answers w/o variance: 50/96
 mean variance: 0.090
 answers with variance (10 decile):
 segment    id  persona     
-agreement  5   base            1.020408
-           13  conservative    0.500000
-           11  base            0.490204
+agreement  13  conservative    0.500000
            9   liberal         0.450612
            3   moderate        0.371020
 relevance  5   liberal         0.326531
@@ -215,26 +200,5 @@ relevance  5   liberal         0.326531
 agreement  10  liberal         0.248571
            5   liberal         0.248571
 relevance  10  moderate        0.248571
-agreement  15  moderate        0.246531
-
-
------------------qwen:72b-----------------
-answers w/o variance: 43/128
-mean variance: 0.425
-answers with variance (10 decile):
-segment    id  persona     
-relevance  16  moderate        5.992245
-           5   moderate        5.388163
-               liberal         3.639184
-agreement  8   moderate        3.364898
-           15  moderate        2.285714
-           9   moderate        2.091837
-           11  moderate        2.005102
-           3   moderate        1.810811
-relevance  1   moderate        1.639184
-agreement  10  moderate        1.575918
-           5   moderate        1.469388
-           13  conservative    1.400266
-relevance  10  moderate        1.383265
 
 

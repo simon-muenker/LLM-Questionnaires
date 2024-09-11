@@ -7,10 +7,20 @@ import seaborn as sns
 
 from llm_moral_values.data.survey import Survey
 
+from llm_moral_values import schemas
+
+
+class CrossEvaluationArgs(pydantic.BaseModel):
+    model_order: typing.List[str] = [model.name for model in schemas.Model.from_inference_selection()]
+    persona_order: typing.List[str] = ["liberal", "moderate", "conservative"]
+
+    model_config = pydantic.ConfigDict(protected_namespaces=())
+
 
 class CrossEvaluation(pydantic.BaseModel):
     data: pd.DataFrame
 
+    args: typing.ClassVar[CrossEvaluationArgs] = CrossEvaluationArgs()
     model_config = pydantic.ConfigDict(arbitrary_types_allowed=True)
 
     @classmethod
@@ -44,27 +54,29 @@ class CrossEvaluation(pydantic.BaseModel):
         return cls(
             data=(
                 pd.DataFrame(human_cross_evaluation)
+                .pipe(
+                    lambda _df: _df.assign(
+                        model=pd.Categorical(_df["model"].str.split("-").str[0], categories=cls.args.model_order),
+                        persona=pd.Categorical(_df["persona"], categories=cls.args.persona_order),
+                    )
+                )
                 .pivot(
                     index=("model", "persona"),
                     columns=("sample", "group"),
                     values="value",
                 )
                 .sort_index()
-                .reindex(["base", "liberal", "moderate", "conservative"], axis=0, level=1)
             )
         )
 
-    def plot(
-        self,
-        export_path: str,
-    ):
+    def plot(self, export_path: str):
         fig, ax = plt.subplots(figsize=(10, int(len(self.data) * 0.325)))
 
         sns.heatmap(self.data, annot=True, fmt=".3f", cmap="crest")
 
         level_0_values: typing.List[str] = list(self.data.index.get_level_values(0))
         level_1_values: typing.List[str] = list(self.data.index.get_level_values(1))
-
+        
         ax.hlines(range(0, len(self.data), len(set(level_1_values))), *ax.get_xlim(), linewidth=3.0, color="white")
         ax.vlines(
             range(0, len(self.data.columns), 3),
@@ -91,7 +103,7 @@ class CrossEvaluation(pydantic.BaseModel):
         secy = ax.secondary_yaxis(location="left")
         secy.set_yticks(
             range(2, len(self.data) + 1, len(set(level_1_values))),
-            labels=[f"{label}{" " * 24}" for label in set(level_0_values)],
+            labels=[f"{label}{" " * 24}" for label in list(dict.fromkeys(level_0_values))],
         )
         secy.tick_params(axis="y", color="white", labelsize="large")
 

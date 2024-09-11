@@ -1,0 +1,84 @@
+---------------llama3.1:8b----------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+----------------llama2:70b----------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+----------------llama3:70b----------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+---------------llama3.1:70b---------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+----------------mistral:7b----------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+--------------mixtral:8x22b---------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+---------------mixtral:8x7b---------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+-----------------phi3:14b-----------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+-----------------gemma:7b-----------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+----------------gemma2:27b----------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+-----------------qwen:72b-----------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
+----------------qwen2:72b-----------------
+answers w/o variance: 0/0
+mean variance: nan
+answers with variance (10 decile):
+Series([], )
+
+
