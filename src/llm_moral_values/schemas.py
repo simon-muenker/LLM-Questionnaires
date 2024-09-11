@@ -1,9 +1,8 @@
 import pathlib
 import typing
 
-import pydantic
-
 import cltrier_lib
+import pydantic
 
 
 class Persona(pydantic.BaseModel):

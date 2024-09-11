@@ -7,10 +7,9 @@ import re
 import typing
 import uuid
 
+import cltrier_lib
 import pydantic
 import tqdm
-
-import cltrier_lib
 
 from llm_moral_values import data, questionnaire, schemas
 
@@ -21,6 +20,7 @@ class ConductSurvey(pydantic.BaseModel):
 
     survey: questionnaire.Survey
     personas: typing.List[schemas.Persona]
+    persona_order: typing.List[str] | None = None
 
     export_path: pathlib.Path
 
@@ -30,15 +30,21 @@ class ConductSurvey(pydantic.BaseModel):
             self.process_configuration(model, persona)
 
         logging.info("> Collate Data")
-        data_survey: data.Survey = data.Survey.from_samples(f"{self.export_path}/**/*.json")
+        survey_args = data.SurveyArgs(
+            persona_order=self.persona_order if self.persona_order else ["liberal", "moderate", "conservative"]
+        )
+        data_survey: data.Survey = data.Survey.from_samples(f"{self.export_path}/**/*.json", args=survey_args)
         data_survey.data.to_parquet(f"{self.export_path}/survey.parquet")
 
         logging.info("> Write Data Report")
         data_survey.write_report(f"{self.export_path}/survey.report.txt")
 
         logging.info("> Generate Cross Evaluation")
+        cross_evaluation_args = data.CrossEvaluationArgs(
+            persona_order=self.persona_order if self.persona_order else ["liberal", "moderate", "conservative"]
+        )
         data_cross_evaluation: data.CrossEvaluation = data.CrossEvaluation.from_survey(
-            data_survey, self.survey.get_collection("graham_et_al")
+            data_survey, self.survey.get_collection("graham_et_al"), args=cross_evaluation_args
         )
         data_cross_evaluation.data.to_parquet(f"{self.export_path}/cross_evaluation.parquet")
 
@@ -93,7 +99,9 @@ class ConductSurvey(pydantic.BaseModel):
         return cltrier_lib.inference.schemas.Chat(
             messages=[
                 cltrier_lib.inference.schemas.Message(role="system", content=str(persona.content)),
-                cltrier_lib.inference.schemas.Message(role="user", content=f"{segment.task}\n\nSentence: {question.content}"),
+                cltrier_lib.inference.schemas.Message(
+                    role="user", content=f"{segment.task}\n\nSentence: {question.content}"
+                ),
             ]
         )
 

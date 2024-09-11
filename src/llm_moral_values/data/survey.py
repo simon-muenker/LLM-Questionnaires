@@ -11,7 +11,7 @@ from llm_moral_values import schemas
 
 class SurveyArgs(pydantic.BaseModel):
     index: typing.List[str] = ["segment", "id", "model", "persona"]
-    
+
     model_order: typing.List[str] = [model.name for model in schemas.Model.from_inference_selection()]
     persona_order: typing.List[str] = ["liberal", "moderate", "conservative"]
 
@@ -26,18 +26,18 @@ class SurveyArgs(pydantic.BaseModel):
             dodge=(0.8 - 0.8 / len(self.persona_order)),
             capsize=0.1,
             markersize=1.4,
-            err_kws={"linewidth": 1, "alpha": 0.3}
+            err_kws={"linewidth": 1, "alpha": 0.3},
         )
 
 
 class Survey(pydantic.BaseModel):
     data: pd.DataFrame
 
-    args: typing.ClassVar[SurveyArgs] = SurveyArgs()
+    args: SurveyArgs = SurveyArgs()
     model_config = pydantic.ConfigDict(arbitrary_types_allowed=True)
 
     @classmethod
-    def from_samples(cls, raw_samples_pattern: str) -> typing.Self:
+    def from_samples(cls, raw_samples_pattern: str, args: SurveyArgs = SurveyArgs()) -> typing.Self:
         return cls(
             data=(
                 pd.concat(
@@ -49,17 +49,18 @@ class Survey(pydantic.BaseModel):
                 .pipe(
                     lambda _df: _df.assign(
                         segment=_df["segment"].astype("category"),
-                        model=pd.Categorical(_df["model"].str.split("-").str[0], categories=cls.args.model_order),
-                        persona=pd.Categorical(_df["persona"], categories=cls.args.persona_order),
+                        model=pd.Categorical(_df["model"].str.split("-").str[0], categories=args.model_order),
+                        persona=pd.Categorical(_df["persona"], categories=args.persona_order),
                         response=pd.to_numeric(_df["response"]),
                         id=pd.to_numeric(_df["id"]),
                         dimension=_df["dimension"].astype("category"),
                     )
                 )
-                .set_index(cls.args.index)
+                .set_index(args.index)
                 .sort_index()
                 .dropna()
-            )
+            ),
+            args=args,
         )
 
     def write_report(self, export_file: str) -> None:
@@ -100,12 +101,7 @@ class Survey(pydantic.BaseModel):
         )
 
         grid.map_dataframe(
-            sns.pointplot,
-            x="response",
-            y="dimension",
-            hue="persona",
-            errorbar="sd",
-            **self.args.plot_styles
+            sns.pointplot, x="response", y="dimension", hue="persona", errorbar="sd", **self.args.plot_styles
         )
         grid.add_legend()
         grid.savefig(export_path)

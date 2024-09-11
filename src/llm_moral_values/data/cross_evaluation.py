@@ -5,9 +5,8 @@ import pandas as pd
 import pydantic
 import seaborn as sns
 
-from llm_moral_values.data.survey import Survey
-
 from llm_moral_values import schemas
+from llm_moral_values.data.survey import Survey
 
 
 class CrossEvaluationArgs(pydantic.BaseModel):
@@ -20,11 +19,13 @@ class CrossEvaluationArgs(pydantic.BaseModel):
 class CrossEvaluation(pydantic.BaseModel):
     data: pd.DataFrame
 
-    args: typing.ClassVar[CrossEvaluationArgs] = CrossEvaluationArgs()
+    args: CrossEvaluationArgs = CrossEvaluationArgs()
     model_config = pydantic.ConfigDict(arbitrary_types_allowed=True)
 
     @classmethod
-    def from_survey(cls, dataset: Survey, questionnaire_survey) -> typing.Self:
+    def from_survey(
+        cls, dataset: Survey, questionnaire_survey, args: CrossEvaluationArgs = CrossEvaluationArgs()
+    ) -> typing.Self:
         human_cross_evaluation: typing.List[typing.Dict] = []
 
         for group_label, group in questionnaire_survey.groups.items():
@@ -56,8 +57,8 @@ class CrossEvaluation(pydantic.BaseModel):
                 pd.DataFrame(human_cross_evaluation)
                 .pipe(
                     lambda _df: _df.assign(
-                        model=pd.Categorical(_df["model"].str.split("-").str[0], categories=cls.args.model_order),
-                        persona=pd.Categorical(_df["persona"], categories=cls.args.persona_order),
+                        model=pd.Categorical(_df["model"].str.split("-").str[0], categories=args.model_order),
+                        persona=pd.Categorical(_df["persona"], categories=args.persona_order),
                     )
                 )
                 .pivot(
@@ -66,7 +67,8 @@ class CrossEvaluation(pydantic.BaseModel):
                     values="value",
                 )
                 .sort_index()
-            )
+            ),
+            args=args,
         )
 
     def plot(self, export_path: str):
@@ -76,7 +78,7 @@ class CrossEvaluation(pydantic.BaseModel):
 
         level_0_values: typing.List[str] = list(self.data.index.get_level_values(0))
         level_1_values: typing.List[str] = list(self.data.index.get_level_values(1))
-        
+
         ax.hlines(range(0, len(self.data), len(set(level_1_values))), *ax.get_xlim(), linewidth=3.0, color="white")
         ax.vlines(
             range(0, len(self.data.columns), 3),

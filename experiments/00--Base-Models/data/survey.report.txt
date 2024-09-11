@@ -1,84 +1,131 @@
 ---------------llama3.1:8b----------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 5/32
+mean variance: 0.858
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+agreement  14  base       4.020000
+           15  base       2.530612
+relevance  11  base       2.406531
+           15  base       2.205714
 
 
 ----------------llama2:70b----------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 8/32
+mean variance: 0.309
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+agreement  11  base       1.766939
+           15  base       1.675102
+           5   base       1.469388
+relevance  11  base       0.986122
 
 
 ----------------llama3:70b----------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 14/32
+mean variance: 0.116
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+agreement  9   base       0.664898
+           11  base       0.400408
+relevance  4   base       0.251429
+           7   base       0.248571
 
 
 ---------------llama3.1:70b---------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 10/32
+mean variance: 0.412
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+agreement  11  base       4.424898
+           10  base       2.489796
+           14  base       0.979592
+relevance  10  base       0.569796
 
 
 ----------------mistral:7b----------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 18/32
+mean variance: 0.259
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+relevance  16  base       3.388163
+agreement  11  base       1.712585
+relevance  3   base       0.841224
+           14  base       0.689388
 
 
 --------------mixtral:8x22b---------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 18/32
+mean variance: 0.162
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+agreement  12  base       1.944490
+           5   base       0.961633
+           13  base       0.248571
+relevance  11  base       0.245306
 
 
 ---------------mixtral:8x7b---------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 25/32
+mean variance: 0.025
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+agreement  13  base       0.224101
+relevance  16  base       0.205714
+           11  base       0.107755
+agreement  12  base       0.104533
 
 
 -----------------phi3:14b-----------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 3/32
+mean variance: 0.452
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+relevance  11  base       3.288163
+agreement  15  base       1.099490
+           14  base       1.030612
+           12  base       0.991429
 
 
 -----------------gemma:7b-----------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 14/32
+mean variance: 0.073
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+agreement  15  base       0.637143
+           13  base       0.251429
+relevance  4   base       0.251429
+agreement  11  base       0.244898
 
 
 ----------------gemma2:27b----------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 17/32
+mean variance: 0.070
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+relevance  8   base       0.254694
+agreement  8   base       0.248571
+relevance  1   base       0.235102
+           14  base       0.222041
 
 
 -----------------qwen:72b-----------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 17/32
+mean variance: 0.108
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+relevance  10  base       0.695510
+           11  base       0.489796
+           1   base       0.297551
+           8   base       0.254694
 
 
 ----------------qwen2:72b-----------------
-answers w/o variance: 0/0
-mean variance: nan
+answers w/o variance: 19/32
+mean variance: 0.092
 answers with variance (10 decile):
-Series([], )
+segment    id  persona
+agreement  5   base       1.020408
+           11  base       0.490204
+relevance  3   base       0.214286
 
 

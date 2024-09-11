@@ -1,4 +1,4 @@
-from llm_moral_values.data.cross_evaluation import CrossEvaluation
-from llm_moral_values.data.survey import Survey
+from llm_moral_values.data.cross_evaluation import CrossEvaluation, CrossEvaluationArgs
+from llm_moral_values.data.survey import Survey, SurveyArgs
 
-__all__ = ["Survey", "CrossEvaluation"]
+__all__ = ["Survey", "SurveyArgs", "CrossEvaluation", "CrossEvaluationArgs"]
