@@ -1,0 +1,28 @@
+---------------llama3.1:8b----------------
+answers w/o variance: 33/68
+mean variance: 0.000
+answers with variance (10 decile):
+Series([], )
+
+
+---------------llama3.3:70b---------------
+answers w/o variance: 36/72
+mean variance: 0.000
+answers with variance (10 decile):
+Series([], )
+
+
+----------------mistral:7b----------------
+answers w/o variance: 34/67
+mean variance: 0.000
+answers with variance (10 decile):
+Series([], )
+
+
+---------------phi4:latest----------------
+answers w/o variance: 36/70
+mean variance: 0.000
+answers with variance (10 decile):
+Series([], )
+
+

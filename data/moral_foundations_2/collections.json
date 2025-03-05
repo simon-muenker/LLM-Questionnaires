@@ -1,0 +1,158 @@
+{
+    "atari_et_al": {
+        "country": {
+            "Argentina": {
+                "care": 3.84,
+                "equality": 2.81,
+                "proportionality": 3.91,
+                "loyalty": 3.58,
+                "authority": 3.67,
+                "purity": 2.60
+            },
+            "Belgium": {
+                "care": 3.91,
+                "equality": 3.20,
+                "proportionality": 3.91,
+                "loyalty": 3.62,
+                "authority": 3.70,
+                "purity": 3.01
+            },
+            "Chile": {
+                "care": 3.77,
+                "equality": 2.77,
+                "proportionality": 3.70,
+                "loyalty": 3.45,
+                "authority": 3.67,
+                "purity": 2.54
+            },
+            "Colombia": {
+                "care": 3.83,
+                "equality": 2.91,
+                "proportionality": 3.69,
+                "loyalty": 3.67,
+                "authority": 3.84,
+                "purity": 2.98
+            },
+            "Egypt": {
+                "care": 4.38,
+                "equality": 3.56,
+                "proportionality": 4.37,
+                "loyalty": 4.42,
+                "authority": 4.18,
+                "purity": 4.19
+            },
+            "France": {
+                "care": 4.08,
+                "equality": 3.23,
+                "proportionality": 4.12,
+                "loyalty": 3.86,
+                "authority": 3.88,
+                "purity": 3.09
+            },
+            "Ireland": {
+                "care": 4.01,
+                "equality": 2.94,
+                "proportionality": 3.73,
+                "loyalty": 3.29,
+                "authority": 3.49,
+                "purity": 2.51
+            },
+            "Japan": {
+                "care": 3.03,
+                "equality": 2.27,
+                "proportionality": 3.14,
+                "loyalty": 2.66,
+                "authority": 2.67,
+                "purity": 2.63
+            },
+            "Kenya": {
+                "care": 4.2,
+                "equality": 2.88,
+                "proportionality": 3.78,
+                "loyalty": 3.95,
+                "authority": 4.07,
+                "purity": 3.58
+            },
+            "Mexico": {
+                "care": 3.77,
+                "equality": 2.87,
+                "proportionality": 3.80,
+                "loyalty": 3.78,
+                "authority": 3.94,
+                "purity": 2.81
+            },
+            "Morocco": {
+                "care": 4.21,
+                "equality": 3.36,
+                "proportionality": 4.18,
+                "loyalty": 4.16,
+                "authority": 3.95,
+                "purity": 3.93
+            },
+            "New Zealand": {
+                "care": 3.84,
+                "equality": 2.61,
+                "proportionality": 3.61,
+                "loyalty": 3.22,
+                "authority": 3.48,
+                "purity": 2.58
+            },
+            "Nigeria": {
+                "care": 4.32,
+                "equality": 2.90,
+                "proportionality": 4.14,
+                "loyalty": 4.11,
+                "authority": 4.21,
+                "purity": 3.80
+            },
+            "Peru": {
+                "care": 3.62,
+                "equality": 2.63,
+                "proportionality": 3.75,
+                "loyalty": 3.73,
+                "authority": 3.81,
+                "purity": 3.00
+            },
+            "Russia": {
+                "care": 3.96,
+                "equality": 3.24,
+                "proportionality": 4.27,
+                "loyalty": 3.87,
+                "authority": 3.68,
+                "purity": 3.25
+            },
+            "Saudi Arabia": {
+                "care": 4.24,
+                "equality": 3.32,
+                "proportionality": 4.18,
+                "loyalty": 4.20,
+                "authority": 4.07,
+                "purity": 3.98
+            },
+            "South Africa": {
+                "care": 4.21,
+                "equality": 3.01,
+                "proportionality": 4.03,
+                "loyalty": 3.85,
+                "authority": 4.00,
+                "purity": 3.40
+            },
+            "Switzerland": {
+                "care": 3.95,
+                "equality": 3.27,
+                "proportionality": 3.84,
+                "loyalty": 3.58,
+                "authority": 3.52,
+                "purity": 2.95
+            },
+            "UAE": {
+                "care": 4.01,
+                "equality": 3.28,
+                "proportionality": 3.96,
+                "loyalty": 4.02,
+                "authority": 3.91,
+                "purity": 3.74
+            }
+        }
+    }
+}

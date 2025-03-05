@@ -15,11 +15,11 @@ class Persona(pydantic.BaseModel):
 
 
 class Model(pydantic.BaseModel):
-    id: cltrier_lib.inference.schemas.Models
+    id: cltrier_lib.inference.schemas.MODELS
 
     @classmethod
     def from_inference_selection(cls) -> typing.List["Model"]:
-        return [cls(id=model) for model in typing.get_args(cltrier_lib.inference.schemas.Models)]
+        return [cls(id=model) for model in typing.get_args(cltrier_lib.inference.schemas.MODELS)]
 
     @pydantic.computed_field  # type: ignore[misc]
     @property
