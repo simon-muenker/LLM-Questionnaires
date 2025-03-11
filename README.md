@@ -1,3 +1,20 @@
 # LLM Questionnaires: Neural Anthropology for Generative AI
 
 This repository contains the code and resources for our comprehensive study on intrinsic bias in Large Language Models (LLMs) and their capacity to represent diverse ideological and cultural perspectives through in-context prompting. We systematically evaluate the consistency with which LLMs respond to standardized psychological questionnaires under various minimal persona prompts, benchmarking their responses against robust human survey data. Our experimental design encompasses multiple state-of-the-art open-source models, with each model-persona pairing subjected to k repeated trials functioning as synthetic surveys. Our findings reveal significant variations in response consistency across different model architectures and highlight fundamental challenges in aligning LLMs with authentic human ideological positions through straightforward prompting techniques. This research contributes valuable insights for computational social scientists and AI ethicists employing LLMs as human simulacra in social science research, offering critical guidance on the limitations and potential methodological improvements for using language models in ideological representation tasks.
+
+## Questionnaires
+The current experimental iteration contains two questionnaires about moral dimensions:
+
+### Moral Foundation Questionnaire (MFQ)
+The Moral Foundation Questionnaire (MFQ) is a 32-item assessment developed by Graham, Haidt, and Nosek [^mfq] to measure the degree to which individuals value five distinct moral foundations. These foundations include Care/Harm, which concerns the suffering of others and encompasses virtues of caring and kindness; Fairness/Cheating, which relates to proportional treatment, equality, rights, and justice; Loyalty/Betrayal, which addresses obligations of group membership, such as patriotism and self-sacrifice for the group; Authority/Subversion, which involves concerns related to social order and the obligations of hierarchical relationships; and Sanctity/Degradation, which focuses on concerns about physical and spiritual purity, including disgust reactions to violations. The MFQ is structured into two main sections. The first section, Moral Relevance, consists of 15 items that assess how relevant different considerations are when making moral judgments. The second section, Moral Judgments, also contains 15 items and assesses agreement with specific moral statements. Each item in the questionnaire is rated on a 6-point scale, and scores are calculated for each of the five moral foundations.
+
+### Moral Foundation Questionnaire 2 (MFQ-2)
+The Moral Foundation Questionnaire 2 (MFQ-2) [^mfq2] represents an updated and refined version of the original MFQ that expands the theoretical framework. In addition to including the original five foundations from the MFQ, it adds Liberty/Oppression as a sixth foundation, which addresses concerns about individual freedom and resistance to domination. The MFQ-2 also employs a more refined measurement approach with improved psychometric properties. The MFQ-2 consists of 36 items and features more precise item wording to reduce ambiguity. It offers enhanced reliability and validity compared to the original MFQ and has been designed for broader cross-cultural applicability, making it a more robust tool for assessing moral foundations across diverse populations.
+
+## Implementation
+
+ - `data/`: Directory containing questionnaires and human baseline survey data
+
+
+[^mfq]: Graham, J., Haidt, J., & Nosek, B. A. (2009). Liberals and conservatives rely on different sets of moral foundations. Journal of personality and social psychology, 96(5), 1029.
+[^mfq2]: Atari, M., Haidt, J., Graham, J., Koleva, S., Stevens, S. T., & Dehghani, M. (2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. Journal of Personality and Social Psychology, 125(5), 1157.
