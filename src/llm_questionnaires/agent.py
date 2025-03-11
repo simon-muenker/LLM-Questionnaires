@@ -1,25 +1,20 @@
 import pathlib
 import typing
 
-import cltrier_lib
 import pydantic
 
 
-class Persona(pydantic.BaseModel):
+class AgentPersona(pydantic.BaseModel):
     id: str
     content: str | None = None
 
     @classmethod
-    def from_directory(cls, source_path: pathlib.Path) -> typing.List["Persona"]:
+    def from_directory(cls, source_path: pathlib.Path) -> typing.List["AgentPersona"]:
         return [cls.model_validate_json(open(path).read()) for path in list(source_path.iterdir())]
 
 
-class Model(pydantic.BaseModel):
-    id: cltrier_lib.inference.schemas.MODELS
-
-    @classmethod
-    def from_inference_selection(cls) -> typing.List["Model"]:
-        return [cls(id=model) for model in typing.get_args(cltrier_lib.inference.schemas.MODELS)]
+class AgentModel(pydantic.BaseModel):
+    id: str
 
     @pydantic.computed_field  # type: ignore[misc]
     @property
@@ -32,4 +27,8 @@ class Model(pydantic.BaseModel):
         return self.name.replace(":", "-")
 
 
-__all__ = ["Persona", "Model"]
+class Agent(pydantic.BaseModel):
+    pass
+
+
+__all__ = ["AgentPersona", "AgentModel", "Agent"]

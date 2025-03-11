@@ -11,15 +11,15 @@ import cltrier_lib
 import pydantic
 import tqdm
 
-from llm_moral_values import data, questionnaire, schemas
+from llm_questionnaires import agent, data, questionnaire
 
 
 class ConductSurvey(pydantic.BaseModel):
     iterations: int
-    models: typing.List[schemas.Model]
+    models: typing.List[agent.Model]
 
     survey: questionnaire.Survey
-    personas: typing.List[schemas.Persona]
+    personas: typing.List[agent.Persona]
     persona_order: typing.List[str] | None = None
 
     export_path: pathlib.Path
@@ -48,7 +48,7 @@ class ConductSurvey(pydantic.BaseModel):
         )
         data_cross_evaluation.data.to_parquet(f"{self.export_path}/cross_evaluation.parquet")
 
-    def process_configuration(self, model: schemas.Model, persona: schemas.Persona) -> None:
+    def process_configuration(self, model: agent.Model, persona: agent.Persona) -> None:
         iteration_path: pathlib.Path = self.export_path / persona.id / model.dir_name
         iteration_path.mkdir(parents=True, exist_ok=True)
 
@@ -56,7 +56,7 @@ class ConductSurvey(pydantic.BaseModel):
             self.process_answers(model, persona, iteration_path)
         logging.info(f"Generated {self.iterations} surveys for configuration: {model.name}:{persona.id}")
 
-    def process_answers(self, model: schemas.Model, persona: schemas.Persona, export_path: pathlib.Path) -> None:
+    def process_answers(self, model: agent.Model, persona: agent.Persona, export_path: pathlib.Path) -> None:
         json.dump(
             [
                 item
@@ -74,8 +74,8 @@ class ConductSurvey(pydantic.BaseModel):
     @staticmethod
     def answer_survey(
         survey: questionnaire.Survey,
-        model: schemas.Model,
-        persona: schemas.Persona,
+        model: agent.Model,
+        persona: agent.Persona,
     ) -> typing.Iterator[typing.Dict]:
         for segment in survey.segments:
             for question in segment.questions:
@@ -94,7 +94,7 @@ class ConductSurvey(pydantic.BaseModel):
 
     @staticmethod
     def prepare_chat(
-        persona: schemas.Persona, segment: questionnaire.schemas.Segment, question: questionnaire.schemas.Question
+        persona: agent.Persona, segment: questionnaire.schemas.Segment, question: questionnaire.schemas.Question
     ) -> cltrier_lib.inference.schemas.Chat:
         return cltrier_lib.inference.schemas.Chat(
             messages=[

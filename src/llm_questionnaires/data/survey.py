@@ -6,13 +6,13 @@ import pandas as pd
 import pydantic
 import seaborn as sns
 
-from llm_moral_values import schemas
+from llm_questionnaires import agent
 
 
 class SurveyArgs(pydantic.BaseModel):
     index: typing.List[str] = ["segment", "id", "model", "persona"]
 
-    model_order: typing.List[str] = [model.name for model in schemas.Model.from_inference_selection()]
+    model_order: typing.List[str] = [model.name for model in agent.Model.from_inference_selection()]
     persona_order: typing.List[str] = ["liberal", "moderate", "conservative"]
 
     model_config = pydantic.ConfigDict(protected_namespaces=())

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "LLM-Moral-Values"
+name = "LLM-Questionnaires"
 version = "0.1.0"
 description = ""
 authors = ["Simon Münker <muenker@uni-trier.de>"]
@@ -8,29 +8,34 @@ license = "Apache-2.0"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-jupyter = "^1.0.0"
 pydantic = "^2.7.4"
-tqdm = "^4.66.4"
-pandas = "^2.2.2"
-matplotlib = "^3.9.0"
-pyarrow = "^16.1.0"
-seaborn = "^0.13.2"
 rich = "^13.8.0"
+pandas = "^2.2.2"
+pyarrow = "^16.1.0"
+matplotlib = "^3.9.0"
+seaborn = "^0.13.2"
 cltrier-lib = "^0.1.8"
 
-[tool.poetry.group.dev.dependencies]
-ruff = "^0.6.2"
-mypy = "^1.11.2"
+[tool.poetry.group.notebook.dependencies]
+jupyter = "^1.1.1"
+seaborn = "^0.13.2"
+plotly = "^5.24.1"
 
-[tool.ruff]
-line-length = 120
+[tool.poetry.group.dev.dependencies]
+pylint = {extras = ["spelling"], version = "^3.3.4"}
+pylint-pydantic = "^0.3.5"
+ruff = "^0.9.4"
 
 [tool.ruff.lint]
 select = ["I", "N", "UP", "A", "PL"]
 
-[tool.mypy]
-files = "src/llm_moral_values"
-disable_error_code = "import-untyped"
+[tool.pylint.MASTER]
+load-plugins = [
+    "pylint.extensions.code_style",
+    "pylint.extensions.mccabe",
+    "pylint_pydantic",
+]
+
 
 [build-system]
 requires = ["poetry-core"]
