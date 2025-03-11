@@ -23,7 +23,7 @@
                 "fairness": 3.65
             }
         },
-        "us": {
+        "U.S.": {
             "liberal": {
                 "authority": 1.9,
                 "purity": 1.2,
@@ -46,7 +46,7 @@
                 "fairness": 3.1
             }
         },
-        "korean": {
+        "Korean": {
             "liberal": {
                 "authority": 2.25,
                 "purity": 2.4,
@@ -67,17 +67,6 @@
                 "ingroup": 2.8,
                 "harm": 3.35,
                 "fairness": 3.1
-            }
-        }
-    },
-    "muenker": {
-        "trier": {
-            "dennis (liberal)": {
-                "authority": 0.83,
-                "purity": 0.33,
-                "ingroup": 1.5,
-                "harm": 4.5,
-                "fairness": 4.17
             }
         }
     }
