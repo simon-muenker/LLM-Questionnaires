@@ -1,33 +1,49 @@
-[tool.poetry]
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
 name = "LLM-Questionnaires"
 version = "0.1.0"
-description = ""
-authors = ["Simon Münker <muenker@uni-trier.de>"]
+description = "A framework for evaluating intrinsic bias in Large Language Models (LLMs) and their capacity to represent diverse ideological and cultural perspectives through in-context prompting techniques."
+license = { text = "Apache-2.0" }
 readme = "README.md"
-license = "Apache-2.0"
+requires-python = ">=3.10,<4.0"
+authors = [
+    { name = "Simon Münker", email = "muenker@uni-trier.de" }
+]
+dependencies = [
+    "rich (>=13.9.4,<14.0.0)",
+    "pydantic (>=2.10.6,<3.0.0)",
+    "pydantic-ai (>=0.0.36,<0.1.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "pyarrow (>=19.0.1,<20.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)"
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-pydantic = "^2.7.4"
-rich = "^13.8.0"
-pandas = "^2.2.2"
-pyarrow = "^16.1.0"
-matplotlib = "^3.9.0"
-seaborn = "^0.13.2"
-cltrier-lib = "^0.1.8"
+[project.optional-dependencies]
+notebook = [
+    "jupyter (>=1.1.1,<2.0.0)",
+    "plotly (>=6.0.0,<7.0.0)"
+]
+development = [
+    "pytest (>=8.3.5,<9.0.0)",
+    "pylint[spelling] (>=3.3.5,<4.0.0)", 
+    "pylint-pydantic (>=0.3.5,<0.4.0)", 
+    "ruff (>=0.9.10,<0.10.0)"
+    ]
 
-[tool.poetry.group.notebook.dependencies]
-jupyter = "^1.1.1"
-seaborn = "^0.13.2"
-plotly = "^5.24.1"
+[project.urls]
+repository = "https://github.com/simon-muenker/LLM-Questionnaires"
 
-[tool.poetry.group.dev.dependencies]
-pylint = {extras = ["spelling"], version = "^3.3.4"}
-pylint-pydantic = "^0.3.5"
-ruff = "^0.9.4"
-
-[tool.ruff.lint]
-select = ["I", "N", "UP", "A", "PL"]
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "WARNING"
+addopts = "-s"
+testpaths = [
+    "tests",
+]
 
 [tool.pylint.MASTER]
 load-plugins = [
@@ -36,7 +52,8 @@ load-plugins = [
     "pylint_pydantic",
 ]
 
+[tool.ruff]
+line-length = 96
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.ruff.lint]
+select = ["I", "N", "A", "PL"]

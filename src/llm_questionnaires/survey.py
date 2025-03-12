@@ -1,7 +1,6 @@
-import typing
-
 import json
 import pathlib
+import typing
 
 import pydantic
 
@@ -27,6 +26,6 @@ class Survey(pydantic.BaseModel):
 
     def __len__(self) -> int:
         return len(self.items)
-    
+
 
 __all__ = ["SurveySegment", "Survey"]

@@ -1,0 +1,29 @@
+--------llama3.1:8b-instruct-q6_K---------
+answers w/o variance: 1/72
+mean variance: 0.915
+answers with variance (10 decile):
+segment    id  persona  
+agreement  6   belgian      2.636054
+           12  argentine    2.577959
+           35  belgian      2.483265
+           12  belgian      2.458776
+           20  belgian      2.432823
+               argentine    2.428163
+           14  argentine    2.093469
+           36  belgian      2.078014
+
+
+--------llama3.3:70b-instruct-q6_K--------
+answers w/o variance: 52/72
+mean variance: 0.043
+answers with variance (10 decile):
+segment    id  persona  
+agreement  12  argentine    0.795510
+           14  belgian      0.262857
+           3   argentine    0.214286
+           6   argentine    0.214286
+           18  argentine    0.196327
+           32  argentine    0.186122
+           23  belgian      0.175102
+
+

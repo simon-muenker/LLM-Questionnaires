@@ -1,0 +1,36 @@
+[
+  {
+    "label": "agreement",
+    "task": "Label the sentence with whether you agree or disagree. Choose from the following labels: [0] strongly disagree, [1] moderately disagree, [2] slightly disagree, [3] slightly agree, [4] moderately agree, [5] strongly agree. Respond only with the predicted class ([1], [2], [3], [4], [5]).",
+    "questions": [
+      {
+        "id": 1,
+        "content": "Compassion for those who are suffering is the most crucial virtue.",
+        "dimension": "harm"
+      },
+      {
+        "id": 2,
+        "content": "When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.",
+        "dimension": "fairness"
+      },
+      {
+        "id": 3,
+        "content": "I am proud of my country's history.",
+        "dimension": "ingroup"
+      },
+      {
+        "id": 4,
+        "content": "Respect for authority is something all children need to learn.",
+        "dimension": "authority"
+      }
+    ],
+    "scale": {
+      "0": "strongly disagree",
+      "1": "moderately disagree",
+      "2": "slightly disagree",
+      "3": "slightly agree",
+      "4": "moderately agree",
+      "5": "strongly agree"
+    }
+  }
+]

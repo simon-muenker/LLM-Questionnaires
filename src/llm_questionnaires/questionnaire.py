@@ -1,7 +1,6 @@
-import typing
-
 import json
 import pathlib
+import typing
 
 import pydantic
 
@@ -32,7 +31,8 @@ class Questionnaire(pydantic.BaseModel):
     @property
     def segments(self) -> typing.List[QuestionnaireSegment]:
         return [
-            QuestionnaireSegment.model_validate(segment) for segment in json.load(open(self.path))
+            QuestionnaireSegment.model_validate(segment)
+            for segment in json.load(open(self.path))
         ]
 
     def get_question(self, segment: str, index: int) -> QuestionnaireItem:
