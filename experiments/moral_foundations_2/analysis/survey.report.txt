@@ -1,6 +1,6 @@
 ---------------llama3.1:8b----------------
-answers w/o variance: 30/648
-mean variance: 0.847
+answers w/o variance: 30/684
+mean variance: 0.844
 answers with variance (10 decile):
 segment    id  persona     
 agreement  20  Nigeria         3.368421
@@ -9,8 +9,7 @@ agreement  20  Nigeria         3.368421
                France          3.052632
            12  New Zealand     2.982456
            14  South Africa    2.936842
-           12  Belgium         2.892105
-           14  Mexico          2.892105
+               Mexico          2.892105
            36  South Africa    2.871053
            20  New Zealand     2.800000
            36  New Zealand     2.795833
@@ -18,21 +17,20 @@ agreement  20  Nigeria         3.368421
                Ireland         2.765789
            36  Nigeria         2.705882
            14  Russia          2.701754
-               Nigeria         2.694737
-           35  Belgium         2.673684
+           20  Argentina       2.694737
+           14  Nigeria         2.694737
+           12  Belgium         2.692810
            3   Morocco         2.660526
            20  Morocco         2.660526
            14  Morocco         2.589474
            3   Saudi Arabia    2.589474
-           20  Belgium         2.576316
            35  Morocco         2.576316
-           2   Belgium         2.561404
            3   New Zealand     2.555556
            14  Peru            2.555263
-               Japan           2.536842
+           12  Argentina       2.536842
+           14  Japan           2.536842
            20  UAE             2.526316
            3   Mexico          2.515789
-               Belgium         2.508772
            36  Colombia        2.485380
            20  Japan           2.471053
            6   Russia          2.467836
@@ -42,31 +40,37 @@ agreement  20  Nigeria         3.368421
            3   Japan           2.407895
            2   Egypt           2.407895
            29  Ireland         2.407895
+           36  Argentina       2.389706
+           29  Argentina       2.365789
            14  Kenya           2.365789
            20  Peru            2.365789
            12  South Africa    2.365789
            3   Kenya           2.357895
-           29  Belgium         2.344737
            20  Russia          2.339181
+           29  Belgium         2.326316
            26  Chile           2.326316
            20  Colombia        2.302632
-               Mexico          2.263158
+           3   Belgium         2.273684
+           20  Mexico          2.263158
                Switzerland     2.260526
-           33  Belgium         2.260526
            36  France          2.250000
            29  Chile           2.222222
            8   Switzerland     2.222222
+           20  Belgium         2.221053
            30  France          2.221053
            35  Mexico          2.210526
+           3   Argentina       2.210526
            29  Mexico          2.200000
-           14  France          2.200000
            35  Chile           2.200000
+           14  France          2.200000
            8   South Africa    2.197368
            36  Egypt           2.175439
            8   Russia          2.175439
            2   Chile           2.168421
-           6   Belgium         2.157895
            14  Switzerland     2.155263
            32  UAE             2.155263
+           2   Saudi Arabia    2.154412
+               Mexico          2.147368
+           3   Colombia        2.147368
 
 
