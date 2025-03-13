@@ -8,7 +8,7 @@ import llm_questionnaires as llmq
 
 @pytest.fixture(scope="session")
 def model_selection() -> typing.List[str]:
-    return ["llama3.1:8b-instruct-q6_K", "llama3.3:70b-instruct-q6_K"]
+    return ["llama3.1:8b", "llama3.3:70b"]
 
 
 @pytest.fixture(scope="session")

@@ -1,29 +1,72 @@
---------llama3.1:8b-instruct-q6_K---------
-answers w/o variance: 1/72
-mean variance: 0.915
+---------------llama3.1:8b----------------
+answers w/o variance: 30/648
+mean variance: 0.847
 answers with variance (10 decile):
-segment    id  persona  
-agreement  6   belgian      2.636054
-           12  argentine    2.577959
-           35  belgian      2.483265
-           12  belgian      2.458776
-           20  belgian      2.432823
-               argentine    2.428163
-           14  argentine    2.093469
-           36  belgian      2.078014
-
-
---------llama3.3:70b-instruct-q6_K--------
-answers w/o variance: 52/72
-mean variance: 0.043
-answers with variance (10 decile):
-segment    id  persona  
-agreement  12  argentine    0.795510
-           14  belgian      0.262857
-           3   argentine    0.214286
-           6   argentine    0.214286
-           18  argentine    0.196327
-           32  argentine    0.186122
-           23  belgian      0.175102
+segment    id  persona     
+agreement  20  Nigeria         3.368421
+           36  Peru            3.310458
+           20  Saudi Arabia    3.099415
+               France          3.052632
+           12  New Zealand     2.982456
+           14  South Africa    2.936842
+           12  Belgium         2.892105
+           14  Mexico          2.892105
+           36  South Africa    2.871053
+           20  New Zealand     2.800000
+           36  New Zealand     2.795833
+           20  Kenya           2.778947
+               Ireland         2.765789
+           36  Nigeria         2.705882
+           14  Russia          2.701754
+               Nigeria         2.694737
+           35  Belgium         2.673684
+           3   Morocco         2.660526
+           20  Morocco         2.660526
+           14  Morocco         2.589474
+           3   Saudi Arabia    2.589474
+           20  Belgium         2.576316
+           35  Morocco         2.576316
+           2   Belgium         2.561404
+           3   New Zealand     2.555556
+           14  Peru            2.555263
+               Japan           2.536842
+           20  UAE             2.526316
+           3   Mexico          2.515789
+               Belgium         2.508772
+           36  Colombia        2.485380
+           20  Japan           2.471053
+           6   Russia          2.467836
+           3   Switzerland     2.463158
+           20  South Africa    2.450000
+           36  Kenya           2.431579
+           3   Japan           2.407895
+           2   Egypt           2.407895
+           29  Ireland         2.407895
+           14  Kenya           2.365789
+           20  Peru            2.365789
+           12  South Africa    2.365789
+           3   Kenya           2.357895
+           29  Belgium         2.344737
+           20  Russia          2.339181
+           26  Chile           2.326316
+           20  Colombia        2.302632
+               Mexico          2.263158
+               Switzerland     2.260526
+           33  Belgium         2.260526
+           36  France          2.250000
+           29  Chile           2.222222
+           8   Switzerland     2.222222
+           30  France          2.221053
+           35  Mexico          2.210526
+           29  Mexico          2.200000
+           14  France          2.200000
+           35  Chile           2.200000
+           8   South Africa    2.197368
+           36  Egypt           2.175439
+           8   Russia          2.175439
+           2   Chile           2.168421
+           6   Belgium         2.157895
+           14  Switzerland     2.155263
+           32  UAE             2.155263
 
 

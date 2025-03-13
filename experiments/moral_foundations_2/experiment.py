@@ -8,8 +8,8 @@ EXP_PATH: str = "experiments/moral_foundations_2"
 
 
 models = [
-    llmq.agent.AgentModel(id="llama3.1:8b-instruct-q6_K"),
-    llmq.agent.AgentModel(id="llama3.3:70b-instruct-q6_K"),
+    llmq.agent.AgentModel(id="llama3.1:8b"),
+    # llmq.agent.AgentModel(id="llama3.3:70b"),
 ]
 rich.print(models)
 
@@ -22,7 +22,7 @@ questionnaire = llmq.Questionnaire(
 rich.print(questionnaire)
 
 pipeline = llmq.Pipeline(
-    iterations=50,
+    iterations=20,
     personas=personas,
     models=models,
     questionnaire=questionnaire,

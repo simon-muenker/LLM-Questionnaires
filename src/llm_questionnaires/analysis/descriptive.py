@@ -20,7 +20,7 @@ class DescriptiveAnalysisArgs(pydantic.BaseModel):
     def plot_styles(self) -> typing.Dict:
         return dict(
             linestyle="none",
-            palette=seaborn.color_palette()[: len(self.persona_order)],
+            palette=seaborn.color_palette("husl", len(self.persona_order)),
             dodge=(0.8 - 0.8 / len(self.persona_order)),
             capsize=0.1,
             markersize=1.4,
@@ -107,7 +107,7 @@ class DescriptiveAnalysis(pydantic.BaseModel):
             ),
             col="model",
             col_wrap=4,
-            height=4,
+            height=len(self.args.persona_order),
         )
 
         grid.map_dataframe(
