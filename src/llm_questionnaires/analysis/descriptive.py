@@ -106,7 +106,7 @@ class DescriptiveAnalysis(pydantic.BaseModel):
                 .reset_index()
             ),
             col="model",
-            col_wrap=4,
+            col_wrap=3,
             height=len(self.args.persona_order),
         )
 

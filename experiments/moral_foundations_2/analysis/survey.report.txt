@@ -74,3 +74,123 @@ agreement  20  Nigeria         3.368421
            3   Colombia        2.147368
 
 
+----------------mistral:7b----------------
+answers w/o variance: 141/647
+mean variance: 2.530
+answers with variance (10 decile):
+segment    id  persona     
+agreement  1   Egypt           8.0
+           2   Nigeria         8.0
+               New Zealand     8.0
+               Japan           8.0
+           3   Peru            8.0
+           6   Switzerland     8.0
+           9   Argentina       8.0
+           11  UAE             8.0
+           12  Japan           8.0
+           13  Nigeria         8.0
+           15  Chile           8.0
+               South Africa    8.0
+               Egypt           8.0
+           16  Egypt           8.0
+           17  Ireland         8.0
+           18  France          8.0
+           20  Colombia        8.0
+           21  Egypt           8.0
+           22  Peru            8.0
+               New Zealand     8.0
+           24  Nigeria         8.0
+               Argentina       8.0
+           25  Kenya           8.0
+               Mexico          8.0
+           26  Egypt           8.0
+               Argentina       8.0
+               Japan           8.0
+           27  Nigeria         8.0
+               Egypt           8.0
+           30  Saudi Arabia    8.0
+               Colombia        8.0
+           31  Kenya           8.0
+           33  Mexico          8.0
+           35  UAE             8.0
+               New Zealand     8.0
+           36  Russia          8.0
+               Japan           8.0
+
+
+----------------qwen2.5:7b----------------
+answers w/o variance: 18/684
+mean variance: 0.295
+answers with variance (10 decile):
+segment    id  persona     
+agreement  16  Russia          1.729167
+               Japan           1.564103
+           6   Peru            0.989474
+           31  Argentina       0.871053
+           33  Mexico          0.871053
+           2   Peru            0.852941
+           16  Ireland         0.838095
+           18  Mexico          0.830409
+           36  Colombia        0.818182
+           18  Peru            0.786842
+           3   Japan           0.786842
+           15  Ireland         0.765789
+           6   Mexico          0.747368
+           22  Russia          0.732026
+           6   Saudi Arabia    0.726316
+           16  France          0.681579
+           31  Peru            0.681579
+               Mexico          0.681579
+           18  UAE             0.660526
+           25  Peru            0.660526
+           31  Colombia        0.654971
+           16  Mexico          0.632353
+           31  Kenya           0.631579
+           25  Ireland         0.631579
+           18  Egypt           0.621053
+           6   Japan           0.618421
+               Switzerland     0.618421
+           18  Saudi Arabia    0.618421
+           13  Russia          0.618421
+           1   Ireland         0.618421
+           24  Mexico          0.617647
+           27  Ireland         0.608187
+           18  South Africa    0.608187
+           16  New Zealand     0.604575
+               Argentina       0.604575
+               Kenya           0.590643
+           1   Mexico          0.589474
+           31  Switzerland     0.589474
+           21  Peru            0.589474
+           31  UAE             0.578947
+               Egypt           0.576316
+           18  France          0.576316
+           21  Ireland         0.576316
+           1   Chile           0.568421
+           16  Morocco         0.568421
+           15  Japan           0.555263
+           18  Chile           0.555263
+           22  Mexico          0.555263
+           20  Saudi Arabia    0.555263
+           35  New Zealand     0.555263
+           27  France          0.555263
+           1   Peru            0.555263
+           6   New Zealand     0.543860
+           24  UAE             0.538012
+           28  Japan           0.536842
+           19  Japan           0.536842
+           25  Argentina       0.536842
+           22  Nigeria         0.536842
+           6   Colombia        0.535948
+           18  Argentina       0.526316
+           6   Belgium         0.526316
+           27  Egypt           0.515789
+           19  France          0.515789
+           8   Belgium         0.515789
+               France          0.515789
+           18  New Zealand     0.515789
+           31  Nigeria         0.515789
+           10  Japan           0.513158
+           2   Egypt           0.513158
+
+
