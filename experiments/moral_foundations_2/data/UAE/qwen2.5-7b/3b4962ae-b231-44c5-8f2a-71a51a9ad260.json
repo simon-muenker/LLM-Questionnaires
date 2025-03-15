@@ -1,0 +1,290 @@
+[
+    {
+        "segment": "agreement",
+        "id": 1,
+        "dimension": "care",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 2,
+        "dimension": "equality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 3,
+        "dimension": "proportionality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 4,
+        "dimension": "loyalty",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 5,
+        "dimension": "authority",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 6,
+        "dimension": "purity",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 7,
+        "dimension": "care",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 8,
+        "dimension": "equality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 9,
+        "dimension": "proportionality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 10,
+        "dimension": "loyalty",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 11,
+        "dimension": "authority",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 12,
+        "dimension": "purity",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 13,
+        "dimension": "care",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 14,
+        "dimension": "equality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 15,
+        "dimension": "proportionality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 16,
+        "dimension": "loyalty",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 17,
+        "dimension": "authority",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 18,
+        "dimension": "purity",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 19,
+        "dimension": "care",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 20,
+        "dimension": "equality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 21,
+        "dimension": "proportionality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 22,
+        "dimension": "loyalty",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 23,
+        "dimension": "authority",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 24,
+        "dimension": "purity",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 25,
+        "dimension": "care",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 26,
+        "dimension": "equality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 27,
+        "dimension": "proportionality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 28,
+        "dimension": "loyalty",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 29,
+        "dimension": "authority",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 30,
+        "dimension": "purity",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 31,
+        "dimension": "care",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 32,
+        "dimension": "equality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 33,
+        "dimension": "proportionality",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 34,
+        "dimension": "loyalty",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 35,
+        "dimension": "authority",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 36,
+        "dimension": "purity",
+        "model": "qwen2.5:7b",
+        "persona": "UAE",
+        "response": null
+    }
+]
