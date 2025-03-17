@@ -33,7 +33,7 @@ class Pipeline(pydantic.BaseModel):
         agent = Agent(persona=persona, model=model)
         remaining_survey_num: int = self.iterations - len(glob.glob(f"{iteration_path}/*.json"))
 
-        if remaining_survey_num == 0:
+        if remaining_survey_num <= 0:
             return
 
         for _ in track(
