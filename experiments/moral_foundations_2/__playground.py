@@ -10,7 +10,8 @@ SELECTED_COUNTRIES = [
     "Saudi Arabia",
     "Russia",
     "Mexico",
-    "ArgentinaJapan",
+    "Argentina",
+    "Japan",
     "New Zealand",
 ]
 
