@@ -14,6 +14,9 @@ The Moral Foundation Questionnaire 2 (MFQ-2) [^mfq2] represents an updated and r
 ## Implementation
 
  - `data/`: Directory containing questionnaires and human baseline survey data
+ - `experiments/`: Directory containing experiments with synthetic survey data and reporting
+ - `src/llm_questionnaires`: Directory containing package source files
+  - `test`: Directory containing module tests and examples code
 
 
 [^mfq]: Graham, J., Haidt, J., & Nosek, B. A. (2009). Liberals and conservatives rely on different sets of moral foundations. Journal of personality and social psychology, 96(5), 1029.
