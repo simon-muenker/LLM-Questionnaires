@@ -27,7 +27,7 @@ class Pipeline(pydantic.BaseModel):
             self.process_configuration(persona=persona, model=model)
 
     def process_configuration(self, persona: AgentPersona, model: AgentModel) -> None:
-        iteration_path: pathlib.Path = self.export_path / persona.id / model.dir_name
+        iteration_path: pathlib.Path = self.export_path / persona.dir_name / model.dir_name
         iteration_path.mkdir(parents=True, exist_ok=True)
 
         agent = Agent(persona=persona, model=model)
@@ -36,7 +36,7 @@ class Pipeline(pydantic.BaseModel):
             self.conduct_survey(agent, iteration_path)
 
         logging.info(
-            f"Generated {self.iterations} surveys for configuration: {model.name}:{persona.id}"
+            f"Generated {self.iterations} surveys for configuration: {model.id}:{persona.id}"
         )
 
     def conduct_survey(self, agent: Agent, export_path: pathlib.Path) -> None:

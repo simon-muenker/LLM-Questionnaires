@@ -25,7 +25,7 @@ class Survey(pydantic.BaseModel):
         return next(filter(lambda collection: collection.label == label, self.items))
 
     def __len__(self) -> int:
-        return len(self.items)
+        return len(self.segments)
 
 
 __all__ = ["SurveySegment", "Survey"]

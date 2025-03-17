@@ -13,6 +13,11 @@ class AgentPersona(pydantic.BaseModel):
     id: str
     content: str | None = None
 
+    @pydantic.computed_field  # type: ignore[misc]
+    @property
+    def dir_name(self) -> str:
+        return self.id.lower().replace(" ", "-")
+
     @classmethod
     def from_json(cls, source_file: pathlib.Path) -> "AgentPersona":
         return cls.model_validate_json(open(source_file).read())
@@ -27,13 +32,8 @@ class AgentModel(pydantic.BaseModel):
 
     @pydantic.computed_field  # type: ignore[misc]
     @property
-    def name(self) -> str:
-        return self.id.split("-")[0]
-
-    @pydantic.computed_field  # type: ignore[misc]
-    @property
     def dir_name(self) -> str:
-        return self.name.replace(":", "-")
+        return self.id.lower().replace(":", "-")
 
 
 class Agent(pydantic.BaseModel):
