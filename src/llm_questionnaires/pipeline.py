@@ -1,17 +1,16 @@
 import glob
 import itertools
 import json
-import logging
 import pathlib
 import typing
 import uuid
 
 import pydantic
 
+from rich.progress import track
+
 from llm_questionnaires.agent import Agent, AgentModel, AgentPersona
 from llm_questionnaires.questionnaire import Questionnaire
-
-logging.getLogger().setLevel(logging.INFO)
 
 
 class Pipeline(pydantic.BaseModel):
@@ -24,7 +23,6 @@ class Pipeline(pydantic.BaseModel):
     export_path: pathlib.Path
 
     def __call__(self):
-        logging.info("> Conducting Survey")
         for persona, model in list(itertools.product(self.personas, self.models)):
             self.process_configuration(persona=persona, model=model)
 
@@ -33,13 +31,16 @@ class Pipeline(pydantic.BaseModel):
         iteration_path.mkdir(parents=True, exist_ok=True)
 
         agent = Agent(persona=persona, model=model)
+        remaining_survey_num: int = self.iterations - len(glob.glob(f"{iteration_path}/*.json"))
 
-        while len(glob.glob(f"{iteration_path}/*.json")) < self.iterations:
+        if remaining_survey_num == 0:
+            return
+
+        for _ in track(
+            range(remaining_survey_num),
+            description=f"Generating {remaining_survey_num} surveys for ({model.id}|{persona.id}): "
+        ):
             self.conduct_survey(agent, iteration_path)
-
-        logging.info(
-            f"Generated {self.iterations} surveys for configuration: {model.id}:{persona.id}"
-        )
 
     def conduct_survey(self, agent: Agent, export_path: pathlib.Path) -> None:
         json.dump(
