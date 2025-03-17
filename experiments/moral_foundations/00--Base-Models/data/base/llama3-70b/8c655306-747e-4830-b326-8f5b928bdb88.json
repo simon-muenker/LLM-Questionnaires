@@ -1,6 +1,6 @@
 [
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "agreement",
@@ -8,7 +8,7 @@
         "dimension": "harm"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "agreement",
@@ -16,7 +16,7 @@
         "dimension": "fairness"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "agreement",
@@ -24,7 +24,7 @@
         "dimension": "ingroup"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "agreement",
@@ -32,7 +32,7 @@
         "dimension": "authority"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "agreement",
@@ -40,7 +40,7 @@
         "dimension": "purity"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "agreement",
@@ -48,7 +48,7 @@
         "dimension": "catch"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "agreement",
@@ -56,7 +56,7 @@
         "dimension": "harm"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "agreement",
@@ -64,7 +64,7 @@
         "dimension": "fairness"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "3",
         "persona": "base",
         "segment": "agreement",
@@ -72,7 +72,7 @@
         "dimension": "ingroup"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "2",
         "persona": "base",
         "segment": "agreement",
@@ -80,7 +80,7 @@
         "dimension": "authority"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "2",
         "persona": "base",
         "segment": "agreement",
@@ -88,7 +88,7 @@
         "dimension": "purity"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "agreement",
@@ -96,7 +96,7 @@
         "dimension": "harm"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "agreement",
@@ -104,7 +104,7 @@
         "dimension": "fairness"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "2",
         "persona": "base",
         "segment": "agreement",
@@ -112,7 +112,7 @@
         "dimension": "ingroup"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "agreement",
@@ -120,7 +120,7 @@
         "dimension": "authority"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "agreement",
@@ -128,7 +128,7 @@
         "dimension": "purity"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "relevance",
@@ -136,7 +136,7 @@
         "dimension": "harm"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "relevance",
@@ -144,7 +144,7 @@
         "dimension": "fairness"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "relevance",
@@ -152,7 +152,7 @@
         "dimension": "ingroup"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "3",
         "persona": "base",
         "segment": "relevance",
@@ -160,7 +160,7 @@
         "dimension": "authority"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "relevance",
@@ -168,7 +168,7 @@
         "dimension": "purity"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "0",
         "persona": "base",
         "segment": "relevance",
@@ -176,7 +176,7 @@
         "dimension": "catch"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "relevance",
@@ -184,7 +184,7 @@
         "dimension": "harm"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "relevance",
@@ -192,7 +192,7 @@
         "dimension": "fairness"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "relevance",
@@ -200,7 +200,7 @@
         "dimension": "ingroup"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "3",
         "persona": "base",
         "segment": "relevance",
@@ -208,7 +208,7 @@
         "dimension": "authority"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "relevance",
@@ -216,7 +216,7 @@
         "dimension": "purity"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "relevance",
@@ -224,7 +224,7 @@
         "dimension": "harm"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "relevance",
@@ -232,7 +232,7 @@
         "dimension": "fairness"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "relevance",
@@ -240,7 +240,7 @@
         "dimension": "ingroup"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "4",
         "persona": "base",
         "segment": "relevance",
@@ -248,7 +248,7 @@
         "dimension": "authority"
     },
     {
-        "model": "llama3:70b-instruct-q6_K",
+        "model": "llama3:70b",
         "response": "5",
         "persona": "base",
         "segment": "relevance",
