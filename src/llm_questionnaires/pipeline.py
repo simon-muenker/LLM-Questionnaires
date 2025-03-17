@@ -11,6 +11,8 @@ import pydantic
 from llm_questionnaires.agent import Agent, AgentModel, AgentPersona
 from llm_questionnaires.questionnaire import Questionnaire
 
+logging.getLogger().setLevel(logging.INFO)
+
 
 class Pipeline(pydantic.BaseModel):
     iterations: int
