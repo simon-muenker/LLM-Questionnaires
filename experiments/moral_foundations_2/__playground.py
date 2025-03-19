@@ -26,7 +26,9 @@ def format_export(df: pandas.DataFrame, precision: int = 2) -> pandas.Series:
 raw: pandas.DataFrame = pandas.read_parquet(f"{PATH_PATH}/analysis/survey.parquet")
 
 agg_idx: pandas.DataFrame = (
-    raw.groupby(["id", "model", "persona"], observed=True)["response"]
+    raw
+    .groupby(["id", "model", "persona"], observed=True)
+    ["response"]
     .agg(["mean", "std"])
     .assign(export=lambda df: format_export(df))
 )
