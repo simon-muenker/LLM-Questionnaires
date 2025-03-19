@@ -53,8 +53,8 @@ relevance  7   moderate        0.401633
            12  conservative    0.255102
                liberal         0.254694
            7   conservative    0.248571
-           13  liberal         0.244898
            8   liberal         0.244898
+           13  liberal         0.244898
 agreement  6   conservative    0.230204
 relevance  16  conservative    0.214286
            12  moderate        0.205714
@@ -74,8 +74,8 @@ relevance  1   moderate        0.214286
            9   liberal         0.205714
            10  liberal         0.163265
 agreement  5   conservative    0.139535
+           12  liberal         0.122857
 relevance  11  moderate        0.122857
-agreement  12  liberal         0.122857
 
 
 --------------mixtral:8x22b---------------
@@ -153,8 +153,8 @@ relevance  11  liberal         0.254694
 agreement  6   moderate        0.235102
 relevance  5   liberal         0.214286
            11  conservative    0.205714
-           8   moderate        0.196327
            13  moderate        0.196327
+           8   moderate        0.196327
 agreement  2   conservative    0.150612
                moderate        0.020000
 

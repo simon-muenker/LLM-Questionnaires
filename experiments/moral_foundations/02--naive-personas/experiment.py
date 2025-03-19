@@ -5,7 +5,6 @@ import rich
 import llm_questionnaires as llmq
 
 EXP_PATH: str = "experiments/moral_foundations/02--naive-personas"
-PERSONA_ORDER = ["liberal", "moderate", "conservative"]
 
 models = [
     llmq.agent.AgentModel(id="llama3.1:8b"),
@@ -23,7 +22,11 @@ models = [
 ]
 rich.print(models)
 
-personas = llmq.agent.AgentPersona.from_directory(pathlib.Path(f"{EXP_PATH}/personas/"))
+personas = [
+    llmq.agent.AgentPersona.from_json(pathlib.Path(f"{EXP_PATH}/personas/conservative.json")),
+    llmq.agent.AgentPersona.from_json(pathlib.Path(f"{EXP_PATH}/personas/moderate.json")),
+    llmq.agent.AgentPersona.from_json(pathlib.Path(f"{EXP_PATH}/personas/liberal.json")),
+]
 rich.print(personas)
 
 questionnaire = llmq.Questionnaire(
@@ -36,7 +39,7 @@ pipeline = llmq.Pipeline(
     personas=personas,
     models=models,
     questionnaire=questionnaire,
-    export_path=pathlib.Path(f"{EXP_PATH}/data/"),
+    experiment_path=pathlib.Path(f"{EXP_PATH}/"),
 )
 
 pipeline()

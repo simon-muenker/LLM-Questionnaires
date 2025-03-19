@@ -147,8 +147,8 @@ agreement  2   conservative    1.206531
            3   liberal         0.292245
            16  liberal         0.289388
                conservative    0.261633
-           9   moderate        0.245306
            11  moderate        0.245306
+           9   moderate        0.245306
 
 
 ----------------gemma2:27b----------------
@@ -157,15 +157,14 @@ mean variance: 0.040
 answers with variance (10 decile):
 segment    id  persona     
 relevance  8   moderate        0.248571
+           7   liberal         0.244898
 agreement  11  moderate        0.244898
-relevance  7   liberal         0.244898
-agreement  14  liberal         0.228980
+           14  liberal         0.228980
            12  liberal         0.228980
-relevance  11  liberal         0.222041
-           12  moderate        0.222041
+relevance  12  moderate        0.222041
+           11  liberal         0.222041
            8   conservative    0.214286
            4   liberal         0.196327
-           15  moderate        0.186122
 
 
 -----------------qwen:72b-----------------
@@ -196,9 +195,9 @@ agreement  13  conservative    0.500000
 relevance  5   liberal         0.326531
            11  liberal         0.255102
            14  liberal         0.253469
-           9   moderate        0.248571
 agreement  10  liberal         0.248571
            5   liberal         0.248571
 relevance  10  moderate        0.248571
+           9   moderate        0.248571
 
 

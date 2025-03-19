@@ -38,7 +38,7 @@ class PostProcess:
 
         dataset_agg_idx_pvt_mod.to_csv(f"{export_path}/dataset._agg_idx.pvt_mod.csv")
         dataset_agg_idx_pvt_mod.to_latex(
-            f"{export_path}/dataset._agg_idx.pvt_mod.tex", bold_rows=True
+            f"{export_path}/dataset._agg_idx.pvt_mod.tex", bold_rows=True, longtable=True
         )
 
         dataset_agg_dim_pvt_dim: pandas.DataFrame = (
@@ -57,7 +57,7 @@ class PostProcess:
 
         dataset_agg_dim_pvt_dim.to_csv(f"{export_path}/dataset.agg_dim.pvt_dim.csv")
         dataset_agg_dim_pvt_dim.to_latex(
-            f"{export_path}/dataset.agg_dim.pvt_dim.tex", bold_rows=True
+            f"{export_path}/dataset.agg_dim.pvt_dim.tex", bold_rows=True, longtable=True
         )
 
         return dataset

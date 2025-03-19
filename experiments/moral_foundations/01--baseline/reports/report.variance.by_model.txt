@@ -92,9 +92,9 @@ mean variance: 0.073
 answers with variance (10 decile):
 segment    id  persona
 agreement  15  base       0.637143
-           13  base       0.251429
 relevance  4   base       0.251429
-agreement  11  base       0.244898
+agreement  13  base       0.251429
+           11  base       0.244898
 
 
 ----------------gemma2:27b----------------

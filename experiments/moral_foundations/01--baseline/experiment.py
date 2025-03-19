@@ -36,7 +36,7 @@ pipeline = llmq.Pipeline(
     personas=personas,
     models=models,
     questionnaire=questionnaire,
-    export_path=pathlib.Path(f"{EXP_PATH}/data/"),
+    experiment_path=pathlib.Path(EXP_PATH),
 )
 
 pipeline()
