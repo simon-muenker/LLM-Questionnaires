@@ -1,6 +1,6 @@
 [
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 1,
         "dimension": "care",
         "model": "llama3.1:8b",
@@ -8,7 +8,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 2,
         "dimension": "equality",
         "model": "llama3.1:8b",
@@ -16,7 +16,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 3,
         "dimension": "proportionality",
         "model": "llama3.1:8b",
@@ -24,7 +24,7 @@
         "response": "3"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 4,
         "dimension": "loyalty",
         "model": "llama3.1:8b",
@@ -32,7 +32,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 5,
         "dimension": "authority",
         "model": "llama3.1:8b",
@@ -40,7 +40,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 6,
         "dimension": "purity",
         "model": "llama3.1:8b",
@@ -48,7 +48,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 7,
         "dimension": "care",
         "model": "llama3.1:8b",
@@ -56,7 +56,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 8,
         "dimension": "equality",
         "model": "llama3.1:8b",
@@ -64,7 +64,7 @@
         "response": "1"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 9,
         "dimension": "proportionality",
         "model": "llama3.1:8b",
@@ -72,7 +72,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 10,
         "dimension": "loyalty",
         "model": "llama3.1:8b",
@@ -80,7 +80,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 11,
         "dimension": "authority",
         "model": "llama3.1:8b",
@@ -88,7 +88,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 12,
         "dimension": "purity",
         "model": "llama3.1:8b",
@@ -96,7 +96,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 13,
         "dimension": "care",
         "model": "llama3.1:8b",
@@ -104,7 +104,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 14,
         "dimension": "equality",
         "model": "llama3.1:8b",
@@ -112,7 +112,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 15,
         "dimension": "proportionality",
         "model": "llama3.1:8b",
@@ -120,7 +120,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 16,
         "dimension": "loyalty",
         "model": "llama3.1:8b",
@@ -128,7 +128,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 17,
         "dimension": "authority",
         "model": "llama3.1:8b",
@@ -136,7 +136,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 18,
         "dimension": "purity",
         "model": "llama3.1:8b",
@@ -144,7 +144,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 19,
         "dimension": "care",
         "model": "llama3.1:8b",
@@ -152,7 +152,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 20,
         "dimension": "equality",
         "model": "llama3.1:8b",
@@ -160,7 +160,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 21,
         "dimension": "proportionality",
         "model": "llama3.1:8b",
@@ -168,7 +168,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 22,
         "dimension": "loyalty",
         "model": "llama3.1:8b",
@@ -176,7 +176,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 23,
         "dimension": "authority",
         "model": "llama3.1:8b",
@@ -184,7 +184,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 24,
         "dimension": "purity",
         "model": "llama3.1:8b",
@@ -192,7 +192,7 @@
         "response": "2"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 25,
         "dimension": "care",
         "model": "llama3.1:8b",
@@ -200,7 +200,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 26,
         "dimension": "equality",
         "model": "llama3.1:8b",
@@ -208,7 +208,7 @@
         "response": "3"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 27,
         "dimension": "proportionality",
         "model": "llama3.1:8b",
@@ -216,7 +216,7 @@
         "response": "3"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 28,
         "dimension": "loyalty",
         "model": "llama3.1:8b",
@@ -224,7 +224,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 29,
         "dimension": "authority",
         "model": "llama3.1:8b",
@@ -232,7 +232,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 30,
         "dimension": "purity",
         "model": "llama3.1:8b",
@@ -240,7 +240,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 31,
         "dimension": "care",
         "model": "llama3.1:8b",
@@ -248,7 +248,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 32,
         "dimension": "equality",
         "model": "llama3.1:8b",
@@ -256,7 +256,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 33,
         "dimension": "proportionality",
         "model": "llama3.1:8b",
@@ -264,7 +264,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 34,
         "dimension": "loyalty",
         "model": "llama3.1:8b",
@@ -272,7 +272,7 @@
         "response": "4"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 35,
         "dimension": "authority",
         "model": "llama3.1:8b",
@@ -280,7 +280,7 @@
         "response": "5"
     },
     {
-        "segment": "agreement",
+        "segment": "descriptiveness",
         "id": 36,
         "dimension": "purity",
         "model": "llama3.1:8b",

@@ -6,7 +6,7 @@ import pydantic
 import seaborn as sns
 
 from llm_questionnaires import agent
-from llm_questionnaires.analysis.descriptive import DescriptiveAnalysis
+from llm_questionnaires.data.descriptive_analysis import DescriptiveAnalysis
 
 
 class CrossEvaluationArgs(pydantic.BaseModel):

@@ -30,19 +30,6 @@ pipeline = llmq.Pipeline(
     personas=personas,
     models=models,
     questionnaire=questionnaire,
-    export_path=pathlib.Path(f"{EXP_PATH}/data/"),
+    experiment_path=pathlib.Path(EXP_PATH),
 )
-
 pipeline()
-
-descriptive_analysis = llmq.analysis.DescriptiveAnalysis.from_samples(
-    f"{EXP_PATH}/data/**/*.json",
-    args=llmq.analysis.DescriptiveAnalysisArgs(
-        model_order=[model.id for model in models],
-        persona_order=[persona.id for persona in personas],
-    ),
-)
-
-descriptive_analysis.data.to_parquet(f"{EXP_PATH}/analysis/survey.parquet")
-descriptive_analysis.write_report(f"{EXP_PATH}/analysis/survey.report.txt")
-descriptive_analysis.plot(f"{EXP_PATH}/analysis/survey.pdf")

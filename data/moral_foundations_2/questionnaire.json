@@ -1,6 +1,6 @@
 [
   {
-    "label": "agreement",
+    "label": "descriptiveness",
     "task": "For each of the statements below, please indicate how well each statement describes you or your opinions. Response options: Does not describe me at all (1); slightly describes me (2); moderately describes me (3); describes me fairly well (4); and describes me extremely well (5). Respond only with the predicted class [(1), (2), (3), (4), (5)].",
     "questions": [
         { 

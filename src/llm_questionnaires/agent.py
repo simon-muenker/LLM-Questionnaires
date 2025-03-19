@@ -24,7 +24,12 @@ class AgentPersona(pydantic.BaseModel):
 
     @classmethod
     def from_directory(cls, source_path: pathlib.Path) -> typing.List["AgentPersona"]:
-        return [cls.from_json(source_file) for source_file in list(source_path.iterdir())]
+        return sorted(
+            [cls.from_json(source_file) for source_file in list(source_path.iterdir())]
+        )
+
+    def __lt__(self, other: "AgentPersona") -> bool:
+        return self.id < other.id
 
 
 class AgentModel(pydantic.BaseModel):
