@@ -22,7 +22,7 @@ class Survey(pydantic.BaseModel):
         ]
 
     def get_survey(self, label: str) -> SurveySegment:
-        return next(filter(lambda collection: collection.label == label, self.items))
+        return next(filter(lambda collection: collection.label == label, self.segments))
 
     def __len__(self) -> int:
         return len(self.segments)

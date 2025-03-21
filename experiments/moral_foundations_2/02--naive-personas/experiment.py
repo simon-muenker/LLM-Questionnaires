@@ -4,7 +4,7 @@ import rich
 
 import llm_questionnaires as llmq
 
-EXP_PATH: str = "experiments/moral_foundations_2"
+EXP_PATH: str = "experiments/moral_foundations_2/02--naive-personas"
 
 
 models = [
