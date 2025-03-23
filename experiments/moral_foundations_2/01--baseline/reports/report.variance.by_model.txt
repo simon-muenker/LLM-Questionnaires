@@ -20,15 +20,15 @@ descriptiveness  2   base       2.460882
                  33  base       0.766003
 
 
----------------qwen2.5:72b----------------
-answers w/o variance: 5/36
-mean variance: 0.092
+----------------qwen2.5:7b----------------
+answers w/o variance: 1/36
+mean variance: 0.230
 answers with variance (10 decile):
 segment          id  persona
-descriptiveness  24  base       0.720000
-                 12  base       0.289388
-                 19  base       0.235102
-                 35  base       0.228980
+descriptiveness  31  base       0.517959
+                 6   base       0.449388
+                 27  base       0.433061
+                 19  base       0.367755
 
 
 ---------------llama3.3:70b---------------
@@ -53,14 +53,14 @@ descriptiveness  12  base       1.009957
                  20  base       0.718615
 
 
-----------------qwen2.5:7b----------------
-answers w/o variance: 1/36
-mean variance: 0.230
+---------------qwen2.5:72b----------------
+answers w/o variance: 5/36
+mean variance: 0.092
 answers with variance (10 decile):
 segment          id  persona
-descriptiveness  31  base       0.517959
-                 6   base       0.449388
-                 27  base       0.433061
-                 19  base       0.367755
+descriptiveness  24  base       0.720000
+                 12  base       0.289388
+                 19  base       0.235102
+                 35  base       0.228980
 
 

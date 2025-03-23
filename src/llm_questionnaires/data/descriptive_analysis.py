@@ -56,7 +56,7 @@ class DescriptiveAnalysis(pydantic.BaseModel):
             ),
             col="model",
             col_wrap=3,
-            height=len(self.data_wo_idx["persona"].unique()),
+            height=max(3, len(self.data_wo_idx["persona"].unique())),
         )
 
         grid.map_dataframe(
