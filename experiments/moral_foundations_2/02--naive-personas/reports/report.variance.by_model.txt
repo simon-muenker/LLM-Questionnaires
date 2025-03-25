@@ -149,80 +149,80 @@ descriptiveness  3   Chile           8.000000
                  28  Switzerland     4.142857
 
 
----------------qwen2.5:72b----------------
-answers w/o variance: 103/684
-mean variance: 0.102
+----------------qwen2.5:7b----------------
+answers w/o variance: 5/684
+mean variance: 0.298
 answers with variance (10 decile):
 segment          id  persona     
-descriptiveness  24  Saudi Arabia    0.653061
-                     UAE             0.586122
-                     Nigeria         0.564898
-                     Switzerland     0.531020
-                     Peru            0.483265
-                     Egypt           0.475102
-                     Russia          0.459184
-                     Ireland         0.449388
-                     Japan           0.448980
-                     Argentina       0.418367
-                     New Zealand     0.398367
-                     Belgium         0.384082
-                     Morocco         0.382041
-                     Mexico          0.354694
-                     Colombia        0.346531
-                     Chile           0.346531
-                     South Africa    0.343265
-                     Kenya           0.340081
-                 36  Egypt           0.336735
-                 20  Saudi Arabia    0.335102
-                 36  UAE             0.295918
-                 30  Russia          0.289388
-                 12  Argentina       0.289388
-                 30  Japan           0.275918
-                 12  Chile           0.262857
-                 35  Chile           0.262857
-                 16  Nigeria         0.255102
-                 21  Russia          0.255102
-                 7   Russia          0.255102
-                     Chile           0.255102
-                 15  Kenya           0.255061
-                 12  Kenya           0.255061
-                 5   Nigeria         0.254694
-                 31  Morocco         0.254694
-                 15  Japan           0.254694
-                     UAE             0.254694
-                     Egypt           0.254694
-                 35  South Africa    0.253469
-                 15  Peru            0.253469
-                 21  UAE             0.253469
-                 7   Belgium         0.253469
-                 15  Chile           0.253469
-                     Argentina       0.253469
-                 7   Mexico          0.253469
-                 24  France          0.253469
-                 30  South Africa    0.253469
-                 16  Mexico          0.253469
-                 15  Nigeria         0.253469
-                 31  Peru            0.251429
-                 22  Morocco         0.251429
-                 15  Mexico          0.251429
-                 7   Saudi Arabia    0.251429
-                 17  Russia          0.251429
-                 5   Colombia        0.251429
-                 36  Saudi Arabia    0.251429
-                 25  Saudi Arabia    0.248571
-                 26  New Zealand     0.248571
-                 15  Morocco         0.248571
-                 11  Saudi Arabia    0.248571
-                 10  Russia          0.248571
-                 4   Argentina       0.248571
-                 27  Russia          0.248571
-                 25  UAE             0.248571
-                 5   Mexico          0.246599
-                 17  Colombia        0.246531
-                 30  Nigeria         0.244898
-                 26  France          0.244898
-                     Chile           0.244898
-                 30  Belgium         0.244898
+descriptiveness  16  Russia          1.374111
+                     Japan           1.102496
+                     Ireland         0.896795
+                 33  Mexico          0.857143
+                 16  Mexico          0.846465
+                 18  Mexico          0.808673
+                 31  Peru            0.734694
+                     Kenya           0.726939
+                 6   Peru            0.711837
+                 25  Ireland         0.692245
+                 21  Peru            0.679184
+                 18  Peru            0.679184
+                 1   Ireland         0.675918
+                 3   Japan           0.653061
+                 31  Nigeria         0.651429
+                 16  France          0.645306
+                 18  UAE             0.635102
+                 16  Morocco         0.629252
+                 22  Mexico          0.627551
+                 15  Ireland         0.612245
+                 25  Mexico          0.612245
+                 31  Argentina       0.607755
+                 18  Argentina       0.600340
+                 6   Mexico          0.596327
+                 22  Japan           0.591837
+                 6   Saudi Arabia    0.588163
+                     Belgium         0.586122
+                 25  Peru            0.583333
+                 18  Chile           0.583333
+                 13  Peru            0.581224
+                 6   Japan           0.576531
+                 1   Chile           0.573061
+                     Mexico          0.573061
+                 18  Morocco         0.568027
+                 16  New Zealand     0.565891
+                 31  Belgium         0.564898
+                 13  Mexico          0.563673
+                 31  Japan           0.563673
+                     Colombia        0.562075
+                     Russia          0.561633
+                 18  France          0.556735
+                 10  Mexico          0.553191
+                 18  Saudi Arabia    0.550416
+                 15  Mexico          0.540408
+                 1   Peru            0.534286
+                 7   Japan           0.531020
+                 6   Switzerland     0.531020
+                 18  Belgium         0.528980
+                 16  Belgium         0.524917
+                 13  New Zealand     0.522857
+                 24  UAE             0.520833
+                 18  Egypt           0.520408
+                 36  Colombia        0.519928
+                 18  South Africa    0.518964
+                     Ireland         0.517959
+                 2   Peru            0.517287
+                 18  Switzerland     0.516156
+                     Colombia        0.515918
+                 22  Russia          0.513414
+                 6   France          0.512653
+                 19  Japan           0.511054
+                 28  Japan           0.507755
+                 16  Kenya           0.505102
+                 1   Japan           0.500000
+                 28  Mexico          0.493469
+                 18  Japan           0.493197
+                 15  Japan           0.489796
+                 31  Mexico          0.485306
+                 18  New Zealand     0.484694
 
 
 ---------------llama3.3:70b---------------
@@ -377,79 +377,79 @@ descriptiveness  20  Belgium         1.410256
                  20  Ireland         0.747036
 
 
-----------------qwen2.5:7b----------------
-answers w/o variance: 5/684
-mean variance: 0.298
+---------------qwen2.5:72b----------------
+answers w/o variance: 103/684
+mean variance: 0.102
 answers with variance (10 decile):
 segment          id  persona     
-descriptiveness  16  Russia          1.374111
-                     Japan           1.102496
-                     Ireland         0.896795
-                 33  Mexico          0.857143
-                 16  Mexico          0.846465
-                 18  Mexico          0.808673
-                 31  Peru            0.734694
-                     Kenya           0.726939
-                 6   Peru            0.711837
-                 25  Ireland         0.692245
-                 21  Peru            0.679184
-                 18  Peru            0.679184
-                 1   Ireland         0.675918
-                 3   Japan           0.653061
-                 31  Nigeria         0.651429
-                 16  France          0.645306
-                 18  UAE             0.635102
-                 16  Morocco         0.629252
-                 22  Mexico          0.627551
-                 15  Ireland         0.612245
-                 25  Mexico          0.612245
-                 31  Argentina       0.607755
-                 18  Argentina       0.600340
-                 6   Mexico          0.596327
-                 22  Japan           0.591837
-                 6   Saudi Arabia    0.588163
-                     Belgium         0.586122
-                 25  Peru            0.583333
-                 18  Chile           0.583333
-                 13  Peru            0.581224
-                 6   Japan           0.576531
-                 1   Chile           0.573061
-                     Mexico          0.573061
-                 18  Morocco         0.568027
-                 16  New Zealand     0.565891
-                 31  Belgium         0.564898
-                 13  Mexico          0.563673
-                 31  Japan           0.563673
-                     Colombia        0.562075
-                     Russia          0.561633
-                 18  France          0.556735
-                 10  Mexico          0.553191
-                 18  Saudi Arabia    0.550416
-                 15  Mexico          0.540408
-                 1   Peru            0.534286
-                 7   Japan           0.531020
-                 6   Switzerland     0.531020
-                 18  Belgium         0.528980
-                 16  Belgium         0.524917
-                 13  New Zealand     0.522857
-                 24  UAE             0.520833
-                 18  Egypt           0.520408
-                 36  Colombia        0.519928
-                 18  South Africa    0.518964
-                     Ireland         0.517959
-                 2   Peru            0.517287
-                 18  Switzerland     0.516156
-                     Colombia        0.515918
-                 22  Russia          0.513414
-                 6   France          0.512653
-                 19  Japan           0.511054
-                 28  Japan           0.507755
-                 16  Kenya           0.505102
-                 1   Japan           0.500000
-                 28  Mexico          0.493469
-                 18  Japan           0.493197
-                 15  Japan           0.489796
-                 31  Mexico          0.485306
-                 18  New Zealand     0.484694
+descriptiveness  24  Saudi Arabia    0.653061
+                     UAE             0.586122
+                     Nigeria         0.564898
+                     Switzerland     0.531020
+                     Peru            0.483265
+                     Egypt           0.475102
+                     Russia          0.459184
+                     Ireland         0.449388
+                     Japan           0.448980
+                     Argentina       0.418367
+                     New Zealand     0.398367
+                     Belgium         0.384082
+                     Morocco         0.382041
+                     Mexico          0.354694
+                     Colombia        0.346531
+                     Chile           0.346531
+                     South Africa    0.343265
+                     Kenya           0.340081
+                 36  Egypt           0.336735
+                 20  Saudi Arabia    0.335102
+                 36  UAE             0.295918
+                 30  Russia          0.289388
+                 12  Argentina       0.289388
+                 30  Japan           0.275918
+                 12  Chile           0.262857
+                 35  Chile           0.262857
+                 16  Nigeria         0.255102
+                 21  Russia          0.255102
+                 7   Russia          0.255102
+                     Chile           0.255102
+                 15  Kenya           0.255061
+                 12  Kenya           0.255061
+                 5   Nigeria         0.254694
+                 31  Morocco         0.254694
+                 15  Japan           0.254694
+                     UAE             0.254694
+                     Egypt           0.254694
+                 35  South Africa    0.253469
+                 15  Peru            0.253469
+                 21  UAE             0.253469
+                 7   Belgium         0.253469
+                 15  Chile           0.253469
+                     Argentina       0.253469
+                 7   Mexico          0.253469
+                 24  France          0.253469
+                 30  South Africa    0.253469
+                 16  Mexico          0.253469
+                 15  Nigeria         0.253469
+                 31  Peru            0.251429
+                 22  Morocco         0.251429
+                 15  Mexico          0.251429
+                 7   Saudi Arabia    0.251429
+                 17  Russia          0.251429
+                 5   Colombia        0.251429
+                 36  Saudi Arabia    0.251429
+                 25  Saudi Arabia    0.248571
+                 26  New Zealand     0.248571
+                 15  Morocco         0.248571
+                 11  Saudi Arabia    0.248571
+                 10  Russia          0.248571
+                 4   Argentina       0.248571
+                 27  Russia          0.248571
+                 25  UAE             0.248571
+                 5   Mexico          0.246599
+                 17  Colombia        0.246531
+                 30  Nigeria         0.244898
+                 26  France          0.244898
+                     Chile           0.244898
+                 30  Belgium         0.244898
 
 
