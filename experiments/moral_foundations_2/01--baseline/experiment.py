@@ -26,7 +26,7 @@ questionnaire = llmq.Questionnaire(
 rich.print(questionnaire)
 
 pipeline = llmq.Pipeline(
-    iterations=250,
+    iterations=500,
     personas=personas,
     models=models,
     questionnaire=questionnaire,
