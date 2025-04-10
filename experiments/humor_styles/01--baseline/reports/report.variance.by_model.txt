@@ -1,66 +1,66 @@
 ---------------llama3.1:8b----------------
 answers w/o variance: 0/32
-mean variance: 0.918
+mean variance: 0.889
 answers with variance (10 decile):
 segment          id  persona
-descriptiveness  7   base       2.586122
-                 17  base       2.384082
-                 3   base       2.171769
-                 4   base       1.731020
+descriptiveness  3   base       2.211380
+                 7   base       2.207883
+                 17  base       2.071416
+                 4   base       1.703239
 
 
 ----------------mistral:7b----------------
-answers w/o variance: 2/32
-mean variance: 0.917
+answers w/o variance: 0/32
+mean variance: 0.916
 answers with variance (10 decile):
 segment          id  persona
-descriptiveness  23  base       3.881591
-                 16  base       2.949580
-                 27  base       2.380488
-                 7   base       2.149495
+descriptiveness  23  base       3.957807
+                 16  base       2.271316
+                 17  base       2.203777
+                 7   base       2.155958
 
 
 ----------------qwen2.5:7b----------------
-answers w/o variance: 4/32
-mean variance: 0.210
+answers w/o variance: 0/32
+mean variance: 0.199
 answers with variance (10 decile):
 segment          id  persona
-descriptiveness  7   base       0.839184
-                 23  base       0.724898
-                 17  base       0.575102
-                 4   base       0.534286
+descriptiveness  7   base       0.818475
+                 17  base       0.745888
+                 4   base       0.522310
+                 15  base       0.406783
 
 
 ---------------llama3.3:70b---------------
-answers w/o variance: 24/32
-mean variance: 0.073
+answers w/o variance: 17/32
+mean variance: 0.065
 answers with variance (10 decile):
 segment          id  persona
-descriptiveness  29  base       0.996327
-                 17  base       0.822857
-                 5   base       0.163265
-                 4   base       0.132653
+descriptiveness  17  base       0.801886
+                 29  base       0.744624
+                 14  base       0.194970
+                 4   base       0.125244
 
 
 ------------mistral-large:123b------------
 answers w/o variance: 0/32
-mean variance: 0.477
+mean variance: 0.544
 answers with variance (10 decile):
 segment          id  persona
-descriptiveness  9   base       1.300300
-                 23  base       1.177340
-                 27  base       0.997835
-                 7   base       0.937611
+descriptiveness  9   base       1.402708
+                 27  base       1.261319
+                 7   base       1.055234
+                 16  base       1.000397
 
 
 ---------------qwen2.5:72b----------------
-answers w/o variance: 11/32
-mean variance: 0.087
+answers w/o variance: 2/32
+mean variance: 0.081
 answers with variance (10 decile):
 segment          id  persona
-descriptiveness  4   base       0.530612
-                 3   base       0.414694
-                 27  base       0.336327
-                 23  base       0.255102
+descriptiveness  4   base       0.586262
+                 3   base       0.311155
+                 27  base       0.298823
+                 23  base       0.244003
 
 
