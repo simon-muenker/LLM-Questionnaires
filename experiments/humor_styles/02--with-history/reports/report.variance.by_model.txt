@@ -1,0 +1,11 @@
+---------------llama3.1:8b----------------
+answers w/o variance: 0/32
+mean variance: 1.486
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  23  base       3.285647
+                 7   base       2.899642
+                 27  base       2.493430
+                 4   base       2.476397
+
+

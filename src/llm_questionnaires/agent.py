@@ -2,7 +2,7 @@ import pathlib
 import typing
 
 import pydantic
-from pydantic_ai import Agent as OpenAIAgent
+from pydantic_ai import Agent as OpenAIAgent, ModelRequestNode
 from pydantic_ai import UnexpectedModelBehavior
 from pydantic_ai.agent import AgentRunResult
 from pydantic_ai.models.openai import OpenAIModel
@@ -46,6 +46,8 @@ class Agent(pydantic.BaseModel):
     model: AgentModel
 
     _endpoint: OpenAIModel
+    _memory: typing.List[ModelRequestNode] = []
+    _memory_length: int = 5
 
     def model_post_init(self, _: typing.Any):
         self._endpoint = OpenAIModel(
@@ -53,20 +55,28 @@ class Agent(pydantic.BaseModel):
             provider=OpenAIProvider(base_url="http://localhost:11434/v1"),
         )
 
-    def __call__(self, user_prompt: str, result_type: typing.Any = str) -> AgentRunResult:
+    def __call__(self, user_prompt: str, result_type: typing.Any = str, use_memory: bool = False) -> AgentRunResult:
         try:
-            return (
+            result = (
                 OpenAIAgent(
                     self._endpoint,
                     result_type=result_type,
                     system_prompt=self.persona.content,
                 )
-                .run_sync(user_prompt)
-                .data
+                .run_sync(user_prompt, **dict(message_history=self._memory if use_memory else None))
             )
+            if use_memory:
+                self._refresh_memory(result.new_messages())
+            return result.data
+            
 
         except UnexpectedModelBehavior:
             return None
+        
+    def _refresh_memory(self, node: ModelRequestNode) -> None:
+        self._memory.extend(node)
+        self._memory = self._memory[-(self._memory_length * 3):]
+
 
 
 __all__ = ["AgentPersona", "AgentModel", "Agent"]

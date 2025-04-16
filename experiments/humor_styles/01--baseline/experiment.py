@@ -4,7 +4,7 @@ import rich
 
 import llm_questionnaires as llmq
 
-EXP_PATH: str = "experiments/humor_styles/02--sequentially"
+EXP_PATH: str = "experiments/humor_styles/01--baseline"
 
 
 models = [

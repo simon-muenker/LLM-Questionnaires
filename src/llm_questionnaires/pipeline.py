@@ -17,6 +17,7 @@ from llm_questionnaires.questionnaire import Questionnaire
 
 class Pipeline(pydantic.BaseModel):
     iterations: int
+    use_memory: bool = False
 
     personas: typing.List[AgentPersona]
     models: typing.List[AgentModel]
@@ -53,7 +54,6 @@ class Pipeline(pydantic.BaseModel):
         iteration_path: pathlib.Path = self._data_path / persona.dir_name / model.dir_name
         iteration_path.mkdir(parents=True, exist_ok=True)
 
-        agent = Agent(persona=persona, model=model)
         remaining_survey_num: int = self.iterations - len(glob.glob(f"{iteration_path}/*.json"))
 
         if remaining_survey_num <= 0:
@@ -63,6 +63,7 @@ class Pipeline(pydantic.BaseModel):
             range(remaining_survey_num),
             description=f"Generating {remaining_survey_num} surveys for ({model.id}|{persona.id}): ",
         ):
+            agent = Agent(persona=persona, model=model)
             self.conduct_survey(agent, iteration_path)
 
     def conduct_survey(self, agent: Agent, export_path: pathlib.Path) -> None:
@@ -77,6 +78,7 @@ class Pipeline(pydantic.BaseModel):
                     "response": agent(
                         user_prompt=f"{segment.task}\nQuestion: {question.content}",
                         result_type=typing.Literal[tuple(item for item in segment.scale)],
+                        use_memory=self.use_memory
                     ),
                 }
                 for segment in self.questionnaire.segments
