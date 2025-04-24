@@ -9,11 +9,11 @@ EXP_PATH: str = "experiments/humor_styles/02--with-history"
 
 models = [
     llmq.agent.AgentModel(id="llama3.1:8b"),
-    #llmq.agent.AgentModel(id="mistral:7b"),
-    #llmq.agent.AgentModel(id="qwen2.5:7b"),
-    #llmq.agent.AgentModel(id="llama3.3:70b"),
-    #llmq.agent.AgentModel(id="mistral-large:123b"),
-    #llmq.agent.AgentModel(id="qwen2.5:72b"),
+    llmq.agent.AgentModel(id="mistral:7b"),
+    llmq.agent.AgentModel(id="qwen2.5:7b"),
+    llmq.agent.AgentModel(id="llama3.3:70b"),
+    llmq.agent.AgentModel(id="mistral-large:123b"),
+    llmq.agent.AgentModel(id="qwen2.5:72b"),
 ]
 rich.print(models)
 
@@ -27,6 +27,7 @@ rich.print(questionnaire)
 
 pipeline = llmq.Pipeline(
     iterations=1000,
+    use_memory=True,
     personas=personas,
     models=models,
     questionnaire=questionnaire,

@@ -1,11 +1,66 @@
 ---------------llama3.1:8b----------------
 answers w/o variance: 0/32
-mean variance: 1.486
+mean variance: 1.506
 answers with variance (10 decile):
 segment          id  persona
-descriptiveness  23  base       3.285647
-                 7   base       2.899642
-                 27  base       2.493430
-                 4   base       2.476397
+descriptiveness  23  base       3.180437
+                 7   base       3.052236
+                 4   base       2.716769
+                 17  base       2.556360
+
+
+----------------mistral:7b----------------
+answers w/o variance: 0/32
+mean variance: 1.642
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  23  base       3.344395
+                 4   base       2.877086
+                 3   base       2.773269
+                 17  base       2.666134
+
+
+----------------qwen2.5:7b----------------
+answers w/o variance: 0/32
+mean variance: 0.432
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  23  base       3.395783
+                 7   base       0.991119
+                 27  base       0.892368
+                 4   base       0.888184
+
+
+---------------llama3.3:70b---------------
+answers w/o variance: 2/32
+mean variance: 0.199
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  32  base       1.719395
+                 2   base       0.688893
+                 28  base       0.673753
+                 19  base       0.535319
+
+
+------------mistral-large:123b------------
+answers w/o variance: 0/32
+mean variance: 0.942
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  23  base       1.987780
+                 17  base       1.392754
+                 7   base       1.358473
+                 27  base       1.308547
+
+
+---------------qwen2.5:72b----------------
+answers w/o variance: 0/32
+mean variance: 0.340
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  16  base       3.143080
+                 15  base       1.405196
+                 22  base       0.651467
+                 8   base       0.605644
 
 
