@@ -1,6 +1,7 @@
 .PHONY: install
 install:
-	@poetry install
+	@uv sync --all-extras
+	@uv pip install .
 
 # --- --- ---
 

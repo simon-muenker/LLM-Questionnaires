@@ -1,6 +1,6 @@
 [
     {
-      "label": "big_five_personality",
+      "label": "agreement",
       "task": "For each of the statements below, please indicate how much you agree or disagree with the statement. Response options: Disagree (1); Slightly disagree (2); Neutral (3); Slightly agree (4); and Agree (5). Respond only with the predicted class [(1), (2), (3), (4), (5)].",
       "questions": [
         {

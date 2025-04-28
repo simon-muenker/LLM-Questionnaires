@@ -1400,7 +1400,7 @@ wheels = [
 [[package]]
 name = "llm-questionnaires"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "matplotlib" },
     { name = "pandas" },
