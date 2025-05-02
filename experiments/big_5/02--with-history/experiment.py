@@ -4,7 +4,7 @@ import rich
 
 import llm_questionnaires as llmq
 
-EXP_PATH: str = "experiments/big_5/02--history"
+EXP_PATH: str = "experiments/big_5/02--with-history"
 
 
 models = [
