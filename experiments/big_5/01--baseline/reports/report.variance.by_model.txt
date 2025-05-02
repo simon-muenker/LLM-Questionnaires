@@ -1,0 +1,72 @@
+---------------llama3.1:8b----------------
+answers w/o variance: 0/50
+mean variance: 0.688
+answers with variance (10 decile):
+segment    id  persona
+agreement  44  base       1.767202
+           38  base       1.743516
+           9   base       1.644307
+           5   base       1.539010
+           8   base       1.458620
+
+
+----------------mistral:7b----------------
+answers w/o variance: 0/50
+mean variance: 0.596
+answers with variance (10 decile):
+segment    id  persona
+agreement  34  base       2.564048
+           21  base       2.262072
+           1   base       2.233367
+           25  base       2.106343
+           46  base       1.821049
+
+
+----------------qwen2.5:7b----------------
+answers w/o variance: 0/50
+mean variance: 0.218
+answers with variance (10 decile):
+segment    id  persona
+agreement  19  base       0.553652
+           37  base       0.475880
+           6   base       0.451625
+           31  base       0.435403
+           30  base       0.422994
+
+
+---------------llama3.3:70b---------------
+answers w/o variance: 20/50
+mean variance: 0.091
+answers with variance (10 decile):
+segment    id  persona
+agreement  6   base       1.439214
+           18  base       1.098337
+           43  base       0.244916
+           48  base       0.213885
+           50  base       0.213733
+
+
+------------mistral-large:123b------------
+answers w/o variance: 0/50
+mean variance: 0.852
+answers with variance (10 decile):
+segment    id  persona
+agreement  21  base       1.881485
+           27  base       1.718099
+           38  base       1.686257
+           44  base       1.606282
+           23  base       1.543516
+
+
+---------------qwen2.5:72b----------------
+answers w/o variance: 1/50
+mean variance: 0.136
+answers with variance (10 decile):
+segment    id  persona
+agreement  31  base       0.463438
+           3   base       0.364477
+           7   base       0.333933
+           2   base       0.332909
+           33  base       0.270245
+
+
