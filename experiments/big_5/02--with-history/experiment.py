@@ -12,7 +12,7 @@ models = [
     llmq.agent.AgentModel(id="mistral:7b"),
     llmq.agent.AgentModel(id="qwen2.5:7b"),
     llmq.agent.AgentModel(id="llama3.3:70b"),
-    llmq.agent.AgentModel(id="mistral-large:123b"),
+    # llmq.agent.AgentModel(id="mistral-large:123b"),
     llmq.agent.AgentModel(id="qwen2.5:72b"),
 ]
 rich.print(models)
@@ -26,7 +26,7 @@ questionnaire = llmq.Questionnaire(
 rich.print(questionnaire)
 
 pipeline = llmq.Pipeline(
-    iterations=200,
+    iterations=1000,
     use_memory=True,
     personas=personas,
     models=models,
