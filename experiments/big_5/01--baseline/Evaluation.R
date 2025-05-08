@@ -13,7 +13,7 @@ library(EGAnet)
 
 
 # constants and configuration
-data_path <- "./experiments/big_5/02--with-history/reports"
+data_path <- "./experiments/big_5/01--baseline/reports"
 output_path <- paste0(data_path, "/R")
 
 constructs <- c("E", "N", "C", "A", "O")

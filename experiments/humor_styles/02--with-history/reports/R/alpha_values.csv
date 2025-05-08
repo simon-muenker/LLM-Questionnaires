@@ -1,0 +1,10 @@
+name,AFL,AGE,SED,SEE
+raw.human_full.csv,0.841,0.79,0.815,0.82
+raw.human_sampled.csv,0.118,0.084,0.103,0.105
+raw.llama3.1-8b.csv,0.138,0.087,0.149,0.091
+raw.llama3.3-70b.csv,0.063,0.087,0.076,0.144
+raw.mistral-7b.csv,0.46,0.514,0.617,0.513
+raw.mistral-large-123b.csv,0.22,0.157,0.232,0.242
+raw.qwen2.5-72b.csv,0.094,0.084,0.113,0.138
+raw.qwen2.5-7b.csv,0.492,0.551,0.298,0.535
+raw.random.csv,0.089,0.131,0.084,0.064

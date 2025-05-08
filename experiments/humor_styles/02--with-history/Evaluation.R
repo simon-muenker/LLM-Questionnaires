@@ -13,10 +13,10 @@ library(EGAnet)
 
 
 # constants and configuration
-data_path <- "./experiments/big_5/02--with-history/reports"
+data_path <- "./experiments/humor_styles/02--with-history/reports"
 output_path <- paste0(data_path, "/R")
 
-constructs <- c("E", "N", "C", "A", "O")
+constructs <- c("AFL", "AGE", "SED", "SEE")
 
 # validate data path
 validate_path <- function(path) {
@@ -59,7 +59,7 @@ load_data_files <- function(path, pattern = "^raw\\.\\S+\\.csv$") {
     }))
 
   # filter out any NULL data entries
-  valid_data <- data_list %>% 
+  valid_data <- data_list %>%
     filter(!map_lgl(data, is.null))
 
   message(sprintf("Successfully loaded %d/%d files", nrow(valid_data), nrow(files)))
