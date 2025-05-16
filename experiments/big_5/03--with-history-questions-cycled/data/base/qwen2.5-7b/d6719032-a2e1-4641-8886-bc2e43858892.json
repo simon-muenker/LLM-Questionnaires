@@ -1,0 +1,402 @@
+[
+    {
+        "segment": "agreement",
+        "id": 1,
+        "dimension": "extraversion",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 11,
+        "dimension": "neuroticism",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 21,
+        "dimension": "agreeableness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 31,
+        "dimension": "conscientiousness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 41,
+        "dimension": "openness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 2,
+        "dimension": "extraversion",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 22,
+        "dimension": "neuroticism",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 32,
+        "dimension": "agreeableness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 42,
+        "dimension": "conscientiousness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 52,
+        "dimension": "openness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 3,
+        "dimension": "extraversion",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 13,
+        "dimension": "neuroticism",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 23,
+        "dimension": "agreeableness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 33,
+        "dimension": "conscientiousness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 43,
+        "dimension": "openness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 4,
+        "dimension": "extraversion",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 14,
+        "dimension": "neuroticism",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 24,
+        "dimension": "agreeableness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 34,
+        "dimension": "conscientiousness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 44,
+        "dimension": "openness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 5,
+        "dimension": "extraversion",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 15,
+        "dimension": "neuroticism",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 25,
+        "dimension": "agreeableness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 35,
+        "dimension": "conscientiousness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 45,
+        "dimension": "openness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 6,
+        "dimension": "extraversion",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 16,
+        "dimension": "neuroticism",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 26,
+        "dimension": "agreeableness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 36,
+        "dimension": "conscientiousness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 46,
+        "dimension": "openness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 7,
+        "dimension": "extraversion",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 17,
+        "dimension": "neuroticism",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 27,
+        "dimension": "agreeableness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 37,
+        "dimension": "conscientiousness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 47,
+        "dimension": "openness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 8,
+        "dimension": "extraversion",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 18,
+        "dimension": "neuroticism",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 28,
+        "dimension": "agreeableness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 38,
+        "dimension": "conscientiousness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 48,
+        "dimension": "openness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 9,
+        "dimension": "extraversion",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 19,
+        "dimension": "neuroticism",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 29,
+        "dimension": "agreeableness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 39,
+        "dimension": "conscientiousness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 49,
+        "dimension": "openness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 10,
+        "dimension": "extraversion",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 20,
+        "dimension": "neuroticism",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 30,
+        "dimension": "agreeableness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 40,
+        "dimension": "conscientiousness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 50,
+        "dimension": "openness",
+        "model": "qwen2.5:7b",
+        "persona": "base",
+        "response": "5"
+    }
+]

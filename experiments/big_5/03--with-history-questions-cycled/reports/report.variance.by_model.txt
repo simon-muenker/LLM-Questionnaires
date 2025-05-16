@@ -1,0 +1,36 @@
+---------------llama3.1:8b----------------
+answers w/o variance: 0/50
+mean variance: 1.391
+answers with variance (10 decile):
+segment    id  persona
+agreement  23  base       3.185176
+           9   base       3.038279
+           34  base       2.804166
+           21  base       2.594399
+           5   base       2.592530
+
+
+----------------mistral:7b----------------
+answers w/o variance: 0/50
+mean variance: 1.428
+answers with variance (10 decile):
+segment    id  persona
+agreement  38  base       3.241422
+           21  base       3.033257
+           1   base       2.214233
+           23  base       2.164341
+           34  base       2.155284
+
+
+----------------qwen2.5:7b----------------
+answers w/o variance: 0/50
+mean variance: 0.373
+answers with variance (10 decile):
+segment    id  persona
+agreement  34  base       1.928049
+           15  base       0.964917
+           20  base       0.946321
+           36  base       0.893333
+           4   base       0.867202
+
+
