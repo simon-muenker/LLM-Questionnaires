@@ -46,6 +46,18 @@ agreement  19  base       1.665169
            4   base       0.668227
 
 
+------------mistral-large:123b------------
+answers w/o variance: 0/50
+mean variance: 1.083
+answers with variance (10 decile):
+segment    id  persona
+agreement  23  base       1.762059
+           21  base       1.622800
+           25  base       1.563645
+           15  base       1.549588
+           44  base       1.543456
+
+
 ---------------qwen2.5:72b----------------
 answers w/o variance: 1/50
 mean variance: 0.201
