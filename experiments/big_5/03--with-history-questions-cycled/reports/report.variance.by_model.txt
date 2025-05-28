@@ -34,3 +34,39 @@ agreement  34  base       1.928049
            4   base       0.867202
 
 
+---------------llama3.3:70b---------------
+answers w/o variance: 13/50
+mean variance: 0.149
+answers with variance (10 decile):
+segment    id  persona
+agreement  5   base       2.093492
+           44  base       0.981718
+           35  base       0.855255
+           7   base       0.325221
+           31  base       0.312889
+
+
+------------mistral-large:123b------------
+answers w/o variance: 0/50
+mean variance: 0.903
+answers with variance (10 decile):
+segment    id  persona
+agreement  21  base       1.446935
+           23  base       1.413415
+           44  base       1.401721
+           27  base       1.356480
+           16  base       1.353850
+
+
+---------------qwen2.5:72b----------------
+answers w/o variance: 0/50
+mean variance: 0.290
+answers with variance (10 decile):
+segment    id  persona
+agreement  17  base       1.392367
+           20  base       0.947787
+           18  base       0.853076
+           22  base       0.668268
+           39  base       0.642037
+
+
