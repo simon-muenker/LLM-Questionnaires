@@ -5,6 +5,7 @@ library(progress)
 library(tibble)
 library(dplyr)
 library(readr)
+library(tidyr)
 library(magrittr)
 library(ggplot2)
 
@@ -181,6 +182,7 @@ analyze_big5_data <- function(data_path, constructs) {
 results <- analyze_big5_data(data_path, constructs)
 
 summary_file <- fs::path(output_path, "alpha_values.csv")
+
 results %>%
   select(name, alpha) %>%
   unnest_wider(alpha) %>%
