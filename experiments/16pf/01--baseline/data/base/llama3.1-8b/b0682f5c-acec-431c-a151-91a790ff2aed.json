@@ -1,0 +1,1298 @@
+[
+    {
+        "segment": "agreement",
+        "id": 1,
+        "dimension": "warmth",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 2,
+        "dimension": "warmth",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 3,
+        "dimension": "warmth",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 4,
+        "dimension": "warmth",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 5,
+        "dimension": "warmth",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 6,
+        "dimension": "warmth",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 7,
+        "dimension": "warmth",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 8,
+        "dimension": "warmth",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 9,
+        "dimension": "warmth",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 10,
+        "dimension": "warmth",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 11,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 12,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 13,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 14,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 15,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 16,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 17,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 18,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 19,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 20,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 21,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 22,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 23,
+        "dimension": "reasoning",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 24,
+        "dimension": "emotional-stability",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 25,
+        "dimension": "emotional-stability",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 26,
+        "dimension": "emotional-stability",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 27,
+        "dimension": "emotional-stability",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 28,
+        "dimension": "emotional-stability",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 29,
+        "dimension": "emotional-stability",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 30,
+        "dimension": "emotional-stability",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 31,
+        "dimension": "emotional-stability",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 32,
+        "dimension": "emotional-stability",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 33,
+        "dimension": "emotional-stability",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 34,
+        "dimension": "dominance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 35,
+        "dimension": "dominance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 36,
+        "dimension": "dominance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 37,
+        "dimension": "dominance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 38,
+        "dimension": "dominance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 39,
+        "dimension": "dominance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 40,
+        "dimension": "dominance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 41,
+        "dimension": "dominance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 42,
+        "dimension": "dominance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 43,
+        "dimension": "dominance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 44,
+        "dimension": "liveliness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 45,
+        "dimension": "liveliness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 46,
+        "dimension": "liveliness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 47,
+        "dimension": "liveliness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 48,
+        "dimension": "liveliness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 49,
+        "dimension": "liveliness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 50,
+        "dimension": "liveliness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 51,
+        "dimension": "liveliness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 52,
+        "dimension": "liveliness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 53,
+        "dimension": "liveliness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 54,
+        "dimension": "rule-consciousness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 55,
+        "dimension": "rule-consciousness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 56,
+        "dimension": "rule-consciousness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 57,
+        "dimension": "rule-consciousness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 58,
+        "dimension": "rule-consciousness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 59,
+        "dimension": "rule-consciousness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 60,
+        "dimension": "rule-consciousness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 61,
+        "dimension": "rule-consciousness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 62,
+        "dimension": "rule-consciousness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 63,
+        "dimension": "rule-consciousness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 64,
+        "dimension": "social-boldness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 65,
+        "dimension": "social-boldness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 66,
+        "dimension": "social-boldness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 67,
+        "dimension": "social-boldness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 68,
+        "dimension": "social-boldness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 69,
+        "dimension": "social-boldness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 70,
+        "dimension": "social-boldness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 71,
+        "dimension": "social-boldness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 72,
+        "dimension": "social-boldness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 73,
+        "dimension": "social-boldness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 74,
+        "dimension": "sensitivity",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 75,
+        "dimension": "sensitivity",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 76,
+        "dimension": "sensitivity",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 77,
+        "dimension": "sensitivity",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 78,
+        "dimension": "sensitivity",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 79,
+        "dimension": "sensitivity",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 80,
+        "dimension": "sensitivity",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 81,
+        "dimension": "sensitivity",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 82,
+        "dimension": "sensitivity",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 83,
+        "dimension": "sensitivity",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 84,
+        "dimension": "vigilance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 85,
+        "dimension": "vigilance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 86,
+        "dimension": "vigilance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 87,
+        "dimension": "vigilance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 88,
+        "dimension": "vigilance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 89,
+        "dimension": "vigilance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 90,
+        "dimension": "vigilance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 91,
+        "dimension": "vigilance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 92,
+        "dimension": "vigilance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 93,
+        "dimension": "vigilance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 94,
+        "dimension": "abstractedness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": null
+    },
+    {
+        "segment": "agreement",
+        "id": 95,
+        "dimension": "abstractedness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 96,
+        "dimension": "abstractedness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 97,
+        "dimension": "abstractedness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 98,
+        "dimension": "abstractedness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 99,
+        "dimension": "abstractedness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 100,
+        "dimension": "abstractedness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 101,
+        "dimension": "abstractedness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 102,
+        "dimension": "abstractedness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 103,
+        "dimension": "abstractedness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 104,
+        "dimension": "privateness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 105,
+        "dimension": "privateness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 106,
+        "dimension": "privateness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 107,
+        "dimension": "privateness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 108,
+        "dimension": "privateness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 109,
+        "dimension": "privateness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 110,
+        "dimension": "privateness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 111,
+        "dimension": "privateness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 112,
+        "dimension": "privateness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 113,
+        "dimension": "privateness",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 114,
+        "dimension": "apprehension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 115,
+        "dimension": "apprehension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 116,
+        "dimension": "apprehension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 117,
+        "dimension": "apprehension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 118,
+        "dimension": "apprehension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 119,
+        "dimension": "apprehension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 120,
+        "dimension": "apprehension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 121,
+        "dimension": "apprehension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 122,
+        "dimension": "apprehension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 123,
+        "dimension": "apprehension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 124,
+        "dimension": "openness-to-change",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 125,
+        "dimension": "openness-to-change",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 126,
+        "dimension": "openness-to-change",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 127,
+        "dimension": "openness-to-change",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 128,
+        "dimension": "openness-to-change",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 129,
+        "dimension": "openness-to-change",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 130,
+        "dimension": "openness-to-change",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 131,
+        "dimension": "openness-to-change",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 132,
+        "dimension": "openness-to-change",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 133,
+        "dimension": "openness-to-change",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 134,
+        "dimension": "self-reliance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "agreement",
+        "id": 135,
+        "dimension": "self-reliance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 136,
+        "dimension": "self-reliance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 137,
+        "dimension": "self-reliance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 138,
+        "dimension": "self-reliance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 139,
+        "dimension": "self-reliance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 140,
+        "dimension": "self-reliance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 141,
+        "dimension": "self-reliance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 142,
+        "dimension": "self-reliance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 143,
+        "dimension": "self-reliance",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 144,
+        "dimension": "perfectionism",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 145,
+        "dimension": "perfectionism",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 146,
+        "dimension": "perfectionism",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "agreement",
+        "id": 147,
+        "dimension": "perfectionism",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 148,
+        "dimension": "perfectionism",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 149,
+        "dimension": "perfectionism",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 150,
+        "dimension": "perfectionism",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 151,
+        "dimension": "perfectionism",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 152,
+        "dimension": "perfectionism",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 153,
+        "dimension": "perfectionism",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 154,
+        "dimension": "tension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 155,
+        "dimension": "tension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 156,
+        "dimension": "tension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 157,
+        "dimension": "tension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "agreement",
+        "id": 158,
+        "dimension": "tension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 159,
+        "dimension": "tension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 160,
+        "dimension": "tension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "agreement",
+        "id": 161,
+        "dimension": "tension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "3"
+    },
+    {
+        "segment": "agreement",
+        "id": 162,
+        "dimension": "tension",
+        "model": "llama3.1:8b",
+        "persona": "base",
+        "response": "2"
+    }
+]

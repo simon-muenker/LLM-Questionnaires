@@ -1,0 +1,144 @@
+---------------llama3.1:8b----------------
+answers w/o variance: 0/162
+mean variance: 0.743
+answers with variance (10 decile):
+segment    id   persona
+agreement  134  base       1.941526
+           63   base       1.932044
+           159  base       1.690259
+           35   base       1.648438
+           147  base       1.632556
+           111  base       1.571324
+           16   base       1.486304
+           89   base       1.462117
+           41   base       1.457240
+           100  base       1.417573
+           62   base       1.392208
+           12   base       1.391222
+           44   base       1.388010
+           82   base       1.383284
+           133  base       1.376480
+           132  base       1.369274
+           127  base       1.366633
+
+
+----------------mistral:7b----------------
+answers w/o variance: 0/162
+mean variance: 0.700
+answers with variance (10 decile):
+segment    id   persona
+agreement  49   base       3.356129
+           51   base       3.212805
+           31   base       2.916501
+           89   base       2.900094
+           159  base       2.856461
+           82   base       2.611102
+           62   base       2.589762
+           61   base       2.578685
+           131  base       2.095923
+           53   base       2.048649
+           52   base       2.020245
+           111  base       1.990352
+           77   base       1.919196
+           81   base       1.866052
+           9    base       1.812564
+           22   base       1.802148
+           157  base       1.766033
+
+
+----------------qwen2.5:7b----------------
+answers w/o variance: 1/162
+mean variance: 0.188
+answers with variance (10 decile):
+segment    id   persona
+agreement  150  base       0.887409
+           22   base       0.884436
+           54   base       0.708757
+           87   base       0.693482
+           70   base       0.562230
+           159  base       0.505308
+           153  base       0.482716
+           35   base       0.482322
+           154  base       0.474334
+           59   base       0.474280
+           71   base       0.434454
+           14   base       0.427132
+           45   base       0.424291
+           149  base       0.406057
+           51   base       0.392341
+           107  base       0.378769
+           36   base       0.368020
+
+
+---------------llama3.3:70b---------------
+answers w/o variance: 86/162
+mean variance: 0.103
+answers with variance (10 decile):
+segment    id   persona
+agreement  32   base       2.264736
+           86   base       1.866967
+           131  base       1.000805
+           130  base       0.909706
+           129  base       0.866938
+           47   base       0.825225
+           51   base       0.815334
+           71   base       0.779370
+           157  base       0.744520
+           53   base       0.586978
+           94   base       0.518002
+           56   base       0.256621
+           74   base       0.249160
+           61   base       0.248825
+           112  base       0.248728
+           31   base       0.248728
+           99   base       0.247679
+
+
+------------mistral-large:123b------------
+answers w/o variance: 0/162
+mean variance: 0.425
+answers with variance (10 decile):
+segment    id   persona
+agreement  32   base       2.121999
+           62   base       1.716756
+           51   base       1.565259
+           89   base       1.532241
+           120  base       1.382660
+           53   base       1.238452
+           82   base       1.232748
+           159  base       1.158318
+           41   base       1.143810
+           81   base       1.013502
+           134  base       1.003815
+           56   base       0.842261
+           21   base       0.818949
+           157  base       0.813065
+           31   base       0.788938
+           132  base       0.779318
+           9    base       0.777697
+
+
+---------------qwen2.5:72b----------------
+answers w/o variance: 0/162
+mean variance: 0.151
+answers with variance (10 decile):
+segment    id   persona
+agreement  53   base       1.386603
+           149  base       0.648960
+           150  base       0.605565
+           62   base       0.562594
+           1    base       0.546290
+           36   base       0.539651
+           8    base       0.494222
+           58   base       0.493770
+           52   base       0.435952
+           31   base       0.396347
+           6    base       0.383808
+           35   base       0.381372
+           51   base       0.358643
+           140  base       0.358429
+           15   base       0.353950
+           55   base       0.349514
+           159  base       0.342242
+
+
