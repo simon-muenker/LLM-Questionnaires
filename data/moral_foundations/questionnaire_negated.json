@@ -95,7 +95,7 @@
   },
   {
     "label": "relevance",
-    "task": "Label how relevant the sentence is in determining what is right and wrong. Choose from the following labels: [0] not at all relevant, [1] not very relevant, [2] slightly relevant, [3] somewhat relevant, [4] very relevant, [5] extremely relevant. Respond only with the predicted class ([1], [2], [3], [4], [5]).",
+    "task": "Label how relevant the sentence is in determining what is right and wrong. Choose from the following labels: [0] extremely relevant, [1] very relevant, [2] somewhat relevant, [3] slightly relevant, [4] not very relevant, [5] not at all relevant. Respond only with the predicted class ([1], [2], [3], [4], [5]).",
     "questions": [
       {
         "id": "1",
@@ -187,4 +187,5 @@
       "5": "extremely relevant"
     }
   }
+
 ]
