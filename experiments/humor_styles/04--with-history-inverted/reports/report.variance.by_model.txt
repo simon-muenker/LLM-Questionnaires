@@ -1,0 +1,33 @@
+---------------llama3.1:8b----------------
+answers w/o variance: 0/32
+mean variance: 1.239
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  31  base       3.017976
+                 15  base       2.713283
+                 32  base       2.491204
+                 5   base       2.022221
+
+
+----------------mistral:7b----------------
+answers w/o variance: 0/32
+mean variance: 1.836
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  15  base       3.495385
+                 13  base       3.076074
+                 30  base       3.059608
+                 5   base       2.851099
+
+
+----------------qwen2.5:7b----------------
+answers w/o variance: 1/32
+mean variance: 0.361
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  23  base       3.438153
+                 7   base       0.950618
+                 15  base       0.680177
+                 1   base       0.660177
+
+

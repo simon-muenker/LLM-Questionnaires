@@ -1,0 +1,4 @@
+persona,model,affiliative,aggressive,selfdefeating,selfenhancing
+base,llama3.1:8b,3.56 (± 1.31),3.63 (± 1.44),3.22 (± 1.38),3.06 (± 1.31)
+base,mistral:7b,3.86 (± 1.36),3.80 (± 1.39),3.62 (± 1.28),3.05 (± 1.38)
+base,qwen2.5:7b,2.88 (± 1.23),3.24 (± 1.06),3.00 (± 0.70),2.23 (± 0.89)
