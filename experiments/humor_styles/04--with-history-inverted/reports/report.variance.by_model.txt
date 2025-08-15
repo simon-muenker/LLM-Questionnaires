@@ -31,3 +31,36 @@ descriptiveness  23  base       3.438153
                  1   base       0.660177
 
 
+---------------llama3.3:70b---------------
+answers w/o variance: 4/32
+mean variance: 0.146
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  8   base       0.997285
+                 2   base       0.836562
+                 5   base       0.474281
+                 6   base       0.252032
+
+
+------------mistral-large:123b------------
+answers w/o variance: 0/32
+mean variance: 1.028
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  23  base       2.071417
+                 31  base       1.559974
+                 7   base       1.545836
+                 16  base       1.465689
+
+
+---------------qwen2.5:72b----------------
+answers w/o variance: 0/32
+mean variance: 0.321
+answers with variance (10 decile):
+segment          id  persona
+descriptiveness  15  base       2.475438
+                 8   base       0.747603
+                 31  base       0.520482
+                 32  base       0.511823
+
+
