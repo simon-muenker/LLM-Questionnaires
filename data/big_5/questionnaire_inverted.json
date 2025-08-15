@@ -255,11 +255,11 @@
         }
       ],
       "scale": {
-        "1": "Disagree",
-        "2": "Slightly disagree",
+        "1": "Agree",
+        "2": "Slightly agree",
         "3": "Neutral",
-        "4": "Slightly agree",
-        "5": "Agree"
+        "4": "Slightly disagree",
+        "5": "Disagree"    
       }
     }
   ]
