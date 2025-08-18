@@ -1,7 +1,7 @@
 [
   {
     "label": "descriptiveness",
-    "task": "For each of the statements below, please indicate how well each statement describes you or your opinions. Response options: Describes me extremely well  (1); describes me fairly well (2); moderately describes me (3); slightly describes me (4); and does not describe me at all (5). Respond only with the predicted class [(1), (2), (3), (4), (5)].",
+    "task": "For each of the statements below, please indicate how well each statement describes you or your opinions. Response options: Describes me extremely well (1); describes me fairly well (2); moderately describes me (3); slightly describes me (4); and does not describe me at all (5). Respond only with the predicted class [(1), (2), (3), (4), (5)].",
     "questions": [
         { 
             "id": 1, 
@@ -185,11 +185,11 @@
         }
     ],
     "scale": {
-      "1": "Does not describe me at all",
-      "2": "Does slightly describe me",
-      "3": "Does moderately describe me",
-      "4": "Does describe me fairly well",
-      "5": "Does describe me extremely well"
+        "1": "Does describe me extremely well",
+        "2": "Does describe me fairly well",
+        "3": "Does moderately describe me",
+        "4": "Does slightly describe me",
+        "5": "Does not describe me at all"
     }
   }
 ]
