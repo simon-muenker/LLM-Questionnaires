@@ -21,7 +21,7 @@ personas = llmq.agent.AgentPersona.from_directory(pathlib.Path(f"{EXP_PATH}/pers
 rich.print(personas)
 
 questionnaire = llmq.Questionnaire(
-    path=pathlib.Path("data/moral_foundations_2/questionnaire.json")
+    path=pathlib.Path("data/moral_foundations_2/questionnaire_inverted.json")
 )
 rich.print(questionnaire)
 
