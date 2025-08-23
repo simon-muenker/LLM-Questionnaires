@@ -1,0 +1,258 @@
+[
+    {
+        "segment": "descriptiveness",
+        "id": 1,
+        "dimension": "affiliative",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 2,
+        "dimension": "selfenhancing",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 3,
+        "dimension": "aggressive",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 4,
+        "dimension": "selfdefeating",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 5,
+        "dimension": "affiliative",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 6,
+        "dimension": "selfenhancing",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 7,
+        "dimension": "aggressive",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 8,
+        "dimension": "selfdefeating",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 9,
+        "dimension": "affiliative",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 10,
+        "dimension": "selfenhancing",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 11,
+        "dimension": "aggressive",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 12,
+        "dimension": "selfdefeating",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 13,
+        "dimension": "affiliative",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 14,
+        "dimension": "selfenhancing",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 15,
+        "dimension": "aggressive",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "1"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 16,
+        "dimension": "selfdefeating",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 17,
+        "dimension": "affiliative",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "5"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 18,
+        "dimension": "selfenhancing",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 19,
+        "dimension": "aggressive",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 20,
+        "dimension": "selfdefeating",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 21,
+        "dimension": "affiliative",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 22,
+        "dimension": "selfenhancing",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 23,
+        "dimension": "aggressive",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 24,
+        "dimension": "selfdefeating",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 25,
+        "dimension": "affiliative",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 26,
+        "dimension": "selfenhancing",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 27,
+        "dimension": "aggressive",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 28,
+        "dimension": "selfdefeating",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 29,
+        "dimension": "affiliative",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 30,
+        "dimension": "selfenhancing",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 31,
+        "dimension": "aggressive",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "2"
+    },
+    {
+        "segment": "descriptiveness",
+        "id": 32,
+        "dimension": "selfdefeating",
+        "model": "llama3.3:70b",
+        "persona": "base",
+        "response": "4"
+    }
+]
