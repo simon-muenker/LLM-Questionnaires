@@ -24,6 +24,32 @@ This personality inventory assesses the five major dimensions of personality com
  - `src/llm_questionnaires`: Directory containing package source files
   - `test`: Directory containing module tests and examples code
 
+## Citation
+
+We kindly encourage citation of our work if you find it useful.
+
+```bibtex
+// used: Moral Foundation Questionnaire (MFQ)
+@article{munker2025political,
+  title={Political Bias in LLMs: Unaligned Moral Values in Agent-centric Simulations},
+  author={M{\"u}nker, Simon},
+  journal={Journal for Language Technology and Computational Linguistics},
+  volume={38},
+  number={2},
+  pages={125--138},
+  year={2025}
+}
+
+// used: Moral Foundation Questionnaire 2 (MFQ-2)
+@inproceedings{munker2025cultural,
+  title={Cultural Bias in Large Language Models: Evaluating AI Agents through Moral Questionnaires},
+  author={M{\"u}nker, Simon},
+  booktitle={Proceedings of 0 th Moral and Legal AI Alignment Symposium},
+  pages={61},
+  year={2025}
+}
+```
+
 
 [^mfq]: Graham, J., Haidt, J., & Nosek, B. A. (2009). Liberals and conservatives rely on different sets of moral foundations. Journal of personality and social psychology, 96(5), 1029.
 [^mfq2]: Atari, M., Haidt, J., Graham, J., Koleva, S., Stevens, S. T., & Dehghani, M. (2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. Journal of Personality and Social Psychology, 125(5), 1157.
