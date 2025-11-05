@@ -48,6 +48,16 @@ We kindly encourage citation of our work if you find it useful.
   pages={61},
   year={2025}
 }
+
+// used: Humor Styles Questionnaire (HSQ)
+// added: Fingerprinting Methodlogy
+@inproceedings{munker2025fingerprinting,
+  title={Fingerprinting LLMs through Survey Item Factor Correlation: A Case Study on Humor Style Questionnaire},
+  author={M{\"u}nker, Simon},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={245--258},
+  year={2025}
+}
 ```
 
 
